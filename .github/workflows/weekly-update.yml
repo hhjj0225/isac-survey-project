@@ -13,6 +13,10 @@ on:
         default: '100'
         type: string
 
+# 需要写权限来推送更新
+permissions:
+  contents: write
+
 jobs:
   update-survey:
     runs-on: ubuntu-latest
@@ -21,6 +25,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # 使用 PAT 或默认 GITHUB_TOKEN 来允许后续 push
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -35,39 +42,71 @@ jobs:
 
       - name: Download NLTK data
         run: |
-          python -c "import nltk; nltk.download('punkt', quiet=True); nltk.download('stopwords', quiet=True); nltk.download('punkt_tab', quiet=True)"
+          python -c "
+          import nltk
+          for pkg in ['punkt', 'stopwords', 'punkt_tab']:
+              try:
+                  nltk.download(pkg, quiet=True)
+                  print(f'NLTK {pkg}: OK')
+              except Exception as e:
+                  print(f'NLTK {pkg}: download failed ({e}), trying fallback...')
+                  # fallback: try alternative download method
+                  try:
+                      nltk.download(pkg, quiet=True, raise_on_error=True)
+                  except:
+                      print(f'NLTK {pkg}: CRITICAL FAILURE')
+          "
+
+      - name: Determine fetch mode and max papers
+        id: config
+        run: |
+          # 处理 schedule 触发 (无 inputs) 和 workflow_dispatch 触发 (有 inputs)
+          if [ -n "${{ github.event.inputs.max_papers }}" ]; then
+            echo "max_papers=${{ github.event.inputs.max_papers }}" >> $GITHUB_OUTPUT
+            echo "skip_fetch=" >> $GITHUB_OUTPUT
+          else
+            # schedule 触发: 默认抓取 100 篇
+            echo "max_papers=100" >> $GITHUB_OUTPUT
+            echo "skip_fetch=" >> $GITHUB_OUTPUT
+          fi
+          echo "week=$(date +%V)" >> $GITHUB_OUTPUT
+          echo "date_range=2024-06 to $(date +%Y-%m)" >> $GITHUB_OUTPUT
 
       - name: Run pipeline (fetch + cards + cluster + digest)
         id: pipeline
         run: |
-          MAX_PAPERS="${{ github.event.inputs.max_papers || '100' }}"
-          echo "Fetching up to ${MAX_PAPERS} papers..."
-          python run_pipeline.py --max ${MAX_PAPERS} --skip-fetch false --week $(date +%V) --date-range "2024-06 to $(date +%Y-%m)"
+          echo "Max papers: ${{ steps.config.outputs.max_papers }}"
+          echo "Week: ${{ steps.config.outputs.week }}"
+          echo "Date range: ${{ steps.config.outputs.date_range }}"
+          python run_pipeline.py \
+            --max ${{ steps.config.outputs.max_papers }} \
+            --week ${{ steps.config.outputs.week }} \
+            --date-range "${{ steps.config.outputs.date_range }}"
 
-      - name: Check for changes
+      - name: Stage and check for changes
         id: changes
         run: |
-          git diff --quiet data/ || echo "changes_detected=true" >> $GITHUB_OUTPUT
+          git add data/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in data/ directory."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            git diff --cached --stat
+          fi
 
       - name: Commit and push updated data
-        if: steps.changes.outputs.changes_detected == 'true'
+        if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "ISAC Survey Bot"
           git config user.email "isac-bot@github.com"
-          git add data/
-          git commit -m "auto: weekly ISAC survey update ($(date +%Y-%m-%d))
-
-          - Updated papers_raw.json
-          - Updated paper_cards.jsonl
-          - Updated taxonomy.md
-          - Updated comparison_table.csv
-          - Updated weekly_digest.md"
+          git commit -m "auto: weekly ISAC survey update ($(date +%Y-%m-%d))"
           git push
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: isac-survey-outputs
+          name: isac-survey-outputs-${{ steps.config.outputs.week }}
           path: |
             data/papers_raw.json
             data/paper_cards.jsonl
