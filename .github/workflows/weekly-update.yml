@@ -1,0 +1,77 @@
+name: Weekly ISAC Survey Update
+
+on:
+  schedule:
+    # 每周一 UTC 08:00 (北京时间 16:00) 自动运行
+    - cron: '0 8 * * 1'
+  # 支持手动触发
+  workflow_dispatch:
+    inputs:
+      max_papers:
+        description: 'Maximum papers to fetch'
+        required: false
+        default: '100'
+        type: string
+
+jobs:
+  update-survey:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download NLTK data
+        run: |
+          python -c "import nltk; nltk.download('punkt', quiet=True); nltk.download('stopwords', quiet=True); nltk.download('punkt_tab', quiet=True)"
+
+      - name: Run pipeline (fetch + cards + cluster + digest)
+        id: pipeline
+        run: |
+          MAX_PAPERS="${{ github.event.inputs.max_papers || '100' }}"
+          echo "Fetching up to ${MAX_PAPERS} papers..."
+          python run_pipeline.py --max ${MAX_PAPERS} --skip-fetch false --week $(date +%V) --date-range "2024-06 to $(date +%Y-%m)"
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/ || echo "changes_detected=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated data
+        if: steps.changes.outputs.changes_detected == 'true'
+        run: |
+          git config user.name "ISAC Survey Bot"
+          git config user.email "isac-bot@github.com"
+          git add data/
+          git commit -m "auto: weekly ISAC survey update ($(date +%Y-%m-%d))
+
+          - Updated papers_raw.json
+          - Updated paper_cards.jsonl
+          - Updated taxonomy.md
+          - Updated comparison_table.csv
+          - Updated weekly_digest.md"
+          git push
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: isac-survey-outputs
+          path: |
+            data/papers_raw.json
+            data/paper_cards.jsonl
+            data/taxonomy.md
+            data/comparison_table.csv
+            data/weekly_digest.md
+          retention-days: 30

@@ -1,0 +1,21 @@
+# ISAC Literature Review Automation System - Dependencies
+# Python 3.11+
+
+# arXiv API client
+arxiv>=2.0.0,<3.0.0
+
+# Machine learning and clustering
+scikit-learn>=1.3.0,<1.7.0
+
+# Scientific computing
+scipy>=1.11.0,<1.15.0
+numpy>=1.25.0,<2.3.0
+
+# Data processing and I/O
+pandas>=2.1.0,<2.3.0
+
+# Natural language processing
+nltk>=3.8.0,<3.10.0
+
+# Visualization (cluster dendrograms)
+matplotlib>=3.7.0,<3.11.0
