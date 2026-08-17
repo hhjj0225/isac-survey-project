@@ -1,25 +1,25 @@
-# 面向6G的通信感知一体化（ISAC）文献综述 — 第33周
+# 面向6G的通信感知一体化（ISAC）文献综述 — 第34周
 
-**生成日期**: 2026-08-10
+**生成日期**: 2026-08-17
 **覆盖时间范围**: 2024-06 to 2026-08
-**收录论文数**: 402 篇
+**收录论文数**: 393 篇
 **数据来源**: arXiv (cs.IT, eess.SP, cs.NI, cs.MM 等分类)
 
 
 ## 一、执行摘要
 
-本周期共收录 402 篇 ISAC 相关论文，通过自动聚类分析划分为 10 个研究方向。
+本周期共收录 393 篇 ISAC 相关论文，通过自动聚类分析划分为 10 个研究方向。
 主要研究方向集中在：
-1. **Waveform_Design**：92 篇 （占比 23%）
-2. **RIS_Metasurface_ISAC**：60 篇 （占比 15%）
-3. **Localization_and_Tracking**：58 篇 （占比 14%）
-4. **Standardization_and_Architecture**：57 篇 （占比 14%）
-5. **Beamforming_and_Precoding**：48 篇 （占比 12%）
+1. **Waveform_Design**：90 篇 （占比 23%）
+2. **RIS_Metasurface_ISAC**：59 篇 （占比 15%）
+3. **Standardization_and_Architecture**：58 篇 （占比 15%）
+4. **Localization_and_Tracking**：57 篇 （占比 15%）
+5. **Beamforming_and_Precoding**：47 篇 （占比 12%）
 
 值得关注的新兴话题包括：近场ISAC、语义通信、Transformer架构。这些方向可能代表 ISAC 领域的未来发展趋势。
 
 ### 关键发现
-1. 本周期研究最活跃的方向是 **Waveform_Design**，共收录 92 篇相关论文，占论文总数的 23%
+1. 本周期研究最活跃的方向是 **Waveform_Design**，共收录 90 篇相关论文，占论文总数的 23%
 2. 仅 15% 的论文达到高置信度提取，建议优先获取完整全文以补充卡片内容
 
 
@@ -27,16 +27,16 @@
 
 | 研究方向 | 论文数 | 占比 | 代表关键词 |
 |----------|--------|------|------------|
-| Waveform_Design | 92 | 23% | waveform, OFDM, OTFS, modulation |
-| RIS_Metasurface_ISAC | 60 | 15% | RIS, reconfigurable intelligent surface, IRS, intelligent reflecting surface |
-| Localization_and_Tracking | 58 | 14% | localization, tracking, positioning, sensing accuracy |
-| Standardization_and_Architecture | 57 | 14% | standardization, 3GPP, architecture, protocol |
-| Beamforming_and_Precoding | 48 | 12% | beamforming, precoding, beam management, beam training |
-| Security_and_Privacy | 27 | 7% | security, privacy, eavesdropping, secrecy rate |
+| Waveform_Design | 90 | 23% | waveform, OFDM, OTFS, modulation |
+| RIS_Metasurface_ISAC | 59 | 15% | RIS, reconfigurable intelligent surface, IRS, intelligent reflecting surface |
+| Standardization_and_Architecture | 58 | 15% | standardization, 3GPP, architecture, protocol |
+| Localization_and_Tracking | 57 | 15% | localization, tracking, positioning, sensing accuracy |
+| Beamforming_and_Precoding | 47 | 12% | beamforming, precoding, beam management, beam training |
+| Security_and_Privacy | 28 | 7% | security, privacy, eavesdropping, secrecy rate |
 | Resource_Allocation | 21 | 5% | resource allocation, power allocation, bandwidth allocation, spectrum sharing |
-| Channel_Estimation_and_CSI | 17 | 4% | channel estimation, channel state information, CSI, channel model |
-| Machine_Learning_for_ISAC | 12 | 3% | deep learning, neural network, reinforcement learning, machine learning |
-| Full_Duplex_and_NOMA_ISAC | 10 | 2% | full duplex, full-duplex, self-interference cancellation, NOMA |
+| Channel_Estimation_and_CSI | 16 | 4% | channel estimation, channel state information, CSI, channel model |
+| Machine_Learning_for_ISAC | 9 | 2% | deep learning, neural network, reinforcement learning, machine learning |
+| Full_Duplex_and_NOMA_ISAC | 8 | 2% | full duplex, full-duplex, self-interference cancellation, NOMA |
 
 从论文分布来看，ISAC 研究呈现出以下特征：
 
@@ -47,59 +47,58 @@
 
 # ISAC 研究分类法 (Taxonomy)
 
-**自动生成时间**: 2026-08-10T09:06:00.325731
-**论文总数**: 402
+**自动生成时间**: 2026-08-17T08:30:07.163155
+**论文总数**: 393
 **分类簇数**: 10
-**轮廓系数**: 0.0663
+**轮廓系数**: 0.0573
 
 ---
 
 ## 类别 1: Waveform_Design
 
-**论文数量**: 42
-**关键词**: frequency division multiplexing, division multiplexing, ofdm, frequency division, multiplexing
+**论文数量**: 41
+**关键词**: frequency division multiplexing, division multiplexing, frequency division, multiplexing, division
 
 **子类别分布**:
-- Waveform_Design: 35 篇
-- Localization_and_Tracking: 2 篇
+- Waveform_Design: 33 篇
+- Localization_and_Tracking: 3 篇
+- Security_and_Privacy: 2 篇
 - Beamforming_and_Precoding: 1 篇
 - Full_Duplex_and_NOMA_ISAC: 1 篇
 - Resource_Allocation: 1 篇
-- Security_and_Privacy: 1 篇
-- Machine_Learning_for_ISAC: 1 篇
 
 | # | 标题 | 创新类型 | 置信度 |
 |---|------|----------|--------|
-| 1 | [Bistatic Integrated Sensing and Communications with Flexible Intellige...](https://arxiv.org/abs/2607.29137) | 全新方法 | MEDIUM |
-| 2 | [Constellation Selection and Power Allocation for Multi-Cell OFDM-ISAC:...](https://arxiv.org/abs/2607.21418) | 理论贡献 | MEDIUM |
-| 3 | [SNR-Dependent Mismatched Filtering for Bistatic OFDM Ranging](https://arxiv.org/abs/2607.20012) | 理论贡献 | MEDIUM |
-| 4 | [Data-aided Channel Estimation and Sensing With Sparse Bayesian Learnin...](https://arxiv.org/abs/2607.18881) | 融合整合 | MEDIUM |
-| 5 | [Massive MIMO-OFDM ISAC for Sparse ISAR Imaging: Joint Power and Subcar...](https://arxiv.org/abs/2607.17862) | 融合整合 | MEDIUM |
-| 6 | [Multiuser MIMO-AFDM Beamforming for ISAC in Doubly Dispersive Channels](https://arxiv.org/abs/2607.05119) | 融合整合 | MEDIUM |
-| 7 | [Data-Aided Target Localization in Multistatic ISAC Systems With Commun...](https://arxiv.org/abs/2607.10115) | 融合整合 | MEDIUM |
-| 8 | [Low-Complexity Sensing-Aware PAPR Reduction for AFDM-based ISAC System...](https://arxiv.org/abs/2607.01064) | 融合整合 | MEDIUM |
-| 9 | [Frame-Based AFDM-ISAC Waveform Design With Chirp-Enabled Pulse Compres...](https://arxiv.org/abs/2607.00632) | 全新方法 | MEDIUM |
-| 10 | [MCRB and MSE Analysis for Parameter Estimation in AFDM-ISAC Systems](https://arxiv.org/abs/2606.25572) | 理论贡献 | MEDIUM |
-| 11 | [Resolving Multi-Target Association in OFDM-based ISAC via Vision-aided...](https://arxiv.org/abs/2606.22195) | 融合整合 | MEDIUM |
-| 12 | [Adaptive $c_2$-Perturbed AFDM Waveform Design for Integrated Sensing a...](https://arxiv.org/abs/2606.04698) | 融合整合 | MEDIUM |
-| 13 | [DAFT-s-AFDM Enabled ISAC Systems: Ambiguity Function Analysis and Wave...](https://arxiv.org/abs/2605.19759) | 理论贡献 | MEDIUM |
-| 14 | [Constellation-Independent Range Estimation in Payload-Based OFDM-ISAC](https://arxiv.org/abs/2605.16831) | 理论贡献 | MEDIUM |
-| 15 | [CRLB and Parameter Estimation for OFDM-ISAC with Non-Uniform Sparse Re...](https://arxiv.org/abs/2604.26612) | 理论贡献 | MEDIUM |
-| 16 | [OFDM Waveform for Monostatic ISAC in 6G: Vision, Approach, and Researc...](https://arxiv.org/abs/2603.12641) | 融合整合 | MEDIUM |
-| 17 | [OFDM Waveform Optimization for Bistatic Integrated Sensing and Communi...](https://arxiv.org/abs/2603.08442) | 融合整合 | HIGH |
-| 18 | [Secure OFDM Waveform Design for ISAC: Artificial Phase-Doppler Shifts ...](https://arxiv.org/abs/2602.23861) | 全新方法 | MEDIUM |
-| 19 | [α-Fair Multistatic ISAC Beamforming for Multi-User MIMO-OFDM Systems v...](https://arxiv.org/abs/2603.29717) | 理论贡献 | MEDIUM |
-| 20 | [Digital and Hybrid Precoding and RF Chain Selection Designs for Energy...](https://arxiv.org/abs/2602.01121) | 融合整合 | MEDIUM |
-| 21 | [Enabling Full Duplex ISAC Leveraging Waveform Domain Separability](https://arxiv.org/abs/2510.12912) | 融合整合 | HIGH |
-| 22 | [System Concept and Demonstration of Bistatic MIMO-OFDM-based ISAC](https://arxiv.org/abs/2504.07600) | 融合整合 | MEDIUM |
-| 23 | [Hybrid Beamforming Design for Bistatic Integrated Sensing and Communic...](https://arxiv.org/abs/2502.11446) | 理论贡献 | MEDIUM |
-| 24 | [Waveform-domain NOMA: An Enabler for ISAC in Uplink Transmission](https://arxiv.org/abs/2511.08474) | 融合整合 | HIGH |
-| 25 | [Performance Analysis of NOMA-Assisted Optical OFDM ISAC Systems with C...](https://arxiv.org/abs/2511.02282) | 全新方法 | MEDIUM |
-| 26 | [Cooperative OFDM-ISAC Networks: Performance Analysis and Resource Allo...](https://arxiv.org/abs/2604.26552) | 融合整合 | MEDIUM |
-| 27 | [Efficient Resource Allocation for Multi-User and Multi-Target MIMO-OFD...](https://arxiv.org/abs/2512.12611) | 理论贡献 | MEDIUM |
-| 28 | [Sensing-Oriented Adaptive Resource Allocation Designs for OFDM-ISAC Sy...](https://arxiv.org/abs/2504.06605) | 理论贡献 | MEDIUM |
-| 29 | [Redefining Orthogonal Co-Existence: A Mother Waveform Framework for DF...](https://arxiv.org/abs/2503.12676) | 融合整合 | MEDIUM |
-| 30 | [Dynamic Power Allocation in OFDM ISAC for Time of Arrival Estimation](https://arxiv.org/abs/2502.08431) | 全新方法 | MEDIUM |
+| 1 | [Exploiting Phase Noise for Sensing Privacy in ISAC Systems](https://arxiv.org/abs/2608.13270) | 理论贡献 | MEDIUM |
+| 2 | [AFDM-ISAC With Fractional Delay-Doppler Coupling](https://arxiv.org/abs/2608.11998) | 融合整合 | MEDIUM |
+| 3 | [Bistatic Integrated Sensing and Communications with Flexible Intellige...](https://arxiv.org/abs/2607.29137) | 全新方法 | MEDIUM |
+| 4 | [Massive MIMO-OFDM ISAC for Sparse ISAR Imaging: Joint Power and Subcar...](https://arxiv.org/abs/2607.17862) | 融合整合 | MEDIUM |
+| 5 | [Multiuser MIMO-AFDM Beamforming for ISAC in Doubly Dispersive Channels](https://arxiv.org/abs/2607.05119) | 融合整合 | MEDIUM |
+| 6 | [Data-aided Channel Estimation and Sensing With Sparse Bayesian Learnin...](https://arxiv.org/abs/2607.18881) | 融合整合 | MEDIUM |
+| 7 | [Low-Complexity Sensing-Aware PAPR Reduction for AFDM-based ISAC System...](https://arxiv.org/abs/2607.01064) | 融合整合 | MEDIUM |
+| 8 | [Frame-Based AFDM-ISAC Waveform Design With Chirp-Enabled Pulse Compres...](https://arxiv.org/abs/2607.00632) | 全新方法 | MEDIUM |
+| 9 | [MCRB and MSE Analysis for Parameter Estimation in AFDM-ISAC Systems](https://arxiv.org/abs/2606.25572) | 理论贡献 | MEDIUM |
+| 10 | [Resolving Multi-Target Association in OFDM-based ISAC via Vision-aided...](https://arxiv.org/abs/2606.22195) | 融合整合 | MEDIUM |
+| 11 | [Adaptive $c_2$-Perturbed AFDM Waveform Design for Integrated Sensing a...](https://arxiv.org/abs/2606.04698) | 融合整合 | MEDIUM |
+| 12 | [DAFT-s-AFDM Enabled ISAC Systems: Ambiguity Function Analysis and Wave...](https://arxiv.org/abs/2605.19759) | 理论贡献 | MEDIUM |
+| 13 | [CRLB and Parameter Estimation for OFDM-ISAC with Non-Uniform Sparse Re...](https://arxiv.org/abs/2604.26612) | 理论贡献 | MEDIUM |
+| 14 | [OFDM Waveform for Monostatic ISAC in 6G: Vision, Approach, and Researc...](https://arxiv.org/abs/2603.12641) | 融合整合 | MEDIUM |
+| 15 | [OFDM Waveform Optimization for Bistatic Integrated Sensing and Communi...](https://arxiv.org/abs/2603.08442) | 融合整合 | HIGH |
+| 16 | [α-Fair Multistatic ISAC Beamforming for Multi-User MIMO-OFDM Systems v...](https://arxiv.org/abs/2603.29717) | 理论贡献 | MEDIUM |
+| 17 | [Cooperative ISAC for Joint Localization and Velocity Estimation in Cel...](https://arxiv.org/abs/2602.20319) | 统一框架 | HIGH |
+| 18 | [Digital and Hybrid Precoding and RF Chain Selection Designs for Energy...](https://arxiv.org/abs/2602.01121) | 融合整合 | MEDIUM |
+| 19 | [Enabling Full Duplex ISAC Leveraging Waveform Domain Separability](https://arxiv.org/abs/2510.12912) | 融合整合 | HIGH |
+| 20 | [System Concept and Demonstration of Bistatic MIMO-OFDM-based ISAC](https://arxiv.org/abs/2504.07600) | 融合整合 | MEDIUM |
+| 21 | [Hybrid Beamforming Design for Bistatic Integrated Sensing and Communic...](https://arxiv.org/abs/2502.11446) | 理论贡献 | MEDIUM |
+| 22 | [Waveform-domain NOMA: An Enabler for ISAC in Uplink Transmission](https://arxiv.org/abs/2511.08474) | 融合整合 | HIGH |
+| 23 | [Performance Analysis of NOMA-Assisted Optical OFDM ISAC Systems with C...](https://arxiv.org/abs/2511.02282) | 全新方法 | MEDIUM |
+| 24 | [Cooperative OFDM-ISAC Networks: Performance Analysis and Resource Allo...](https://arxiv.org/abs/2604.26552) | 融合整合 | MEDIUM |
+| 25 | [Efficient Resource Allocation for Multi-User and Multi-Target MIMO-OFD...](https://arxiv.org/abs/2512.12611) | 理论贡献 | MEDIUM |
+| 26 | [Sensing-Oriented Adaptive Resource Allocation Designs for OFDM-ISAC Sy...](https://arxiv.org/abs/2504.06605) | 理论贡献 | MEDIUM |
+| 27 | [Redefining Orthogonal Co-Existence: A Mother Waveform Framework for DF...](https://arxiv.org/abs/2503.12676) | 融合整合 | MEDIUM |
+| 28 | [Dynamic Power Allocation in OFDM ISAC for Time of Arrival Estimation](https://arxiv.org/abs/2502.08431) | 全新方法 | MEDIUM |
+| 29 | [Constellation Selection and Power Allocation for Multi-Cell OFDM-ISAC:...](https://arxiv.org/abs/2607.21418) | 理论贡献 | MEDIUM |
+| 30 | [SNR-Dependent Mismatched Filtering for Bistatic OFDM Ranging](https://arxiv.org/abs/2607.20012) | 理论贡献 | MEDIUM |
 | 31 | [Ambiguity Function Analysis of Pilot-Embedded Random OFDM Signals](https://arxiv.org/abs/2607.17663) | 理论贡献 | MEDIUM |
 | 32 | [Dual-Security for Indoor OFDM-ISAC Systems via Temporal Artificial Noi...](https://arxiv.org/abs/2607.15710) | 融合整合 | MEDIUM |
 | 33 | [Elliptic Range-Doppler Mapping for OFDM-ISAC under IQ Imbalance](https://arxiv.org/abs/2607.14775) | 全新方法 | MEDIUM |
@@ -110,78 +109,62 @@
 | 38 | [Blind OFDM-ISAC Relying on Asymmetric Modem Constellations](https://arxiv.org/abs/2604.26200) | 理论贡献 | MEDIUM |
 | 39 | [AFDM: Evolving OFDM Towards 6G+](https://arxiv.org/abs/2602.08163) | 全新方法 | MEDIUM |
 | 40 | [Constrained Tensor Decomposition-Based Target Sensing for Sparse Non-U...](https://arxiv.org/abs/2607.17589) | 理论贡献 | MEDIUM |
-| 41 | [Learning to Count Targets from Dual-Window: A CNN Approach for OFDM IS...](https://arxiv.org/abs/2511.22473) | 融合整合 | MEDIUM |
-| 42 | [Making AFDM Secure Against Eavesdroppers: A Phase Function Design Appr...](https://arxiv.org/abs/2605.14837) | 全新方法 | MEDIUM |
+| 41 | [Making AFDM Secure Against Eavesdroppers: A Phase Function Design Appr...](https://arxiv.org/abs/2605.14837) | 全新方法 | MEDIUM |
 
 ## 类别 2: RIS_Metasurface_ISAC
 
-**论文数量**: 36
-**关键词**: ris, reconfigurable, reconfigurable intelligent, intelligent, surface
+**论文数量**: 23
+**关键词**: ris, reconfigurable intelligent surface, intelligent surface, surface ris, intelligent surface ris
 
 **子类别分布**:
-- RIS_Metasurface_ISAC: 30 篇
-- Standardization_and_Architecture: 3 篇
+- RIS_Metasurface_ISAC: 20 篇
 - Localization_and_Tracking: 1 篇
 - Beamforming_and_Precoding: 1 篇
-- Waveform_Design: 1 篇
+- Standardization_and_Architecture: 1 篇
 
 | # | 标题 | 创新类型 | 置信度 |
 |---|------|----------|--------|
-| 1 | [Performance Analysis and Joint Beamforming for Hybrid RIS-Aided Massiv...](https://arxiv.org/abs/2608.02169) | 理论贡献 | MEDIUM |
+| 1 | [Standard-Compliant Neuromorphic Integrated Sensing and Communications ...](https://arxiv.org/abs/2608.13985) | 融合整合 | MEDIUM |
 | 2 | [Multi-Hop RIS ISAC for Target Positioning: A Tensor Decomposition-base...](https://arxiv.org/abs/2608.01809) | 全新方法 | MEDIUM |
 | 3 | [Beamforming and Phase Shift Design for STAR-RIS Assisted Secure Sensin...](https://arxiv.org/abs/2607.28081) | 融合整合 | MEDIUM |
 | 4 | [Beam Training for RIS-Aided ISAC Systems](https://arxiv.org/abs/2607.24003) | 理论贡献 | MEDIUM |
-| 5 | [Transmit Beamforming Design for Integrated Sensing and Communication U...](https://arxiv.org/abs/2607.17485) | 融合整合 | MEDIUM |
-| 6 | [RIS-Aided ISAC in Cluttered Environments](https://arxiv.org/abs/2607.16611) | 理论贡献 | HIGH |
-| 7 | [Communication-Centric RIS-Assisted ISAC: Signal Modeling and BER Analy...](https://arxiv.org/abs/2606.28924) | 理论贡献 | MEDIUM |
-| 8 | [Active RIS-Assisted MIMO System for Vital Signs Extraction: ISAC Model...](https://arxiv.org/abs/2602.16637) | 融合整合 | MEDIUM |
-| 9 | [Design and Deployment Guidelines for UAV-Mounted RIS Under Position Un...](https://arxiv.org/abs/2607.07298) | 理论贡献 | MEDIUM |
-| 10 | [STAR-RIS-Assisted Integrated Sensing, Secure Communication, and Power ...](https://arxiv.org/abs/2607.03637) | 融合整合 | MEDIUM |
-| 11 | [Multi-Objective RIS Deployment Optimization for Physical Layer Securit...](https://arxiv.org/abs/2604.20537) | 融合整合 | MEDIUM |
-| 12 | [RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the ...](https://arxiv.org/abs/2604.12466) | 融合整合 | HIGH |
-| 13 | [Beyond-Diagonal RIS For Enhanced Secrecy and Sensing Gains in Secure I...](https://arxiv.org/abs/2604.04480) | 全新方法 | MEDIUM |
-| 14 | [Joint Precoding and Phase-Shift Optimization for Beyond-Diagonal RIS-A...](https://arxiv.org/abs/2603.09265) | 融合整合 | MEDIUM |
-| 15 | [GNN Based Joint Beamforming Design for Extremely Large-Scale RIS Assis...](https://arxiv.org/abs/2603.01379) | 融合整合 | MEDIUM |
-| 16 | [Joint Multi-User Tracking and Signal Detection in Reconfigurable Intel...](https://arxiv.org/abs/2602.18018) | 融合整合 | MEDIUM |
-| 17 | [A Robust Two-Stage Protocol for STAR-RIS-Aided ISAC Networks: Joint Be...](https://arxiv.org/abs/2602.16383) | 融合整合 | MEDIUM |
-| 18 | [Reconfigurable Intelligent Surfaces-assisted Positioning in Integrated...](https://arxiv.org/abs/2602.14415) | 全新方法 | HIGH |
-| 19 | [Secure Beamforming and Reflection Design for RIS-ISAC Systems Under Co...](https://arxiv.org/abs/2601.18063) | 融合整合 | MEDIUM |
-| 20 | [RIS-Aided Cooperative ISAC Network for Imaging-Based Low-Altitude Surv...](https://arxiv.org/abs/2601.16033) | 理论贡献 | HIGH |
-| 21 | [Physics-Informed Implicit Neural Representation for Wireless Imaging i...](https://arxiv.org/abs/2601.15113) | 融合整合 | MEDIUM |
-| 22 | [Echo-Side Integrated Sensing and Communication via Space-Time Reconfig...](https://arxiv.org/abs/2601.09484) | 理论贡献 | MEDIUM |
-| 23 | [RIS-aided ISAC with $K$-Rydberg Atomic Receivers](https://arxiv.org/abs/2601.06809) | 融合整合 | MEDIUM |
-| 24 | [Low-Altitude ISAC with Rotatable Active and Passive Arrays](https://arxiv.org/abs/2512.20987) | 融合整合 | MEDIUM |
-| 25 | [Reimagining Wireless Connectivity: The FAS-RIS Synergy for 6G Smart Ci...](https://arxiv.org/abs/2512.18982) | 全新方法 | MEDIUM |
-| 26 | [RIS-Assisted Coordinated Multi-Point ISAC for Low-Altitude Sensing Cov...](https://arxiv.org/abs/2512.09625) | 融合整合 | MEDIUM |
-| 27 | [A Lightweight Framework for Integrated Sensing and Communications with...](https://arxiv.org/abs/2511.04448) | 理论贡献 | HIGH |
-| 28 | [Transmitter-Side Beyond-Diagonal RIS-Enabled Integrated Sensing and Co...](https://arxiv.org/abs/2509.26333) | 全新方法 | HIGH |
-| 29 | [Exploring the Near and Far-Field Coexistence for RIS-Assisted ISAC Sys...](https://arxiv.org/abs/2507.07643) | 融合整合 | HIGH |
-| 30 | [Cross-layer Integrated Sensing and Communication: A Joint Industrial a...](https://arxiv.org/abs/2505.10933) | 融合整合 | MEDIUM |
-| 31 | [On the Secrecy-Sensing Optimization of RIS-assisted Full-Duplex Integr...](https://arxiv.org/abs/2504.20912) | 扩展延伸 | MEDIUM |
-| 32 | [Double Low-Rank 4D Tensor Decomposition for Circular RIS-Aided mmWave ...](https://arxiv.org/abs/2506.07909) | 理论贡献 | MEDIUM |
-| 33 | [Hybrid RISs for Simultaneous Tunable Reflections and Sensing](https://arxiv.org/abs/2507.16550) | 融合整合 | MEDIUM |
-| 34 | [Enormous Fluid Antenna Systems (E-FAS) for Wireless Sensing: Channel M...](https://arxiv.org/abs/2606.23119) | 理论贡献 | MEDIUM |
-| 35 | [A Survey on Stacked Intelligent Metasurfaces: Fundamentals, Recent Adv...](https://arxiv.org/abs/2603.05633) | 融合整合 | MEDIUM |
-| 36 | [RIS-Assisted Near-Field ISAC for Multi-Target Indication in NLoS Scena...](https://arxiv.org/abs/2509.08642) | 融合整合 | MEDIUM |
+| 5 | [RIS-Aided ISAC in Cluttered Environments](https://arxiv.org/abs/2607.16611) | 理论贡献 | HIGH |
+| 6 | [Communication-Centric RIS-Assisted ISAC: Signal Modeling and BER Analy...](https://arxiv.org/abs/2606.28924) | 理论贡献 | MEDIUM |
+| 7 | [Active RIS-Assisted MIMO System for Vital Signs Extraction: ISAC Model...](https://arxiv.org/abs/2602.16637) | 融合整合 | MEDIUM |
+| 8 | [STAR-RIS-Assisted Integrated Sensing, Secure Communication, and Power ...](https://arxiv.org/abs/2607.03637) | 融合整合 | MEDIUM |
+| 9 | [Beyond-Diagonal RIS For Enhanced Secrecy and Sensing Gains in Secure I...](https://arxiv.org/abs/2604.04480) | 全新方法 | MEDIUM |
+| 10 | [GNN Based Joint Beamforming Design for Extremely Large-Scale RIS Assis...](https://arxiv.org/abs/2603.01379) | 融合整合 | MEDIUM |
+| 11 | [Joint Multi-User Tracking and Signal Detection in Reconfigurable Intel...](https://arxiv.org/abs/2602.18018) | 融合整合 | MEDIUM |
+| 12 | [Reconfigurable Intelligent Surfaces-assisted Positioning in Integrated...](https://arxiv.org/abs/2602.14415) | 全新方法 | HIGH |
+| 13 | [Secure Beamforming and Reflection Design for RIS-ISAC Systems Under Co...](https://arxiv.org/abs/2601.18063) | 融合整合 | MEDIUM |
+| 14 | [RIS-Aided Cooperative ISAC Network for Imaging-Based Low-Altitude Surv...](https://arxiv.org/abs/2601.16033) | 理论贡献 | HIGH |
+| 15 | [Physics-Informed Implicit Neural Representation for Wireless Imaging i...](https://arxiv.org/abs/2601.15113) | 融合整合 | MEDIUM |
+| 16 | [RIS-aided ISAC with $K$-Rydberg Atomic Receivers](https://arxiv.org/abs/2601.06809) | 融合整合 | MEDIUM |
+| 17 | [Low-Altitude ISAC with Rotatable Active and Passive Arrays](https://arxiv.org/abs/2512.20987) | 融合整合 | MEDIUM |
+| 18 | [RIS-Assisted Coordinated Multi-Point ISAC for Low-Altitude Sensing Cov...](https://arxiv.org/abs/2512.09625) | 融合整合 | MEDIUM |
+| 19 | [Stacked Intelligent Metasurfaces for Multicarrier Cognitive Radio ISAC](https://arxiv.org/abs/2511.13933) | 理论贡献 | MEDIUM |
+| 20 | [Exploring the Near and Far-Field Coexistence for RIS-Assisted ISAC Sys...](https://arxiv.org/abs/2507.07643) | 融合整合 | HIGH |
+| 21 | [On the Secrecy-Sensing Optimization of RIS-assisted Full-Duplex Integr...](https://arxiv.org/abs/2504.20912) | 扩展延伸 | MEDIUM |
+| 22 | [Double Low-Rank 4D Tensor Decomposition for Circular RIS-Aided mmWave ...](https://arxiv.org/abs/2506.07909) | 理论贡献 | MEDIUM |
+| 23 | [RIS-Assisted Near-Field ISAC for Multi-Target Indication in NLoS Scena...](https://arxiv.org/abs/2509.08642) | 融合整合 | MEDIUM |
 
 ## 类别 3: RIS_Metasurface_ISAC
 
 **论文数量**: 20
-**关键词**: plus noise ratio, plus noise, plus, interference plus noise, interference plus
+**关键词**: plus noise ratio, plus noise, plus, interference plus, interference plus noise
 
 **子类别分布**:
 - RIS_Metasurface_ISAC: 7 篇
 - Beamforming_and_Precoding: 6 篇
-- Standardization_and_Architecture: 2 篇
-- Waveform_Design: 1 篇
-- Localization_and_Tracking: 1 篇
+- Localization_and_Tracking: 2 篇
+- Security_and_Privacy: 2 篇
 - Resource_Allocation: 1 篇
-- Security_and_Privacy: 1 篇
+- Standardization_and_Architecture: 1 篇
 - Machine_Learning_for_ISAC: 1 篇
 
 | # | 标题 | 创新类型 | 置信度 |
 |---|------|----------|--------|
-| 1 | [Covert Semantic Transmission in ISAC: Dual-Functional Waveform Design ...](https://arxiv.org/abs/2607.25354) | 理论贡献 | MEDIUM |
+| 1 | [AI-Assisted ISAC Localization-as-a-Service for 6G UAV-IoT Networks](https://arxiv.org/abs/2608.10571) | 理论贡献 | MEDIUM |
 | 2 | [Flexible Intelligent Metasurface-Aided ISAC: User Fairness Optimizatio...](https://arxiv.org/abs/2607.18893) | 理论贡献 | MEDIUM |
 | 3 | [Posterior-Confidence Driven Beamforming for Energy-Efficient Integrate...](https://arxiv.org/abs/2607.13470) | 融合整合 | MEDIUM |
 | 4 | [Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Select...](https://arxiv.org/abs/2607.03389) | 理论贡献 | MEDIUM |
@@ -196,99 +179,364 @@
 | 13 | [ARIS-RSMA Enhanced ISAC System: Joint Rate Splitting and Beamforming D...](https://arxiv.org/abs/2602.06399) | 理论贡献 | MEDIUM |
 | 14 | [Short Blocks, Fast Sensing: Finite Blocklength Tradeoffs in RIS-Assist...](https://arxiv.org/abs/2511.02673) | 融合整合 | MEDIUM |
 | 15 | [Joint Active and Passive Beamforming with Sensing-Assisted Discrete Ph...](https://arxiv.org/abs/2510.24480) | 融合整合 | MEDIUM |
-| 16 | [Quantum Radar for ISAC: Sum-Rate Optimization](https://arxiv.org/abs/2509.06070) | 理论贡献 | MEDIUM |
-| 17 | [STAR-RIS-Enabled Full-Duplex Integrated Sensing and Communication Syst...](https://arxiv.org/abs/2410.18767) | 全新方法 | MEDIUM |
-| 18 | [Joint Beamforming Design for RIS-Empowered NOMA-ISAC Systems](https://arxiv.org/abs/2508.13842) | 融合整合 | MEDIUM |
+| 16 | [STAR-RIS-Enabled Full-Duplex Integrated Sensing and Communication Syst...](https://arxiv.org/abs/2410.18767) | 全新方法 | MEDIUM |
+| 17 | [Joint Beamforming Design for RIS-Empowered NOMA-ISAC Systems](https://arxiv.org/abs/2508.13842) | 融合整合 | MEDIUM |
+| 18 | [Maneuverable-Jamming-Aided Secure Communication and Sensing in A2G-ISA...](https://arxiv.org/abs/2602.04209) | 融合整合 | MEDIUM |
 | 19 | [Max-Min Fairness-Oriented Beamforming Design in HAPS-Enabled ISAC for ...](https://arxiv.org/abs/2507.18764) | 融合整合 | MEDIUM |
 | 20 | [Distributed Optimization-Learning with Graph Transformers for Terahert...](https://arxiv.org/abs/2604.09981) | 融合整合 | MEDIUM |
 
 ## 类别 4: Beamforming_and_Precoding
 
 **论文数量**: 43
-**关键词**: antenna, optimization, beamforming, problem, secure
+**关键词**: optimization, problem, beamforming, antenna, convex
 
 **子类别分布**:
-- Beamforming_and_Precoding: 12 篇
-- RIS_Metasurface_ISAC: 8 篇
-- Security_and_Privacy: 8 篇
-- Standardization_and_Architecture: 5 篇
-- Waveform_Design: 2 篇
-- Localization_and_Tracking: 2 篇
+- Beamforming_and_Precoding: 13 篇
+- RIS_Metasurface_ISAC: 9 篇
+- Security_and_Privacy: 6 篇
+- Localization_and_Tracking: 5 篇
+- Standardization_and_Architecture: 3 篇
 - Resource_Allocation: 2 篇
-- Full_Duplex_and_NOMA_ISAC: 2 篇
+- Waveform_Design: 2 篇
+- Full_Duplex_and_NOMA_ISAC: 1 篇
 - Channel_Estimation_and_CSI: 1 篇
 - Machine_Learning_for_ISAC: 1 篇
 
 | # | 标题 | 创新类型 | 置信度 |
 |---|------|----------|--------|
-| 1 | [RIS-Enabled Energy-Efficient ISAC for Vehicular Applications](https://arxiv.org/abs/2608.04361) | 全新方法 | HIGH |
-| 2 | [Stay or Switch: Online Conformal Bayesian Optimization Guided Fluid An...](https://arxiv.org/abs/2607.26547) | 融合整合 | HIGH |
-| 3 | [Joint Beamforming, Energy Management, and Trajectory Optimization for ...](https://arxiv.org/abs/2607.26325) | 融合整合 | MEDIUM |
-| 4 | [Secure OFDM-IM ISAC With Artificial-Noise-Aided Index Deception](https://arxiv.org/abs/2607.19068) | 融合整合 | MEDIUM |
+| 1 | [Antenna Positioning and Beamforming Optimization in MA Enabled Secure ...](https://arxiv.org/abs/2608.12870) | 融合整合 | MEDIUM |
+| 2 | [Tracking-Assisted Robust Secure Transmission Against a Mobile Eavesdro...](https://arxiv.org/abs/2608.06781) | 融合整合 | MEDIUM |
+| 3 | [Performance Analysis and Joint Beamforming for Hybrid RIS-Aided Massiv...](https://arxiv.org/abs/2608.02169) | 理论贡献 | MEDIUM |
+| 4 | [Transmit Beamforming Design for Integrated Sensing and Communication U...](https://arxiv.org/abs/2607.17485) | 融合整合 | MEDIUM |
 | 5 | [Pinching Antenna-Assisted ISAC with Waveguide Mode Selection](https://arxiv.org/abs/2607.15547) | 融合整合 | MEDIUM |
-| 6 | [Low-Altitude ISAC With Spherical Directly-Connected Antenna Array: Per...](https://arxiv.org/abs/2607.10215) | 全新方法 | MEDIUM |
-| 7 | [DRL-Based Joint Beamforming and Surface Shape Optimization for Flexibl...](https://arxiv.org/abs/2607.00951) | 融合整合 | MEDIUM |
-| 8 | [Antenna Orientation Optimization for Rotatable Antenna-Enabled ISAC Sy...](https://arxiv.org/abs/2606.31466) | 理论贡献 | HIGH |
-| 9 | [Adaptive Joint Beamforming and Fluid Antenna System Design for 6G ISAC](https://arxiv.org/abs/2606.22897) | 融合整合 | MEDIUM |
-| 10 | [Ray Antenna Array Enhanced Low-Altitude ISAC: Performance Analysis and...](https://arxiv.org/abs/2606.19146) | 融合整合 | HIGH |
-| 11 | [Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and ...](https://arxiv.org/abs/2606.17641) | 融合整合 | MEDIUM |
-| 12 | [Robust Beamforming Design for Secure Uplink NOMA-ISAC](https://arxiv.org/abs/2606.17306) | 融合整合 | MEDIUM |
-| 13 | [Movable-Antenna-Enhanced ISAC: Optimal Antenna Trajectory and Beamform...](https://arxiv.org/abs/2605.23427) | 融合整合 | HIGH |
-| 14 | [Harnessing the Freedom of Non-Uniformity in Monostatic ISAC with Anten...](https://arxiv.org/abs/2604.27571) | 融合整合 | MEDIUM |
-| 15 | [Multi-Static ISAC Assisted by Double-Side Fluid Antenna System](https://arxiv.org/abs/2604.25234) | 融合整合 | MEDIUM |
-| 16 | [Sensing-Assisted Secure Communication in MA-Aided ISAC: CRB Analysis a...](https://arxiv.org/abs/2604.23663) | 理论贡献 | MEDIUM |
-| 17 | [Holographic Surface Enabled Integrated Sensing and Communications](https://arxiv.org/abs/2605.08852) | 融合整合 | MEDIUM |
-| 18 | [Secure and Robust Beamforming Design for STAR-RIS-aided MU-MIMO ISAC S...](https://arxiv.org/abs/2603.07719) | 融合整合 | MEDIUM |
-| 19 | [Energy Efficiency Maximization for Integrated Sensing and Communicatio...](https://arxiv.org/abs/2603.01717) | 理论贡献 | HIGH |
-| 20 | [Dual Security for MIMO-OFDM ISAC Systems: Artificial Ghosts or Artific...](https://arxiv.org/abs/2602.20045) | 融合整合 | HIGH |
-| 21 | [Robust and Secure Transmission for Movable-RIS Assisted ISAC with Impe...](https://arxiv.org/abs/2512.20071) | 理论贡献 | HIGH |
-| 22 | [Fairness-Aware Secure Communication in ISAC Systems with STAR-RIS and ...](https://arxiv.org/abs/2511.00721) | 融合整合 | MEDIUM |
-| 23 | [Joint Beamforming for Multi-user Multi-target FD ISAC System: A Hybrid...](https://arxiv.org/abs/2510.24243) | 理论贡献 | MEDIUM |
-| 24 | [Meta-Learning-Driven Resource Optimization in Full-Duplex ISAC with Mo...](https://arxiv.org/abs/2510.01437) | 融合整合 | MEDIUM |
-| 25 | [Pinching Antenna Systems for Integrated Sensing and Communications](https://arxiv.org/abs/2508.19540) | 理论贡献 | HIGH |
-| 26 | [Movable Antenna Aided Full-Duplex ISAC System with Self-Interference M...](https://arxiv.org/abs/2505.14830) | 融合整合 | MEDIUM |
-| 27 | [Joint Discrete Antenna Positioning and Beamforming Optimization in Mov...](https://arxiv.org/abs/2411.04419) | 融合整合 | MEDIUM |
-| 28 | [Sum Secrecy Rate Maximization for Full Duplex ISAC Systems](https://arxiv.org/abs/2410.13102) | 理论贡献 | MEDIUM |
-| 29 | [Symbol-Level Precoding-Based Self-Interference Cancellation for ISAC S...](https://arxiv.org/abs/2409.08608) | 理论贡献 | MEDIUM |
-| 30 | [Full-Duplex ISAC-Enabled D2D Underlaid Cellular Networks: Joint Transc...](https://arxiv.org/abs/2408.11329) | 融合整合 | MEDIUM |
-| 31 | [Secure High-Resolution ISAC via Multi-Layer Intelligent Metasurfaces: ...](https://arxiv.org/abs/2602.15209) | 融合整合 | MEDIUM |
-| 32 | [A Dual Belief-Driven Bayesian-Stackelberg Framework for Low-Complexity...](https://arxiv.org/abs/2602.09754) | 融合整合 | MEDIUM |
-| 33 | [Maneuverable-Jamming-Aided Secure Communication and Sensing in A2G-ISA...](https://arxiv.org/abs/2602.04209) | 融合整合 | MEDIUM |
-| 34 | [Cooperative Base Station Assignment and Resource Allocation for 6G ISA...](https://arxiv.org/abs/2509.10240) | 理论贡献 | MEDIUM |
-| 35 | [Movable Antenna Enabled ISAC: Tackling Slow Antenna Movement, Dynamic ...](https://arxiv.org/abs/2503.18547) | 全新方法 | MEDIUM |
-| 36 | [A Novel Framework for Transmitter Privacy in Integrated Sensing and Co...](https://arxiv.org/abs/2604.16068) | 理论贡献 | MEDIUM |
-| 37 | [Max-Min Secrecy Rate Optimization for Secure ISAC Networks: Global Opt...](https://arxiv.org/abs/2606.13582) | 理论贡献 | MEDIUM |
-| 38 | [Integrated Sensing and Communication for Segmented Waveguide-Enabled P...](https://arxiv.org/abs/2601.20658) | 融合整合 | MEDIUM |
-| 39 | [RL based Beamforming Optimization for 3D Pinching Antenna assisted ISA...](https://arxiv.org/abs/2601.20654) | 融合整合 | MEDIUM |
-| 40 | [Instantaneous Risk Minimization for Secure Integrated Sensing and Comm...](https://arxiv.org/abs/2606.03372) | 融合整合 | MEDIUM |
-| 41 | [Unified framework for outage-constrained rate maximization in secure I...](https://arxiv.org/abs/2603.12798) | 融合整合 | HIGH |
-| 42 | [Secure Transmission for Fluid Antenna-Aided ISAC Systems](https://arxiv.org/abs/2602.23241) | 理论贡献 | HIGH |
-| 43 | [Power consumption Reduction in ELAA-Assisted ISAC Systems](https://arxiv.org/abs/2601.21010) | 全新方法 | MEDIUM |
+| 6 | [DRL-Based Joint Beamforming and Surface Shape Optimization for Flexibl...](https://arxiv.org/abs/2607.00951) | 融合整合 | MEDIUM |
+| 7 | [Antenna Orientation Optimization for Rotatable Antenna-Enabled ISAC Sy...](https://arxiv.org/abs/2606.31466) | 理论贡献 | HIGH |
+| 8 | [Adaptive Joint Beamforming and Fluid Antenna System Design for 6G ISAC](https://arxiv.org/abs/2606.22897) | 融合整合 | MEDIUM |
+| 9 | [Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and ...](https://arxiv.org/abs/2606.17641) | 融合整合 | MEDIUM |
+| 10 | [Robust Beamforming Design for Secure Uplink NOMA-ISAC](https://arxiv.org/abs/2606.17306) | 融合整合 | MEDIUM |
+| 11 | [On Secure EKF-enhanced UAV-ISAC Systems](https://arxiv.org/abs/2606.03690) | 融合整合 | MEDIUM |
+| 12 | [Movable-Antenna-Enhanced ISAC: Optimal Antenna Trajectory and Beamform...](https://arxiv.org/abs/2605.23427) | 融合整合 | HIGH |
+| 13 | [Harnessing the Freedom of Non-Uniformity in Monostatic ISAC with Anten...](https://arxiv.org/abs/2604.27571) | 融合整合 | MEDIUM |
+| 14 | [Secure and Robust Beamforming Design for STAR-RIS-aided MU-MIMO ISAC S...](https://arxiv.org/abs/2603.07719) | 融合整合 | MEDIUM |
+| 15 | [Energy Efficiency Maximization for Integrated Sensing and Communicatio...](https://arxiv.org/abs/2603.01717) | 理论贡献 | HIGH |
+| 16 | [OFDM-Based ISAC Imaging of Extended Targets via Inverse Virtual Apertu...](https://arxiv.org/abs/2601.16664) | 融合整合 | MEDIUM |
+| 17 | [Joint Precoding and Phase-Shift Optimization for Beyond-Diagonal RIS-A...](https://arxiv.org/abs/2603.09265) | 融合整合 | MEDIUM |
+| 18 | [A Robust Two-Stage Protocol for STAR-RIS-Aided ISAC Networks: Joint Be...](https://arxiv.org/abs/2602.16383) | 融合整合 | MEDIUM |
+| 19 | [Robust and Secure Transmission for Movable-RIS Assisted ISAC with Impe...](https://arxiv.org/abs/2512.20071) | 理论贡献 | HIGH |
+| 20 | [Fairness-Aware Secure Communication in ISAC Systems with STAR-RIS and ...](https://arxiv.org/abs/2511.00721) | 融合整合 | MEDIUM |
+| 21 | [Joint Beamforming for Multi-user Multi-target FD ISAC System: A Hybrid...](https://arxiv.org/abs/2510.24243) | 理论贡献 | MEDIUM |
+| 22 | [Meta-Learning-Driven Resource Optimization in Full-Duplex ISAC with Mo...](https://arxiv.org/abs/2510.01437) | 融合整合 | MEDIUM |
+| 23 | [Pinching Antenna Systems for Integrated Sensing and Communications](https://arxiv.org/abs/2508.19540) | 理论贡献 | HIGH |
+| 24 | [Full-Duplex Beamforming Optimization for Near-Field ISAC](https://arxiv.org/abs/2508.14753) | 融合整合 | MEDIUM |
+| 25 | [Movable Antenna Aided Full-Duplex ISAC System with Self-Interference M...](https://arxiv.org/abs/2505.14830) | 融合整合 | MEDIUM |
+| 26 | [Joint Discrete Antenna Positioning and Beamforming Optimization in Mov...](https://arxiv.org/abs/2411.04419) | 融合整合 | MEDIUM |
+| 27 | [Sum Secrecy Rate Maximization for Full Duplex ISAC Systems](https://arxiv.org/abs/2410.13102) | 理论贡献 | MEDIUM |
+| 28 | [Symbol-Level Precoding-Based Self-Interference Cancellation for ISAC S...](https://arxiv.org/abs/2409.08608) | 理论贡献 | MEDIUM |
+| 29 | [Secure High-Resolution ISAC via Multi-Layer Intelligent Metasurfaces: ...](https://arxiv.org/abs/2602.15209) | 融合整合 | MEDIUM |
+| 30 | [A Dual Belief-Driven Bayesian-Stackelberg Framework for Low-Complexity...](https://arxiv.org/abs/2602.09754) | 融合整合 | MEDIUM |
+| 31 | [Cooperative Base Station Assignment and Resource Allocation for 6G ISA...](https://arxiv.org/abs/2509.10240) | 理论贡献 | MEDIUM |
+| 32 | [Movable Antenna Enabled ISAC: Tackling Slow Antenna Movement, Dynamic ...](https://arxiv.org/abs/2503.18547) | 全新方法 | MEDIUM |
+| 33 | [Enabling Indoor Multi-Person Tracking With 6G mmWave ISAC Systems](https://arxiv.org/abs/2605.03333) | 融合整合 | MEDIUM |
+| 34 | [SAR/ISAR Imaging in 6G Network](https://arxiv.org/abs/2604.00583) | 全新方法 | HIGH |
+| 35 | [Max-Min Secrecy Rate Optimization for Secure ISAC Networks: Global Opt...](https://arxiv.org/abs/2606.13582) | 理论贡献 | MEDIUM |
+| 36 | [Integrated Sensing and Communication for Segmented Waveguide-Enabled P...](https://arxiv.org/abs/2601.20658) | 融合整合 | MEDIUM |
+| 37 | [RL based Beamforming Optimization for 3D Pinching Antenna assisted ISA...](https://arxiv.org/abs/2601.20654) | 融合整合 | MEDIUM |
+| 38 | [Instantaneous Risk Minimization for Secure Integrated Sensing and Comm...](https://arxiv.org/abs/2606.03372) | 融合整合 | MEDIUM |
+| 39 | [Sensing-Assisted Secure Communication in MA-Aided ISAC: CRB Analysis a...](https://arxiv.org/abs/2604.23663) | 理论贡献 | MEDIUM |
+| 40 | [Unified framework for outage-constrained rate maximization in secure I...](https://arxiv.org/abs/2603.12798) | 融合整合 | HIGH |
+| 41 | [Secure Transmission for Fluid Antenna-Aided ISAC Systems](https://arxiv.org/abs/2602.23241) | 理论贡献 | HIGH |
+| 42 | [Power consumption Reduction in ELAA-Assisted ISAC Systems](https://arxiv.org/abs/2601.21010) | 全新方法 | MEDIUM |
+| 43 | [Enabling NLOS Imaging Capabilities at the Initial Access of 6G Base St...](https://arxiv.org/abs/2511.15416) | 理论贡献 | MEDIUM |
 
-## 类别 5: Channel_Estimation_and_CSI
+## 类别 5: Standardization_and_Architecture
 
-**论文数量**: 27
-**关键词**: field, near field, near, field isac, near field isac
+**论文数量**: 34
+**关键词**: altitude, low altitude, uav, aerial, low
 
 **子类别分布**:
-- Localization_and_Tracking: 8 篇
-- Beamforming_and_Precoding: 6 篇
+- Localization_and_Tracking: 10 篇
+- Standardization_and_Architecture: 5 篇
+- Beamforming_and_Precoding: 4 篇
+- Security_and_Privacy: 4 篇
+- Waveform_Design: 3 篇
+- RIS_Metasurface_ISAC: 3 篇
+- Resource_Allocation: 3 篇
+- Channel_Estimation_and_CSI: 1 篇
+- Machine_Learning_for_ISAC: 1 篇
+
+| # | 标题 | 创新类型 | 置信度 |
+|---|------|----------|--------|
+| 1 | [Secure Cooperative THz ISAC via Mamba Empowered Graph Neural Network P...](https://arxiv.org/abs/2608.10467) | 全新方法 | MEDIUM |
+| 2 | [DRL-Based Secure Transmission for Rotatable Antenna-Enabled Low-Altitu...](https://arxiv.org/abs/2608.07170) | 融合整合 | MEDIUM |
+| 3 | [5G ISAC-Based UAV Detection and 3-D Tracking Using Uplink Sounding Ref...](https://arxiv.org/abs/2608.05826) | 统一框架 | MEDIUM |
+| 4 | [Security in Low-Altitude ISAC with Coupled Communication and Sensing I...](https://arxiv.org/abs/2608.01086) | 融合整合 | MEDIUM |
+| 5 | [UAV Swarming for Air-Ground ISAC via Cross-Region Cooperation](https://arxiv.org/abs/2607.26679) | 理论贡献 | MEDIUM |
+| 6 | [Wireless Imaging for Low-Altitude Surveillance: A New Paradigm for ISA...](https://arxiv.org/abs/2608.00062) | 融合整合 | MEDIUM |
+| 7 | [ISAC and Vision Fusion for Fine-Grained Low-Altitude Target Recognitio...](https://arxiv.org/abs/2607.23789) | 融合整合 | HIGH |
+| 8 | [Mobile Tracking via Target-Mounted IRS-Assisted ISAC System](https://arxiv.org/abs/2607.23005) | 理论贡献 | MEDIUM |
+| 9 | [CRB-Driven Beamforming and Trajectory Optimization for UAV-assisted IS...](https://arxiv.org/abs/2607.19609) | 融合整合 | MEDIUM |
+| 10 | [Low-Altitude ISAC With Spherical Directly-Connected Antenna Array: Per...](https://arxiv.org/abs/2607.10215) | 全新方法 | MEDIUM |
+| 11 | [Ray Antenna Array Enhanced Low-Altitude ISAC: Performance Analysis and...](https://arxiv.org/abs/2606.19146) | 融合整合 | HIGH |
+| 12 | [Curriculum-Guided Heterogeneous Multi-Agent Intelligence for Multi-UAV...](https://arxiv.org/abs/2605.17905) | 融合整合 | HIGH |
+| 13 | [6DMA-Enabled ISAC for Low-Altitude Economy](https://arxiv.org/abs/2605.03088) | 融合整合 | MEDIUM |
+| 14 | [Adaptive 5G Resource Allocation for Multistatic ISAC-Based UAV Detecti...](https://arxiv.org/abs/2606.21677) | 理论贡献 | MEDIUM |
+| 15 | [MIMO OFDM-Enabled ISAC for Low-Altitude Non-Cooperative UAV Surveillan...](https://arxiv.org/abs/2604.02680) | 全新方法 | MEDIUM |
+| 16 | [Clutter-Resilient ISAC for Low-Altitude Wireless Networks: A 5G Base S...](https://arxiv.org/abs/2603.14351) | 融合整合 | MEDIUM |
+| 17 | [Clutter-Aware Integrated Sensing and Communication: Models, Methods, a...](https://arxiv.org/abs/2602.10537) | 融合整合 | MEDIUM |
+| 18 | [Securing Integrated Sensing and Communication Against a Mobile Adversa...](https://arxiv.org/abs/2501.02271) | 融合整合 | MEDIUM |
+| 19 | [ISAC-Enabled Multi-UAV Collaborative Target Sensing for Low-Altitude E...](https://arxiv.org/abs/2603.11502) | 理论贡献 | MEDIUM |
+| 20 | [Cooperative ISAC for LAE: Joint Trajectory Planning, Power allocation,...](https://arxiv.org/abs/2511.13006) | 融合整合 | MEDIUM |
+| 21 | [Fuse-then-Detect for Passive UAV Localization Using Multi-UE 5G Uplink...](https://arxiv.org/abs/2607.11955) | 融合整合 | MEDIUM |
+| 22 | [Low-Altitude UAV-Assisted Bistatic ISAC: Closed-form 3D CRLB and Cover...](https://arxiv.org/abs/2607.18766) | 理论贡献 | MEDIUM |
+| 23 | [CellSense: A Sub-6 GHz Cellular ISAC System for Clutter-Robust Passive...](https://arxiv.org/abs/2606.07900) | 融合整合 | MEDIUM |
+| 24 | [Reliable UAV Detection with ISAC](https://arxiv.org/abs/2605.23561) | 融合整合 | MEDIUM |
+| 25 | [LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Com...](https://arxiv.org/abs/2607.03826) | 融合整合 | MEDIUM |
+| 26 | [Queue-Aware Graph Reinforcement Learning for UAV-ISAC-Assisted Maritim...](https://arxiv.org/abs/2607.00324) | 理论贡献 | MEDIUM |
+| 27 | [Integrated Sensing and Covert Communication In Low-Altitude Networks: ...](https://arxiv.org/abs/2606.02077) | 融合整合 | MEDIUM |
+| 28 | [UAV-based Energy-Efficient Data Collection in Smart Grids with ISAC Qo...](https://arxiv.org/abs/2605.22490) | 融合整合 | MEDIUM |
+| 29 | [Phase-Time Array Enabled Multistatic Sensing with Multi-Level Fusion f...](https://arxiv.org/abs/2605.04919) | 理论贡献 | MEDIUM |
+| 30 | [AirGuard: UAV and Bird Recognition Scheme for Integrated Sensing and C...](https://arxiv.org/abs/2603.13112) | 融合整合 | MEDIUM |
+| 31 | [Towards a Theoretical Framework for Robust Node Deployment in Cooperat...](https://arxiv.org/abs/2601.01152) | 全新方法 | MEDIUM |
+| 32 | [Low-Altitude Agentic Networks for Optical Wireless Communication and S...](https://arxiv.org/abs/2603.04042) | 融合整合 | MEDIUM |
+| 33 | [From Ground to Sky: Architectures, Applications, and Challenges Shapin...](https://arxiv.org/abs/2506.12308) | 融合整合 | MEDIUM |
+| 34 | [Perception-Enhanced Multitask Multimodal Semantic Communication for UA...](https://arxiv.org/abs/2503.19594) | 融合整合 | HIGH |
+
+## 类别 6: Waveform_Design
+
+**论文数量**: 55
+**关键词**: 6g, networks, communications, wireless, generation
+
+**子类别分布**:
+- Standardization_and_Architecture: 16 篇
+- RIS_Metasurface_ISAC: 11 篇
+- Waveform_Design: 7 篇
+- Machine_Learning_for_ISAC: 4 篇
+- Resource_Allocation: 4 篇
+- Beamforming_and_Precoding: 3 篇
+- Localization_and_Tracking: 3 篇
+- Full_Duplex_and_NOMA_ISAC: 3 篇
+- Channel_Estimation_and_CSI: 2 篇
+- Security_and_Privacy: 2 篇
+
+| # | 标题 | 创新类型 | 置信度 |
+|---|------|----------|--------|
+| 1 | [Digital Twin Satellite Networks: A Paradigm for Intelligent, Efficient...](https://arxiv.org/abs/2608.12865) | 融合整合 | MEDIUM |
+| 2 | [Sub-Sampling for Positioning Privacy in ISAC: Deception by Aliasing vi...](https://arxiv.org/abs/2608.07206) | 理论贡献 | MEDIUM |
+| 3 | [A 6G Integrated Sensing and Communication Framework for Railway Intrus...](https://arxiv.org/abs/2608.04710) | 融合整合 | MEDIUM |
+| 4 | [Sovereign Cognitive Digital Twins: Fusing 6G ISAC, AI-RAN, and Zero-Tr...](https://arxiv.org/abs/2607.28756) | 融合整合 | MEDIUM |
+| 5 | [BASIIS: Bistatic Angular Sampling and Interpolation for ISAC Setups](https://arxiv.org/abs/2606.17718) | 理论贡献 | MEDIUM |
+| 6 | [Electromagnetic Digital Twin-Enabled Closed-Loop Beam Management in IS...](https://arxiv.org/abs/2606.00977) | 融合整合 | MEDIUM |
+| 7 | [Digital Twin-assisted belief-state reinforcement learning for latency-...](https://arxiv.org/abs/2604.25967) | 融合整合 | MEDIUM |
+| 8 | [Fundamental Limits of MIMO-OTFS and MIMO-OFDM in High-Dynamics ISAC: A...](https://arxiv.org/abs/2607.20200) | 理论贡献 | MEDIUM |
+| 9 | [DFT-p-FDMA Based Chirp Transmission in CP-OFDM for Unified ISAC Wavefo...](https://arxiv.org/abs/2607.15575) | 融合整合 | MEDIUM |
+| 10 | [From Intent to Infrastructure: LLM-Driven Agent Compilers for ISAC Net...](https://arxiv.org/abs/2607.16269) | 理论贡献 | MEDIUM |
+| 11 | [Toward Deeper Environmental Understanding: Event-Level Sensing for Int...](https://arxiv.org/abs/2606.14223) | 全新方法 | MEDIUM |
+| 12 | [CP-OFDM Achieves Lower Ranging CRB Than Frequency-Spread Waveforms in ...](https://arxiv.org/abs/2605.14451) | 理论贡献 | MEDIUM |
+| 13 | [A Multi-Objective Learning Approach for Adaptive Waveform Selection in...](https://arxiv.org/abs/2603.14017) | 融合整合 | HIGH |
+| 14 | [From Coverage to Sensing: ISAC meets FR3](https://arxiv.org/abs/2605.18120) | 全新方法 | MEDIUM |
+| 15 | [Holographic Surface Enabled Integrated Sensing and Communications](https://arxiv.org/abs/2605.08852) | 融合整合 | MEDIUM |
+| 16 | [Unified Evaluation Methodology for AI-Native Integrated Sensing and Co...](https://arxiv.org/abs/2607.14806) | 理论贡献 | MEDIUM |
+| 17 | [Design and Deployment Guidelines for UAV-Mounted RIS Under Position Un...](https://arxiv.org/abs/2607.07298) | 理论贡献 | MEDIUM |
+| 18 | [AI-Empowered UAV-Assisted Backscatter Localization and ISAC for Zero-E...](https://arxiv.org/abs/2606.23125) | 融合整合 | MEDIUM |
+| 19 | [Comprehensive Review of Advances and Challenges in Next Generation Wir...](https://arxiv.org/abs/2605.08951) | 全新方法 | MEDIUM |
+| 20 | [Multi-Objective RIS Deployment Optimization for Physical Layer Securit...](https://arxiv.org/abs/2604.20537) | 融合整合 | MEDIUM |
+| 21 | [RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the ...](https://arxiv.org/abs/2604.12466) | 融合整合 | HIGH |
+| 22 | [UAV-Assisted 6G Communication Networks for Railways: Technologies, App...](https://arxiv.org/abs/2602.09536) | 融合整合 | MEDIUM |
+| 23 | [Reimagining Wireless Connectivity: The FAS-RIS Synergy for 6G Smart Ci...](https://arxiv.org/abs/2512.18982) | 全新方法 | MEDIUM |
+| 24 | [A Lightweight Framework for Integrated Sensing and Communications with...](https://arxiv.org/abs/2511.04448) | 理论贡献 | HIGH |
+| 25 | [Quantum-Resilient Threat Modelling for Secure RIS-Assisted ISAC in 6G ...](https://arxiv.org/abs/2510.25411) | 融合整合 | MEDIUM |
+| 26 | [Toward Native ISAC Support in O-RAN Architectures for 6G](https://arxiv.org/abs/2603.03607) | 全新方法 | MEDIUM |
+| 27 | [Resilient Full-Duplex ISAC in the Face of Imperfect SI Cancellation: G...](https://arxiv.org/abs/2510.15810) | 融合整合 | MEDIUM |
+| 28 | [Cross-layer Integrated Sensing and Communication: A Joint Industrial a...](https://arxiv.org/abs/2505.10933) | 融合整合 | MEDIUM |
+| 29 | [UAV-Enabled Wireless Networks for Integrated Sensing and Learning-Orie...](https://arxiv.org/abs/2409.00405) | 融合整合 | MEDIUM |
+| 30 | [Unveiling the Potential of NOMA: A Journey to Next Generation Multiple...](https://arxiv.org/abs/2412.17160) | 融合整合 | MEDIUM |
+| 31 | [Optimal User and Target Scheduling, User-Target Pairing, and Low-Resol...](https://arxiv.org/abs/2501.11593) | 融合整合 | MEDIUM |
+| 32 | [ISAC-Assisted Channel Knowledge Map Generation for Physical Layer Auth...](https://arxiv.org/abs/2607.20176) | 融合整合 | MEDIUM |
+| 33 | [Time-Varying Parametric Channel Estimation With CP Decomposition Tenso...](https://arxiv.org/abs/2605.25593) | 融合整合 | MEDIUM |
+| 34 | [Programmable and GPU-Accelerated Edge Inference for Real-Time ISAC on ...](https://arxiv.org/abs/2512.06493) | 全新方法 | HIGH |
+| 35 | [Reconfigurable Antenna Arrays: Bridging Electromagnetics and Signal Pr...](https://arxiv.org/abs/2510.17113) | 融合整合 | MEDIUM |
+| 36 | [Hybrid RISs for Simultaneous Tunable Reflections and Sensing](https://arxiv.org/abs/2507.16550) | 融合整合 | MEDIUM |
+| 37 | [Intelligent Metasurface-Enabled Integrated Sensing and Communication: ...](https://arxiv.org/abs/2506.13713) | 融合整合 | MEDIUM |
+| 38 | [DFT-s-OFDM with Chirping for Integrated Sensing and Communications in ...](https://arxiv.org/abs/2605.17612) | 理论贡献 | MEDIUM |
+| 39 | [Localization in OFDM Passive Distributed Antenna Systems with Pilots a...](https://arxiv.org/abs/2605.12557) | 理论贡献 | MEDIUM |
+| 40 | [AISAC: Closing the Loop Between AI and Integrated Sensing and Communic...](https://arxiv.org/abs/2607.16507) | 融合整合 | MEDIUM |
+| 41 | [Enormous Fluid Antenna Systems (E-FAS) for Wireless Sensing: Channel M...](https://arxiv.org/abs/2606.23119) | 理论贡献 | MEDIUM |
+| 42 | [A Survey on AI for 6G: Challenges and Opportunities](https://arxiv.org/abs/2604.02370) | 融合整合 | MEDIUM |
+| 43 | [A Universal Neural Receiver that Learns at the Speed of Wireless](https://arxiv.org/abs/2602.15458) | 融合整合 | MEDIUM |
+| 44 | [Weather Estimation for Integrated Sensing and Communication](https://arxiv.org/abs/2601.15145) | 融合整合 | MEDIUM |
+| 45 | [Path to Diversity: A Primer on ISAC-izing Commodity Wi-Fi for Practica...](https://arxiv.org/abs/2601.12980) | 理论贡献 | MEDIUM |
+| 46 | [Millimeter-Wave Gesture Recognition in ISAC: Does Reducing Sensing Air...](https://arxiv.org/abs/2601.10733) | 融合整合 | MEDIUM |
+| 47 | [AI-Native Integrated Sensing and Communications for Self-Organizing Wi...](https://arxiv.org/abs/2601.02398) | 融合整合 | MEDIUM |
+| 48 | [Communication Security and Sensing Privacy in FMCW-Based ISAC Through ...](https://arxiv.org/abs/2605.23429) | 全新方法 | MEDIUM |
+| 49 | [Unconsented Sensing: A Sociotechnical Governance Framework for 6G ISAC](https://arxiv.org/abs/2605.07328) | 理论贡献 | MEDIUM |
+| 50 | [Foundation Models for Wireless Communications: From PHY Intelligence t...](https://arxiv.org/abs/2606.06239) | 全新方法 | MEDIUM |
+| 51 | [Pinching Antennas Meet AI in Next-Generation Wireless Networks](https://arxiv.org/abs/2511.07442) | 融合整合 | MEDIUM |
+| 52 | [Diffusion Models for Future Networks and Communications: A Comprehensi...](https://arxiv.org/abs/2508.01586) | 全新方法 | MEDIUM |
+| 53 | [Cooperative NOMA Meets Emerging Technologies: A Survey for Next-Genera...](https://arxiv.org/abs/2505.16327) | 融合整合 | MEDIUM |
+| 54 | [A Survey on Stacked Intelligent Metasurfaces: Fundamentals, Recent Adv...](https://arxiv.org/abs/2603.05633) | 融合整合 | MEDIUM |
+| 55 | [Near-Field Challenges in Ultra-Wideband ISAC: Beamforming Strategies a...](https://arxiv.org/abs/2508.18810) | 融合整合 | MEDIUM |
+
+## 类别 7: Channel_Estimation_and_CSI
+
+**论文数量**: 117
+**关键词**: channel, systems, framework, estimation, data
+
+**子类别分布**:
+- Waveform_Design: 35 篇
+- Standardization_and_Architecture: 23 篇
+- Localization_and_Tracking: 22 篇
+- Beamforming_and_Precoding: 8 篇
+- Security_and_Privacy: 8 篇
+- Resource_Allocation: 8 篇
+- Channel_Estimation_and_CSI: 6 篇
+- RIS_Metasurface_ISAC: 5 篇
+- Full_Duplex_and_NOMA_ISAC: 1 篇
+- Machine_Learning_for_ISAC: 1 篇
+
+| # | 标题 | 创新类型 | 置信度 |
+|---|------|----------|--------|
+| 1 | [Sensing-Aided Ordered Reliability Bits Guessing Random Additive Noise ...](https://arxiv.org/abs/2608.14479) | 融合整合 | MEDIUM |
+| 2 | [Integrated Sensing and Communication in 3GPP: Evolution from 5G-Advanc...](https://arxiv.org/abs/2608.11606) | 融合整合 | MEDIUM |
+| 3 | [Adaptive Source-Channel Coding for Bi-static Integrated Sensing and Se...](https://arxiv.org/abs/2608.10898) | 融合整合 | MEDIUM |
+| 4 | [RIS-Enabled Energy-Efficient ISAC for Vehicular Applications](https://arxiv.org/abs/2608.04361) | 全新方法 | HIGH |
+| 5 | [Task-Oriented Candidate-Latent Feedback for Coarse-to-Fine Sensing in ...](https://arxiv.org/abs/2608.03319) | 融合整合 | MEDIUM |
+| 6 | [Geometry-Aware Resource Allocation for Network-Level ISAC Systems](https://arxiv.org/abs/2607.29060) | 理论贡献 | MEDIUM |
+| 7 | [CRLB-Driven Beamforming and Power Allocation for Multi-BS Cooperative ...](https://arxiv.org/abs/2607.28224) | 理论贡献 | MEDIUM |
+| 8 | [Stay or Switch: Online Conformal Bayesian Optimization Guided Fluid An...](https://arxiv.org/abs/2607.26547) | 融合整合 | HIGH |
+| 9 | [MVLA-GR: A Phase-Free Multipath-Based Geometry Reconstruction Method v...](https://arxiv.org/abs/2607.26421) | 融合整合 | HIGH |
+| 10 | [Joint Beamforming, Energy Management, and Trajectory Optimization for ...](https://arxiv.org/abs/2607.26325) | 融合整合 | MEDIUM |
+| 11 | [Covert Semantic Transmission in ISAC: Dual-Functional Waveform Design ...](https://arxiv.org/abs/2607.25354) | 理论贡献 | MEDIUM |
+| 12 | [Sensing-Aware Backscatter Communications: A Survey on Envelope Stabili...](https://arxiv.org/abs/2607.24899) | 融合整合 | MEDIUM |
+| 13 | [Resource-Aware Topology Management for ISAC-Enabled TDOA Localization ...](https://arxiv.org/abs/2607.24028) | 融合整合 | HIGH |
+| 14 | [Joint Synchronization and Sensing in Networked ISAC via Structured Can...](https://arxiv.org/abs/2607.18680) | 融合整合 | HIGH |
+| 15 | [Transmissive RIS Transceiver-Empowered ISAC Systems: Energy Efficiency...](https://arxiv.org/abs/2607.17475) | 全新方法 | MEDIUM |
+| 16 | [Fundamental Sensing Limits of 6G Cooperative MIMO-ISAC Networks: Joint...](https://arxiv.org/abs/2607.08510) | 理论贡献 | MEDIUM |
+| 17 | [6G Sensing Security: Distributed Game-Theoretic RL for Urban Beamformi...](https://arxiv.org/abs/2607.06115) | 融合整合 | MEDIUM |
+| 18 | [Noncoherent ISAC over Block-Fading Channels: Asymptotic Performance An...](https://arxiv.org/abs/2606.14400) | 理论贡献 | MEDIUM |
+| 19 | [Joint Mobile User Positioning and Passive Target Sensing using Optimiz...](https://arxiv.org/abs/2605.15808) | 理论贡献 | MEDIUM |
+| 20 | [Secure OFDM-IM ISAC With Artificial-Noise-Aided Index Deception](https://arxiv.org/abs/2607.19068) | 融合整合 | MEDIUM |
+| 21 | [Data-Aided Target Localization in Multistatic ISAC Systems With Commun...](https://arxiv.org/abs/2607.10115) | 融合整合 | MEDIUM |
+| 22 | [Amplitude-Phase-Frequency Block Modulation for OFDM-ISAC with SI-Free ...](https://arxiv.org/abs/2606.20011) | 融合整合 | MEDIUM |
+| 23 | [Twin-in-the-Loop Optimization and Fundamental Limits of Position--Velo...](https://arxiv.org/abs/2606.15688) | 理论贡献 | MEDIUM |
+| 24 | [On the Feasibility of Passive Bistatic ISAC Based on Unmodified LoRa](https://arxiv.org/abs/2606.14293) | 理论贡献 | MEDIUM |
+| 25 | [ISAC-Enabled Grant-Free Uplink via Artificial-Path Delay Modulation](https://arxiv.org/abs/2605.31366) | 理论贡献 | MEDIUM |
+| 26 | [On Unified CRLB Framework from Generic Signals to ISAC Waveforms with ...](https://arxiv.org/abs/2605.28547) | 理论贡献 | MEDIUM |
+| 27 | [Diffusion Fluid Antenna Systems for Resilient ISAC](https://arxiv.org/abs/2605.23649) | 融合整合 | MEDIUM |
+| 28 | [Constellation-Independent Range Estimation in Payload-Based OFDM-ISAC](https://arxiv.org/abs/2605.16831) | 理论贡献 | MEDIUM |
+| 29 | [Waveform Design for 6G ISAC Systems Under Full-Duplex Residual Self-In...](https://arxiv.org/abs/2605.02157) | 融合整合 | MEDIUM |
+| 30 | [Cramer-Rao Bound Analysis of Bistatic ISAC Under Partial Symbol Knowle...](https://arxiv.org/abs/2604.11426) | 理论贡献 | MEDIUM |
+| 31 | [CRB-Based Waveform Optimization for MIMO ISAC Systems With One-Bit ADC...](https://arxiv.org/abs/2604.07150) | 理论贡献 | MEDIUM |
+| 32 | [Near-Field Integrated Sensing, Computing and Semantic Communication in...](https://arxiv.org/abs/2604.05797) | 融合整合 | HIGH |
+| 33 | [Extended Target Sensing in MIMO-OFDM ISAC Systems: Modeling, Optimizat...](https://arxiv.org/abs/2603.13580) | 理论贡献 | MEDIUM |
+| 34 | [Standard Condition Number-Based Detection for MIMO ISAC Systems under ...](https://arxiv.org/abs/2603.11516) | 理论贡献 | MEDIUM |
+| 35 | [Dual Security for MIMO-OFDM ISAC Systems: Artificial Ghosts or Artific...](https://arxiv.org/abs/2602.20045) | 融合整合 | HIGH |
+| 36 | [Message Passing based Parameter Estimation in Cooperative MIMO-OFDM IS...](https://arxiv.org/abs/2602.07365) | 融合整合 | MEDIUM |
+| 37 | [ISAC-over-NTN: HAPS-UAV Framework for Post-Disaster Responsive 6G Netw...](https://arxiv.org/abs/2601.15422) | 融合整合 | HIGH |
+| 38 | [Echo-Side Integrated Sensing and Communication via Space-Time Reconfig...](https://arxiv.org/abs/2601.09484) | 理论贡献 | MEDIUM |
+| 39 | [Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable I...](https://arxiv.org/abs/2601.04488) | 融合整合 | MEDIUM |
+| 40 | [A Comprehensive Survey of Channel Estimation Techniques for OTFS in 6G...](https://arxiv.org/abs/2512.13032) | 融合整合 | MEDIUM |
+| 41 | [Experimental Validation of SBFD ISAC in an FR3 Distributed SIMO Testbe...](https://arxiv.org/abs/2602.00054) | 融合整合 | MEDIUM |
+| 42 | [Full Duplex ISAC with Cluster Ray Targets: Parameter Estimation and Be...](https://arxiv.org/abs/2510.12711) | 全新方法 | MEDIUM |
+| 43 | [Quantum Radar for ISAC: Sum-Rate Optimization](https://arxiv.org/abs/2509.06070) | 理论贡献 | MEDIUM |
+| 44 | [Bistatic Sensing in 5G NR](https://arxiv.org/abs/2505.12555) | 理论贡献 | MEDIUM |
+| 45 | [Proportional-Fair Joint User Grouping and Power Allocation for Uplink ...](https://arxiv.org/abs/2606.29269) | 融合整合 | MEDIUM |
+| 46 | [Phase-Shifted Pilot Design for NOMA-Empowered Uplink ISAC Systems](https://arxiv.org/abs/2604.01721) | 融合整合 | MEDIUM |
+| 47 | [Blocker-Aware Beamforming and Dynamic Power Allocation for Multicarrie...](https://arxiv.org/abs/2511.06270) | 融合整合 | MEDIUM |
+| 48 | [Two-Timescale Learning for Pilot-Free ISAC Systems](https://arxiv.org/abs/2508.17749) | 融合整合 | MEDIUM |
+| 49 | [Performance Analysis of Pair-wise Symbol Detection in Uplink NOMA-ISaC...](https://arxiv.org/abs/2408.17449) | 理论贡献 | MEDIUM |
+| 50 | [Beyond Single-Band: Analysis and Resource Allocation for Multi-band IS...](https://arxiv.org/abs/2607.08068) | 理论贡献 | MEDIUM |
+| 51 | [MJSAC: McCormick Relaxation-based Waveform Design for Joint Sensing an...](https://arxiv.org/abs/2606.11351) | 全新方法 | MEDIUM |
+| 52 | [ISAC for AI: A Trade-off Framework Across Data Acquisition and Transfe...](https://arxiv.org/abs/2605.11915) | 理论贡献 | MEDIUM |
+| 53 | [Beam Scheduling for Cross-Layer ISAC: A Deep Reinforcement Learning Ap...](https://arxiv.org/abs/2604.24369) | 融合整合 | MEDIUM |
+| 54 | [Active Inference-Enabled Agentic Closed-Loop ISAC with Long-Horizon Pl...](https://arxiv.org/abs/2604.19599) | 融合整合 | MEDIUM |
+| 55 | [Balancing Functionality and GDPR-Driven Privacy in ISAC Trajectory Sha...](https://arxiv.org/abs/2604.08743) | 理论贡献 | MEDIUM |
+| 56 | [Uplink Networked Sensing via Multiuser Correlation Exploitation](https://arxiv.org/abs/2603.16442) | 全新方法 | MEDIUM |
+| 57 | [Hybrid Resource Allocation Scheme for Bistatic ISAC with Data Channels](https://arxiv.org/abs/2601.11110) | 融合整合 | MEDIUM |
+| 58 | [ISAC-Powered Distributed Matching and Resource Allocation in Multi-ban...](https://arxiv.org/abs/2512.02843) | 融合整合 | MEDIUM |
+| 59 | [Digital Twin-Assisted Task Offloading and Resource Allocation in ISAC-...](https://arxiv.org/abs/2511.05789) | 理论贡献 | HIGH |
+| 60 | [Dynamic Beamforming and Power Allocation in ISAC via Deep Reinforcemen...](https://arxiv.org/abs/2510.25496) | 理论贡献 | MEDIUM |
+| 61 | [Precise HDV Positioning through Safety-Aware Integrated Sensing and Co...](https://arxiv.org/abs/2510.02363) | 融合整合 | HIGH |
+| 62 | [Communication via Sensing](https://arxiv.org/abs/2506.23000) | 理论贡献 | HIGH |
+| 63 | [Observation Compression in Rate-Limited Closed-Loop Distributed ISAC S...](https://arxiv.org/abs/2505.01780) | 全新方法 | MEDIUM |
+| 64 | [Future Resource Bank for ISAC: Achieving Fast and Stable Win-Win Match...](https://arxiv.org/abs/2502.08118) | 融合整合 | MEDIUM |
+| 65 | [Learning-Driven Channel Representation for Wireless Localization: From...](https://arxiv.org/abs/2607.14938) | 融合整合 | MEDIUM |
+| 66 | [WiFo-MiSAC: A Wireless Foundation Model for Multimodal Sensing and Com...](https://arxiv.org/abs/2604.18255) | 融合整合 | MEDIUM |
+| 67 | [A Novel Framework for Transmitter Privacy in Integrated Sensing and Co...](https://arxiv.org/abs/2604.16068) | 理论贡献 | MEDIUM |
+| 68 | [Waveform Design for Partial-Time Superimposed ISAC Systems](https://arxiv.org/abs/2602.20353) | 理论贡献 | MEDIUM |
+| 69 | [Sensing Mutual Information for Communication Signal with Deterministic...](https://arxiv.org/abs/2601.11149) | 理论贡献 | HIGH |
+| 70 | [Fundamental Tradeoffs for ISAC Multiple Access in Finite-Blocklength R...](https://arxiv.org/abs/2601.05165) | 理论贡献 | MEDIUM |
+| 71 | [On the Impact of Channel Aging and Doppler-Affected Clutter on OFDM IS...](https://arxiv.org/abs/2601.05032) | 融合整合 | MEDIUM |
+| 72 | [Zak-OTFS ISAC with Bistatic Sensing via Semi-Blind Atomic Norm Denoisi...](https://arxiv.org/abs/2601.03639) | 理论贡献 | MEDIUM |
+| 73 | [Characterizing ISCI in Multi-carrier ISAC Systems over Doubly Dispersi...](https://arxiv.org/abs/2511.09163) | 理论贡献 | MEDIUM |
+| 74 | [A Rate-Distortion Bound for ISAC](https://arxiv.org/abs/2510.08487) | 理论贡献 | MEDIUM |
+| 75 | [Pilot design, channel estimation, and target detection for integrated ...](https://arxiv.org/abs/2509.25846) | 融合整合 | HIGH |
+| 76 | [Coordinated FMCW and OFDM for Integrated Sensing and Communication](https://arxiv.org/abs/2509.25750) | 增量改进 | MEDIUM |
+| 77 | [CSIYOLO: An Intelligent CSI-based Scatter Sensing Framework for Integr...](https://arxiv.org/abs/2509.19335) | 全新方法 | MEDIUM |
+| 78 | [Deep Learning-based Techniques for Integrated Sensing and Communicatio...](https://arxiv.org/abs/2509.06968) | 理论贡献 | MEDIUM |
+| 79 | [Adaptive Phase-Shifted Pilot Design for Uplink Multiple Access in ISAC...](https://arxiv.org/abs/2508.02334) | 融合整合 | HIGH |
+| 80 | [CARTS: Cooperative and Adaptive Resource Triggering and Stitching for ...](https://arxiv.org/abs/2507.13676) | 理论贡献 | MEDIUM |
+| 81 | [Novel Approach to Dual-Channel Estimation in Integrated Sensing and Co...](https://arxiv.org/abs/2507.12221) | 融合整合 | MEDIUM |
+| 82 | [SDR-Empowered Environment Sensing Design and Experimental Validation U...](https://arxiv.org/abs/2507.01427) | 全新方法 | MEDIUM |
+| 83 | [Off-grid Variational Bayesian Parameter Estimation for Fractional Dela...](https://arxiv.org/abs/2607.17001) | 理论贡献 | MEDIUM |
+| 84 | [CisLunarSense: Opportunistic ISAC for Debris Detection at the Lunar Ga...](https://arxiv.org/abs/2604.10807) | 理论贡献 | MEDIUM |
+| 85 | [A Simultaneous Clustering and Tracking Algorithm for Capturing Cluster...](https://arxiv.org/abs/2607.04664) | 融合整合 | MEDIUM |
+| 86 | [Inverse Learning assisted V2I Communication for Intent Based 6G ISAC V...](https://arxiv.org/abs/2606.13091) | 全新方法 | MEDIUM |
+| 87 | [ISAC Privacy: Challenges and Solutions for 6G](https://arxiv.org/abs/2605.28325) | 融合整合 | MEDIUM |
+| 88 | [Gaussian Process-Based Extended Object Estimation for 6G ISAC at Milli...](https://arxiv.org/abs/2605.26915) | 融合整合 | MEDIUM |
+| 89 | [SimART: A Unified and Open Real-world Multimodal Simulation Platform f...](https://arxiv.org/abs/2605.13309) | 融合整合 | MEDIUM |
+| 90 | [Networked Tracking of Multiple Moving Targets in 6G Network](https://arxiv.org/abs/2604.19709) | 全新方法 | MEDIUM |
+| 91 | [ISAC-Enabled Non-Terrestrial Networks for 6G: Design Principles, Stand...](https://arxiv.org/abs/2604.11593) | 融合整合 | MEDIUM |
+| 92 | [Enabling Large-Scale Channel Sounding for 6G: A Framework for Sparse S...](https://arxiv.org/abs/2602.05405) | 全新方法 | MEDIUM |
+| 93 | [System-Level Comparison of Multimodal and In-Band mmWave Sensing for B...](https://arxiv.org/abs/2601.01033) | 统一框架 | MEDIUM |
+| 94 | [Retroreflective Optical ISAC for 6G: Technologies, Applications and Fu...](https://arxiv.org/abs/2512.01275) | 融合整合 | MEDIUM |
+| 95 | [SCOPE: Sidelobe-Controlled Off-grid Profile Estimation for Multiband M...](https://arxiv.org/abs/2607.10549) | 融合整合 | MEDIUM |
+| 96 | [CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Auto...](https://arxiv.org/abs/2607.10394) | 融合整合 | MEDIUM |
+| 97 | [Fused Constrained Policy Reuse Optimization for Wireless Resource Allo...](https://arxiv.org/abs/2607.09498) | 理论贡献 | MEDIUM |
+| 98 | [GDPR-Aware Trajectory Sharing for ISAC-Assisted Robot Navigation: A Ca...](https://arxiv.org/abs/2607.03254) | 融合整合 | MEDIUM |
+| 99 | [Hybrid TRP-UE Sensing for Enhanced Target Localization](https://arxiv.org/abs/2606.20413) | 融合整合 | MEDIUM |
+| 100 | [SNF-PRP: A Covert Integrating Sensing and Communications Framework](https://arxiv.org/abs/2606.03960) | 融合整合 | MEDIUM |
+| 101 | [DMSNet: Cross-Band Learning for Multi-Target Sensing in Multi-Band ISA...](https://arxiv.org/abs/2607.17655) | 融合整合 | MEDIUM |
+| 102 | [Deep Reinforcement Learning for Adaptive Power Allocation in ISAC Syst...](https://arxiv.org/abs/2606.12078) | 融合整合 | MEDIUM |
+| 103 | [Optimizing Tracking Accuracy in Energy-Constrained Multimodal ISAC via...](https://arxiv.org/abs/2604.26330) | 理论贡献 | MEDIUM |
+| 104 | [Gamma-Distributed Geometric Constellation for ISAC: Design and Analysi...](https://arxiv.org/abs/2604.22533) | 理论贡献 | MEDIUM |
+| 105 | [Temporal Graph Neural Network for ISAC Target Detection and Tracking](https://arxiv.org/abs/2604.08306) | 融合整合 | MEDIUM |
+| 106 | [Heterogeneous Mixture-of-Experts for Energy-Efficient Multimodal ISAC ...](https://arxiv.org/abs/2604.06697) | 融合整合 | MEDIUM |
+| 107 | [Learning-Enabled Elastic Network Topology for Distributed ISAC Service...](https://arxiv.org/abs/2512.20722) | 理论贡献 | MEDIUM |
+| 108 | [Target Classification for Integrated Sensing and Communication in Indu...](https://arxiv.org/abs/2512.20154) | 融合整合 | MEDIUM |
+| 109 | [Secure Integrated Sensing and Communication: Information Theory Offers...](https://arxiv.org/abs/2605.08106) | 理论贡献 | MEDIUM |
+| 110 | [Integrated Sensing and Semantic Communication with Adaptive Source-Cha...](https://arxiv.org/abs/2601.12827) | 融合整合 | HIGH |
+| 111 | [Semantic Communication for Rate-Limited Closed-Loop Distributed Commun...](https://arxiv.org/abs/2512.19177) | 融合整合 | HIGH |
+| 112 | [Toward Efficient and Privacy-Aware eHealth Systems: An Integrated Sens...](https://arxiv.org/abs/2510.11514) | 融合整合 | MEDIUM |
+| 113 | [Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Sem...](https://arxiv.org/abs/2507.15800) | 融合整合 | MEDIUM |
+| 114 | [A Unified Cloud-Edge-Terminal Framework for Multimodal Integrated Sens...](https://arxiv.org/abs/2506.22507) | 融合整合 | MEDIUM |
+| 115 | [6G-Enabled Smart Railways](https://arxiv.org/abs/2505.12946) | 融合整合 | MEDIUM |
+| 116 | [Integrated Sensing, Computing, and Semantic Communication with Fluid A...](https://arxiv.org/abs/2504.07656) | 融合整合 | MEDIUM |
+| 117 | [Cramer--Rao Bounds for Magneto-Inductive Integrated Sensing and Commun...](https://arxiv.org/abs/2602.14453) | 理论贡献 | LOW |
+
+## 类别 8: Channel_Estimation_and_CSI
+
+**论文数量**: 25
+**关键词**: field, near field, near, near field isac, field isac
+
+**子类别分布**:
+- Localization_and_Tracking: 6 篇
+- Beamforming_and_Precoding: 5 篇
 - Channel_Estimation_and_CSI: 4 篇
 - Waveform_Design: 3 篇
+- Standardization_and_Architecture: 2 篇
 - Security_and_Privacy: 2 篇
 - Resource_Allocation: 1 篇
 - Full_Duplex_and_NOMA_ISAC: 1 篇
 - RIS_Metasurface_ISAC: 1 篇
-- Standardization_and_Architecture: 1 篇
 
 | # | 标题 | 创新类型 | 置信度 |
 |---|------|----------|--------|
-| 1 | [Movable Subarray-Aided ISAC in Hybrid Near-Far Field Channels](https://arxiv.org/abs/2608.01854) | 融合整合 | MEDIUM |
-| 2 | [Energy-Efficient Target-Aware Hybrid Beamforming for THz Near-Field IS...](https://arxiv.org/abs/2607.15716) | 扩展延伸 | MEDIUM |
-| 3 | [DL-Driven Optimization for ISAC System Equipped With Pinching and Mova...](https://arxiv.org/abs/2605.17629) | 理论贡献 | MEDIUM |
-| 4 | [Sensing-Aided Channel Estimation for Near-Field MIMO ISAC Systems via ...](https://arxiv.org/abs/2607.03224) | 融合整合 | MEDIUM |
-| 5 | [MI-ISAC: Magneto-Inductive Integrated Sensing and Communication in the...](https://arxiv.org/abs/2602.07714) | 融合整合 | MEDIUM |
-| 6 | [Full-Duplex Beamforming Optimization for Near-Field ISAC](https://arxiv.org/abs/2508.14753) | 融合整合 | MEDIUM |
+| 1 | [Sensing-Induced Embodied Communication in the Near Field](https://arxiv.org/abs/2608.08731) | 理论贡献 | MEDIUM |
+| 2 | [Movable Subarray-Aided ISAC in Hybrid Near-Far Field Channels](https://arxiv.org/abs/2608.01854) | 融合整合 | MEDIUM |
+| 3 | [Energy-Efficient Target-Aware Hybrid Beamforming for THz Near-Field IS...](https://arxiv.org/abs/2607.15716) | 扩展延伸 | MEDIUM |
+| 4 | [DL-Driven Optimization for ISAC System Equipped With Pinching and Mova...](https://arxiv.org/abs/2605.17629) | 理论贡献 | MEDIUM |
+| 5 | [Sensing-Aided Channel Estimation for Near-Field MIMO ISAC Systems via ...](https://arxiv.org/abs/2607.03224) | 融合整合 | MEDIUM |
+| 6 | [MI-ISAC: Magneto-Inductive Integrated Sensing and Communication in the...](https://arxiv.org/abs/2602.07714) | 融合整合 | MEDIUM |
 | 7 | [Movable Antenna-Aided Near-Field Integrated Sensing and Communication](https://arxiv.org/abs/2412.19470) | 融合整合 | MEDIUM |
 | 8 | [Rate-Splitting--Inspired Uplink Near-Field ISAC](https://arxiv.org/abs/2606.07091) | 理论贡献 | MEDIUM |
 | 9 | [Propagation Mechanism-Aware Near-Field Spatially Non-Stationary Channe...](https://arxiv.org/abs/2605.01162) | 融合整合 | MEDIUM |
@@ -308,19 +556,17 @@
 | 23 | [Sensing Security in Near-Field ISAC: Exploiting Scatterers for Eavesdr...](https://arxiv.org/abs/2510.20140) | 理论贡献 | MEDIUM |
 | 24 | [Weighted Sum Rate Optimization for Movable Antenna Enabled Near-Field ...](https://arxiv.org/abs/2510.19759) | 融合整合 | MEDIUM |
 | 25 | [Robust Beamforming Design for Secure Near-Field ISAC Systems](https://arxiv.org/abs/2507.12881) | 全新方法 | MEDIUM |
-| 26 | [Near-Field Integrated Sensing and Communication for Multi-Target Indic...](https://arxiv.org/abs/2506.07052) | 融合整合 | MEDIUM |
-| 27 | [The Impact of Uniform Circular Array on Near-field ISAC](https://arxiv.org/abs/2506.00211) | 理论贡献 | MEDIUM |
 
-## 类别 6: Full_Duplex_and_NOMA_ISAC
+## 类别 9: Full_Duplex_and_NOMA_ISAC
 
-**论文数量**: 18
-**关键词**: cell free, cell, free, distributed, aps
+**论文数量**: 14
+**关键词**: cell free, cell, free, cf, massive
 
 **子类别分布**:
-- Localization_and_Tracking: 4 篇
-- Standardization_and_Architecture: 4 篇
 - Waveform_Design: 3 篇
 - Beamforming_and_Precoding: 3 篇
+- Standardization_and_Architecture: 2 篇
+- Localization_and_Tracking: 2 篇
 - Security_and_Privacy: 1 篇
 - Channel_Estimation_and_CSI: 1 篇
 - Machine_Learning_for_ISAC: 1 篇
@@ -328,36 +574,32 @@
 
 | # | 标题 | 创新类型 | 置信度 |
 |---|------|----------|--------|
-| 1 | [Tracking-Assisted Robust Secure Transmission Against a Mobile Eavesdro...](https://arxiv.org/abs/2608.06781) | 融合整合 | MEDIUM |
-| 2 | [Green Cell-Free Massive MIMO for ISAC: Joint Cloud, Fronthaul and Radi...](https://arxiv.org/abs/2607.27778) | 融合整合 | HIGH |
-| 3 | [Twin-in-the-Loop Optimization and Fundamental Limits of Position--Velo...](https://arxiv.org/abs/2606.15688) | 理论贡献 | MEDIUM |
-| 4 | [A Comparison Between Co-Located and Distributed MIMO Deployments in OF...](https://arxiv.org/abs/2605.05059) | 理论贡献 | MEDIUM |
-| 5 | [Low-Complexity Hybrid Precoding for Cell-Free Massive MU-MIMO ISAC Sys...](https://arxiv.org/abs/2606.23709) | 融合整合 | HIGH |
-| 6 | [Joint Detection and Velocity Estimation in OFDM-ISAC Cell-Free Massive...](https://arxiv.org/abs/2604.18056) | 理论贡献 | MEDIUM |
-| 7 | [Secure Cell-Free Massive MIMO ISAC Systems: Joint AP Selection and Pow...](https://arxiv.org/abs/2603.18635) | 理论贡献 | HIGH |
-| 8 | [Cooperative ISAC for Joint Localization and Velocity Estimation in Cel...](https://arxiv.org/abs/2602.20319) | 统一框架 | HIGH |
-| 9 | [Robust Beamforming and Time Allocation for Time-Division Cell-Free Nea...](https://arxiv.org/abs/2601.12725) | 融合整合 | MEDIUM |
-| 10 | [Cooperative Sensing in Cell-free Massive MIMO ISAC Systems: Performanc...](https://arxiv.org/abs/2506.23473) | 融合整合 | HIGH |
-| 11 | [Detecting Unauthorized Drones with Cell-Free Integrated Sensing and Co...](https://arxiv.org/abs/2501.15227) | 融合整合 | HIGH |
-| 12 | [Pilot-Free Predictive Multi-User Beamforming via Sensing Management in...](https://arxiv.org/abs/2604.19660) | 理论贡献 | MEDIUM |
-| 13 | [Integrated Massive Communication and Target Localization in 6G Cell-Fr...](https://arxiv.org/abs/2510.14281) | 融合整合 | HIGH |
-| 14 | [Sensing Management for Pilot-Free Predictive Beamforming in Cell-Free ...](https://arxiv.org/abs/2510.06936) | 融合整合 | MEDIUM |
-| 15 | [Conditional Denoising Diffusion for ISAC Enhanced Channel Estimation i...](https://arxiv.org/abs/2506.06942) | 融合整合 | HIGH |
-| 16 | [Set Transformer-Based Beamforming Design for Cell-Free Integrated Sens...](https://arxiv.org/abs/2603.23618) | 融合整合 | MEDIUM |
-| 17 | [Learning-Enabled Elastic Network Topology for Distributed ISAC Service...](https://arxiv.org/abs/2512.20722) | 理论贡献 | MEDIUM |
-| 18 | [Cell-Free Integrated Sensing and Communication](https://arxiv.org/abs/2606.18488) | 融合整合 | MEDIUM |
+| 1 | [Green Cell-Free Massive MIMO for ISAC: Joint Cloud, Fronthaul and Radi...](https://arxiv.org/abs/2607.27778) | 融合整合 | HIGH |
+| 2 | [A Comparison Between Co-Located and Distributed MIMO Deployments in OF...](https://arxiv.org/abs/2605.05059) | 理论贡献 | MEDIUM |
+| 3 | [Low-Complexity Hybrid Precoding for Cell-Free Massive MU-MIMO ISAC Sys...](https://arxiv.org/abs/2606.23709) | 融合整合 | HIGH |
+| 4 | [Joint Detection and Velocity Estimation in OFDM-ISAC Cell-Free Massive...](https://arxiv.org/abs/2604.18056) | 理论贡献 | MEDIUM |
+| 5 | [Secure Cell-Free Massive MIMO ISAC Systems: Joint AP Selection and Pow...](https://arxiv.org/abs/2603.18635) | 理论贡献 | HIGH |
+| 6 | [Robust Beamforming and Time Allocation for Time-Division Cell-Free Nea...](https://arxiv.org/abs/2601.12725) | 融合整合 | MEDIUM |
+| 7 | [Cooperative Sensing in Cell-free Massive MIMO ISAC Systems: Performanc...](https://arxiv.org/abs/2506.23473) | 融合整合 | HIGH |
+| 8 | [Detecting Unauthorized Drones with Cell-Free Integrated Sensing and Co...](https://arxiv.org/abs/2501.15227) | 融合整合 | HIGH |
+| 9 | [Pilot-Free Predictive Multi-User Beamforming via Sensing Management in...](https://arxiv.org/abs/2604.19660) | 理论贡献 | MEDIUM |
+| 10 | [Integrated Massive Communication and Target Localization in 6G Cell-Fr...](https://arxiv.org/abs/2510.14281) | 融合整合 | HIGH |
+| 11 | [Sensing Management for Pilot-Free Predictive Beamforming in Cell-Free ...](https://arxiv.org/abs/2510.06936) | 融合整合 | MEDIUM |
+| 12 | [Conditional Denoising Diffusion for ISAC Enhanced Channel Estimation i...](https://arxiv.org/abs/2506.06942) | 融合整合 | HIGH |
+| 13 | [Set Transformer-Based Beamforming Design for Cell-Free Integrated Sens...](https://arxiv.org/abs/2603.23618) | 融合整合 | MEDIUM |
+| 14 | [Cell-Free Integrated Sensing and Communication](https://arxiv.org/abs/2606.18488) | 融合整合 | MEDIUM |
 
-## 类别 7: Beamforming_and_Precoding
+## 类别 10: Beamforming_and_Precoding
 
 **论文数量**: 21
-**关键词**: mimo, multiple input multiple, input multiple output, multiple output, multiple input
+**关键词**: mimo, multiple input, input multiple output, input multiple, multiple input multiple
 
 **子类别分布**:
+- Standardization_and_Architecture: 5 篇
 - Waveform_Design: 4 篇
-- Standardization_and_Architecture: 4 篇
-- Beamforming_and_Precoding: 4 篇
 - RIS_Metasurface_ISAC: 3 篇
 - Localization_and_Tracking: 3 篇
+- Beamforming_and_Precoding: 3 篇
 - Channel_Estimation_and_CSI: 1 篇
 - Security_and_Privacy: 1 篇
 - Full_Duplex_and_NOMA_ISAC: 1 篇
@@ -371,282 +613,28 @@
 | 5 | [Fundamental Performance Limits of Non-Coherent ISAC: A Data-Aided Sens...](https://arxiv.org/abs/2605.16196) | 理论贡献 | MEDIUM |
 | 6 | [Uplink Signal Detection For Large-Scale MIMO-ISAC Systems](https://arxiv.org/abs/2604.19263) | 统一框架 | MEDIUM |
 | 7 | [Wideband Near-Field Sensing in ISAC: Unified Algorithm Design and Deco...](https://arxiv.org/abs/2603.27726) | 理论贡献 | MEDIUM |
-| 8 | [Optimal Transmit Beamforming for MIMO ISAC with Unknown Target and Use...](https://arxiv.org/abs/2602.08255) | 理论贡献 | HIGH |
-| 9 | [Ultra-Massive MIMO with Orthogonal Chirp Division Multiplexing for Nea...](https://arxiv.org/abs/2512.23246) | 融合整合 | MEDIUM |
-| 10 | [Riemannian Manifold Optimization for Advanced Wireless Communications:...](https://arxiv.org/abs/2602.08225) | 全新方法 | MEDIUM |
-| 11 | [Next-Generation MIMO Transceivers for Integrated Sensing and Communica...](https://arxiv.org/abs/2511.20309) | 融合整合 | MEDIUM |
-| 12 | [Extremely Large Full Duplex MIMO for Simultaneous Downlink Communicati...](https://arxiv.org/abs/2502.10693) | 融合整合 | MEDIUM |
-| 13 | [In-Band Full-Duplex MIMO Systems for Simultaneous Communications and S...](https://arxiv.org/abs/2410.06512) | 融合整合 | MEDIUM |
-| 14 | [Holographic MIMO Empowered NOMA-ISAC for 6G: Rate-Splitting Enhanced N...](https://arxiv.org/abs/2512.19699) | 融合整合 | MEDIUM |
-| 15 | [Near-Field ISAC for THz Wireless Systems](https://arxiv.org/abs/2507.04292) | 融合整合 | MEDIUM |
-| 16 | [Fundamental Limits of Random Downlink Integrated Sensing and Communica...](https://arxiv.org/abs/2607.00912) | 理论贡献 | MEDIUM |
-| 17 | [Extremely Large Antenna Spacing Method for Enhanced Wideband Near-Fiel...](https://arxiv.org/abs/2602.18076) | 理论贡献 | MEDIUM |
-| 18 | [Pioneering Scalable Prototyping for Mid-Band XL-MIMO Systems: Design a...](https://arxiv.org/abs/2510.02793) | 全新方法 | HIGH |
-| 19 | [Near-Field Challenges in Ultra-Wideband ISAC: Beamforming Strategies a...](https://arxiv.org/abs/2508.18810) | 融合整合 | MEDIUM |
+| 8 | [NLOS-Aided Joint OTA Synchronization and Off-Grid Imaging for Distribu...](https://arxiv.org/abs/2603.13981) | 全新方法 | MEDIUM |
+| 9 | [Optimal Transmit Beamforming for MIMO ISAC with Unknown Target and Use...](https://arxiv.org/abs/2602.08255) | 理论贡献 | HIGH |
+| 10 | [Ultra-Massive MIMO with Orthogonal Chirp Division Multiplexing for Nea...](https://arxiv.org/abs/2512.23246) | 融合整合 | MEDIUM |
+| 11 | [Riemannian Manifold Optimization for Advanced Wireless Communications:...](https://arxiv.org/abs/2602.08225) | 全新方法 | MEDIUM |
+| 12 | [Next-Generation MIMO Transceivers for Integrated Sensing and Communica...](https://arxiv.org/abs/2511.20309) | 融合整合 | MEDIUM |
+| 13 | [Extremely Large Full Duplex MIMO for Simultaneous Downlink Communicati...](https://arxiv.org/abs/2502.10693) | 融合整合 | MEDIUM |
+| 14 | [In-Band Full-Duplex MIMO Systems for Simultaneous Communications and S...](https://arxiv.org/abs/2410.06512) | 融合整合 | MEDIUM |
+| 15 | [Holographic MIMO Empowered NOMA-ISAC for 6G: Rate-Splitting Enhanced N...](https://arxiv.org/abs/2512.19699) | 融合整合 | MEDIUM |
+| 16 | [Near-Field ISAC for THz Wireless Systems](https://arxiv.org/abs/2507.04292) | 融合整合 | MEDIUM |
+| 17 | [Fundamental Limits of Random Downlink Integrated Sensing and Communica...](https://arxiv.org/abs/2607.00912) | 理论贡献 | MEDIUM |
+| 18 | [Extremely Large Antenna Spacing Method for Enhanced Wideband Near-Fiel...](https://arxiv.org/abs/2602.18076) | 理论贡献 | MEDIUM |
+| 19 | [Pioneering Scalable Prototyping for Mid-Band XL-MIMO Systems: Design a...](https://arxiv.org/abs/2510.02793) | 全新方法 | HIGH |
 | 20 | [Energy-Efficient Hybrid Beamfocusing for Near-Field Integrated Sensing...](https://arxiv.org/abs/2508.04627) | 理论贡献 | MEDIUM |
 | 21 | [Frequency Range 3 for ISAC in 6G: Potentials and Challenges](https://arxiv.org/abs/2506.18243) | 融合整合 | MEDIUM |
-
-## 类别 8: Standardization_and_Architecture
-
-**论文数量**: 33
-**关键词**: uav, altitude, low altitude, aerial, unmanned aerial
-
-**子类别分布**:
-- Localization_and_Tracking: 9 篇
-- Beamforming_and_Precoding: 6 篇
-- Security_and_Privacy: 4 篇
-- Standardization_and_Architecture: 4 篇
-- Waveform_Design: 3 篇
-- Resource_Allocation: 3 篇
-- RIS_Metasurface_ISAC: 2 篇
-- Channel_Estimation_and_CSI: 1 篇
-- Machine_Learning_for_ISAC: 1 篇
-
-| # | 标题 | 创新类型 | 置信度 |
-|---|------|----------|--------|
-| 1 | [DRL-Based Secure Transmission for Rotatable Antenna-Enabled Low-Altitu...](https://arxiv.org/abs/2608.07170) | 融合整合 | MEDIUM |
-| 2 | [5G ISAC-Based UAV Detection and 3-D Tracking Using Uplink Sounding Ref...](https://arxiv.org/abs/2608.05826) | 统一框架 | MEDIUM |
-| 3 | [Security in Low-Altitude ISAC with Coupled Communication and Sensing I...](https://arxiv.org/abs/2608.01086) | 融合整合 | MEDIUM |
-| 4 | [UAV Swarming for Air-Ground ISAC via Cross-Region Cooperation](https://arxiv.org/abs/2607.26679) | 理论贡献 | MEDIUM |
-| 5 | [Wireless Imaging for Low-Altitude Surveillance: A New Paradigm for ISA...](https://arxiv.org/abs/2608.00062) | 融合整合 | MEDIUM |
-| 6 | [ISAC and Vision Fusion for Fine-Grained Low-Altitude Target Recognitio...](https://arxiv.org/abs/2607.23789) | 融合整合 | HIGH |
-| 7 | [ISAC-Enabled On-Demand UAV Charging for Wireless Rechargeable Sensor N...](https://arxiv.org/abs/2607.23572) | 融合整合 | MEDIUM |
-| 8 | [Mobile Tracking via Target-Mounted IRS-Assisted ISAC System](https://arxiv.org/abs/2607.23005) | 理论贡献 | MEDIUM |
-| 9 | [CRB-Driven Beamforming and Trajectory Optimization for UAV-assisted IS...](https://arxiv.org/abs/2607.19609) | 融合整合 | MEDIUM |
-| 10 | [Low-Altitude UAV-Assisted Bistatic ISAC: Closed-form 3D CRLB and Cover...](https://arxiv.org/abs/2607.18766) | 理论贡献 | MEDIUM |
-| 11 | [On Secure EKF-enhanced UAV-ISAC Systems](https://arxiv.org/abs/2606.03690) | 融合整合 | MEDIUM |
-| 12 | [Curriculum-Guided Heterogeneous Multi-Agent Intelligence for Multi-UAV...](https://arxiv.org/abs/2605.17905) | 融合整合 | HIGH |
-| 13 | [6DMA-Enabled ISAC for Low-Altitude Economy](https://arxiv.org/abs/2605.03088) | 融合整合 | MEDIUM |
-| 14 | [Joint Hybrid Beamforming and Trajectory Design for Multi-UAV-Enabled C...](https://arxiv.org/abs/2604.24600) | 融合整合 | MEDIUM |
-| 15 | [Adaptive 5G Resource Allocation for Multistatic ISAC-Based UAV Detecti...](https://arxiv.org/abs/2606.21677) | 理论贡献 | MEDIUM |
-| 16 | [MIMO OFDM-Enabled ISAC for Low-Altitude Non-Cooperative UAV Surveillan...](https://arxiv.org/abs/2604.02680) | 全新方法 | MEDIUM |
-| 17 | [Clutter-Resilient ISAC for Low-Altitude Wireless Networks: A 5G Base S...](https://arxiv.org/abs/2603.14351) | 融合整合 | MEDIUM |
-| 18 | [AI-Empowered UAV-Assisted Backscatter Localization and ISAC for Zero-E...](https://arxiv.org/abs/2606.23125) | 融合整合 | MEDIUM |
-| 19 | [UAV-Assisted 6G Communication Networks for Railways: Technologies, App...](https://arxiv.org/abs/2602.09536) | 融合整合 | MEDIUM |
-| 20 | [Securing Integrated Sensing and Communication Against a Mobile Adversa...](https://arxiv.org/abs/2501.02271) | 融合整合 | MEDIUM |
-| 21 | [ISAC-Enabled Multi-UAV Collaborative Target Sensing for Low-Altitude E...](https://arxiv.org/abs/2603.11502) | 理论贡献 | MEDIUM |
-| 22 | [Cooperative ISAC for LAE: Joint Trajectory Planning, Power allocation,...](https://arxiv.org/abs/2511.13006) | 融合整合 | MEDIUM |
-| 23 | [Advancements in UAV-based Integrated Sensing and Communication: A Comp...](https://arxiv.org/abs/2501.06526) | 融合整合 | MEDIUM |
-| 24 | [Reliable UAV Detection with ISAC](https://arxiv.org/abs/2605.23561) | 融合整合 | MEDIUM |
-| 25 | [LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Com...](https://arxiv.org/abs/2607.03826) | 融合整合 | MEDIUM |
-| 26 | [Queue-Aware Graph Reinforcement Learning for UAV-ISAC-Assisted Maritim...](https://arxiv.org/abs/2607.00324) | 理论贡献 | MEDIUM |
-| 27 | [Integrated Sensing and Covert Communication In Low-Altitude Networks: ...](https://arxiv.org/abs/2606.02077) | 融合整合 | MEDIUM |
-| 28 | [UAV-based Energy-Efficient Data Collection in Smart Grids with ISAC Qo...](https://arxiv.org/abs/2605.22490) | 融合整合 | MEDIUM |
-| 29 | [AirGuard: UAV and Bird Recognition Scheme for Integrated Sensing and C...](https://arxiv.org/abs/2603.13112) | 融合整合 | MEDIUM |
-| 30 | [Learning Beamforming for Pinching Antenna System-Enabled ISAC in Low-A...](https://arxiv.org/abs/2512.04293) | 融合整合 | MEDIUM |
-| 31 | [Low-Altitude Agentic Networks for Optical Wireless Communication and S...](https://arxiv.org/abs/2603.04042) | 融合整合 | MEDIUM |
-| 32 | [From Ground to Sky: Architectures, Applications, and Challenges Shapin...](https://arxiv.org/abs/2506.12308) | 融合整合 | MEDIUM |
-| 33 | [Perception-Enhanced Multitask Multimodal Semantic Communication for UA...](https://arxiv.org/abs/2503.19594) | 融合整合 | HIGH |
-
-## 类别 9: Waveform_Design
-
-**论文数量**: 89
-**关键词**: channel, estimation, systems, based, target
-
-**子类别分布**:
-- Waveform_Design: 32 篇
-- Localization_and_Tracking: 21 篇
-- Standardization_and_Architecture: 7 篇
-- Beamforming_and_Precoding: 6 篇
-- Channel_Estimation_and_CSI: 6 篇
-- RIS_Metasurface_ISAC: 5 篇
-- Resource_Allocation: 4 篇
-- Full_Duplex_and_NOMA_ISAC: 3 篇
-- Machine_Learning_for_ISAC: 3 篇
-- Security_and_Privacy: 2 篇
-
-| # | 标题 | 创新类型 | 置信度 |
-|---|------|----------|--------|
-| 1 | [Sub-Sampling for Positioning Privacy in ISAC: Deception by Aliasing vi...](https://arxiv.org/abs/2608.07206) | 理论贡献 | MEDIUM |
-| 2 | [Task-Oriented Candidate-Latent Feedback for Coarse-to-Fine Sensing in ...](https://arxiv.org/abs/2608.03319) | 融合整合 | MEDIUM |
-| 3 | [Geometry-Aware Resource Allocation for Network-Level ISAC Systems](https://arxiv.org/abs/2607.29060) | 理论贡献 | MEDIUM |
-| 4 | [CRLB-Driven Beamforming and Power Allocation for Multi-BS Cooperative ...](https://arxiv.org/abs/2607.28224) | 理论贡献 | MEDIUM |
-| 5 | [MVLA-GR: A Phase-Free Multipath-Based Geometry Reconstruction Method v...](https://arxiv.org/abs/2607.26421) | 融合整合 | HIGH |
-| 6 | [Resource-Aware Topology Management for ISAC-Enabled TDOA Localization ...](https://arxiv.org/abs/2607.24028) | 融合整合 | HIGH |
-| 7 | [Beyond Point Targets: Experimental Analysis of Frequency Anisotropy fo...](https://arxiv.org/abs/2607.20994) | 全新方法 | MEDIUM |
-| 8 | [Fundamental Limits of MIMO-OTFS and MIMO-OFDM in High-Dynamics ISAC: A...](https://arxiv.org/abs/2607.20200) | 理论贡献 | MEDIUM |
-| 9 | [Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistati...](https://arxiv.org/abs/2607.20108) | 全新方法 | MEDIUM |
-| 10 | [Temporal Broadening-Aware Multiplexing for Joint Sensing and Communica...](https://arxiv.org/abs/2607.20074) | 增量改进 | HIGH |
-| 11 | [Joint Synchronization and Sensing in Networked ISAC via Structured Can...](https://arxiv.org/abs/2607.18680) | 融合整合 | HIGH |
-| 12 | [Transmissive RIS Transceiver-Empowered ISAC Systems: Energy Efficiency...](https://arxiv.org/abs/2607.17475) | 全新方法 | MEDIUM |
-| 13 | [Fundamental Sensing Limits of 6G Cooperative MIMO-ISAC Networks: Joint...](https://arxiv.org/abs/2607.08510) | 理论贡献 | MEDIUM |
-| 14 | [6G Sensing Security: Distributed Game-Theoretic RL for Urban Beamformi...](https://arxiv.org/abs/2607.06115) | 融合整合 | MEDIUM |
-| 15 | [BASIIS: Bistatic Angular Sampling and Interpolation for ISAC Setups](https://arxiv.org/abs/2606.17718) | 理论贡献 | MEDIUM |
-| 16 | [Noncoherent ISAC over Block-Fading Channels: Asymptotic Performance An...](https://arxiv.org/abs/2606.14400) | 理论贡献 | MEDIUM |
-| 17 | [Joint Mobile User Positioning and Passive Target Sensing using Optimiz...](https://arxiv.org/abs/2605.15808) | 理论贡献 | MEDIUM |
-| 18 | [DFT-p-FDMA Based Chirp Transmission in CP-OFDM for Unified ISAC Wavefo...](https://arxiv.org/abs/2607.15575) | 融合整合 | MEDIUM |
-| 19 | [Amplitude-Phase-Frequency Block Modulation for OFDM-ISAC with SI-Free ...](https://arxiv.org/abs/2606.20011) | 融合整合 | MEDIUM |
-| 20 | [On the Feasibility of Passive Bistatic ISAC Based on Unmodified LoRa](https://arxiv.org/abs/2606.14293) | 理论贡献 | MEDIUM |
-| 21 | [ISAC-Enabled Grant-Free Uplink via Artificial-Path Delay Modulation](https://arxiv.org/abs/2605.31366) | 理论贡献 | MEDIUM |
-| 22 | [On Unified CRLB Framework from Generic Signals to ISAC Waveforms with ...](https://arxiv.org/abs/2605.28547) | 理论贡献 | MEDIUM |
-| 23 | [CP-OFDM Achieves Lower Ranging CRB Than Frequency-Spread Waveforms in ...](https://arxiv.org/abs/2605.14451) | 理论贡献 | MEDIUM |
-| 24 | [Waveform Design for 6G ISAC Systems Under Full-Duplex Residual Self-In...](https://arxiv.org/abs/2605.02157) | 融合整合 | MEDIUM |
-| 25 | [Cramér-Rao Bound Analysis of Bistatic ISAC Under Partial Symbol Knowle...](https://arxiv.org/abs/2604.11426) | 理论贡献 | MEDIUM |
-| 26 | [CRB-Based Waveform Optimization for MIMO ISAC Systems With One-Bit ADC...](https://arxiv.org/abs/2604.07150) | 理论贡献 | MEDIUM |
-| 27 | [Constellation Selection and Power Control for OFDM-based ISAC: From Th...](https://arxiv.org/abs/2603.03895) | 理论贡献 | MEDIUM |
-| 28 | [From Coverage to Sensing: ISAC meets FR3](https://arxiv.org/abs/2605.18120) | 全新方法 | MEDIUM |
-| 29 | [NLOS-Aided Joint OTA Synchronization and Off-Grid Imaging for Distribu...](https://arxiv.org/abs/2603.13981) | 全新方法 | MEDIUM |
-| 30 | [Extended Target Sensing in MIMO-OFDM ISAC Systems: Modeling, Optimizat...](https://arxiv.org/abs/2603.13580) | 理论贡献 | MEDIUM |
-| 31 | [Standard Condition Number-Based Detection for MIMO ISAC Systems under ...](https://arxiv.org/abs/2603.11516) | 理论贡献 | MEDIUM |
-| 32 | [Clutter-Aware Integrated Sensing and Communication: Models, Methods, a...](https://arxiv.org/abs/2602.10537) | 融合整合 | MEDIUM |
-| 33 | [Message Passing based Parameter Estimation in Cooperative MIMO-OFDM IS...](https://arxiv.org/abs/2602.07365) | 融合整合 | MEDIUM |
-| 34 | [OFDM-Based ISAC Imaging of Extended Targets via Inverse Virtual Apertu...](https://arxiv.org/abs/2601.16664) | 融合整合 | MEDIUM |
-| 35 | [Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable I...](https://arxiv.org/abs/2601.04488) | 融合整合 | MEDIUM |
-| 36 | [A Comprehensive Survey of Channel Estimation Techniques for OTFS in 6G...](https://arxiv.org/abs/2512.13032) | 融合整合 | MEDIUM |
-| 37 | [Stacked Intelligent Metasurfaces for Multicarrier Cognitive Radio ISAC](https://arxiv.org/abs/2511.13933) | 理论贡献 | MEDIUM |
-| 38 | [Experimental Validation of SBFD ISAC in an FR3 Distributed SIMO Testbe...](https://arxiv.org/abs/2602.00054) | 融合整合 | MEDIUM |
-| 39 | [Resilient Full-Duplex ISAC in the Face of Imperfect SI Cancellation: G...](https://arxiv.org/abs/2510.15810) | 融合整合 | MEDIUM |
-| 40 | [Full Duplex ISAC with Cluster Ray Targets: Parameter Estimation and Be...](https://arxiv.org/abs/2510.12711) | 全新方法 | MEDIUM |
-| 41 | [Bistatic Sensing in 5G NR](https://arxiv.org/abs/2505.12555) | 理论贡献 | MEDIUM |
-| 42 | [Proportional-Fair Joint User Grouping and Power Allocation for Uplink ...](https://arxiv.org/abs/2606.29269) | 融合整合 | MEDIUM |
-| 43 | [Phase-Shifted Pilot Design for NOMA-Empowered Uplink ISAC Systems](https://arxiv.org/abs/2604.01721) | 融合整合 | MEDIUM |
-| 44 | [Blocker-Aware Beamforming and Dynamic Power Allocation for Multicarrie...](https://arxiv.org/abs/2511.06270) | 融合整合 | MEDIUM |
-| 45 | [Two-Timescale Learning for Pilot-Free ISAC Systems](https://arxiv.org/abs/2508.17749) | 融合整合 | MEDIUM |
-| 46 | [Performance Analysis of Pair-wise Symbol Detection in Uplink NOMA-ISaC...](https://arxiv.org/abs/2408.17449) | 理论贡献 | MEDIUM |
-| 47 | [Beyond Single-Band: Analysis and Resource Allocation for Multi-band IS...](https://arxiv.org/abs/2607.08068) | 理论贡献 | MEDIUM |
-| 48 | [MJSAC: McCormick Relaxation-based Waveform Design for Joint Sensing an...](https://arxiv.org/abs/2606.11351) | 全新方法 | MEDIUM |
-| 49 | [Uplink Networked Sensing via Multiuser Correlation Exploitation](https://arxiv.org/abs/2603.16442) | 全新方法 | MEDIUM |
-| 50 | [ISAC-Powered Distributed Matching and Resource Allocation in Multi-ban...](https://arxiv.org/abs/2512.02843) | 融合整合 | MEDIUM |
-| 51 | [Communication via Sensing](https://arxiv.org/abs/2506.23000) | 理论贡献 | HIGH |
-| 52 | [Optimal User and Target Scheduling, User-Target Pairing, and Low-Resol...](https://arxiv.org/abs/2501.11593) | 融合整合 | MEDIUM |
-| 53 | [Fuse-then-Detect for Passive UAV Localization Using Multi-UE 5G Uplink...](https://arxiv.org/abs/2607.11955) | 融合整合 | MEDIUM |
-| 54 | [Waveform Design for Partial-Time Superimposed ISAC Systems](https://arxiv.org/abs/2602.20353) | 理论贡献 | MEDIUM |
-| 55 | [Sensing Mutual Information for Communication Signal with Deterministic...](https://arxiv.org/abs/2601.11149) | 理论贡献 | HIGH |
-| 56 | [Fundamental Tradeoffs for ISAC Multiple Access in Finite-Blocklength R...](https://arxiv.org/abs/2601.05165) | 理论贡献 | MEDIUM |
-| 57 | [On the Impact of Channel Aging and Doppler-Affected Clutter on OFDM IS...](https://arxiv.org/abs/2601.05032) | 融合整合 | MEDIUM |
-| 58 | [Zak-OTFS ISAC with Bistatic Sensing via Semi-Blind Atomic Norm Denoisi...](https://arxiv.org/abs/2601.03639) | 理论贡献 | MEDIUM |
-| 59 | [Characterizing ISCI in Multi-carrier ISAC Systems over Doubly Dispersi...](https://arxiv.org/abs/2511.09163) | 理论贡献 | MEDIUM |
-| 60 | [A Rate-Distortion Bound for ISAC](https://arxiv.org/abs/2510.08487) | 理论贡献 | MEDIUM |
-| 61 | [Pilot design, channel estimation, and target detection for integrated ...](https://arxiv.org/abs/2509.25846) | 融合整合 | HIGH |
-| 62 | [Coordinated FMCW and OFDM for Integrated Sensing and Communication](https://arxiv.org/abs/2509.25750) | 增量改进 | MEDIUM |
-| 63 | [CSIYOLO: An Intelligent CSI-based Scatter Sensing Framework for Integr...](https://arxiv.org/abs/2509.19335) | 全新方法 | MEDIUM |
-| 64 | [Adaptive Phase-Shifted Pilot Design for Uplink Multiple Access in ISAC...](https://arxiv.org/abs/2508.02334) | 融合整合 | HIGH |
-| 65 | [CARTS: Cooperative and Adaptive Resource Triggering and Stitching for ...](https://arxiv.org/abs/2507.13676) | 理论贡献 | MEDIUM |
-| 66 | [Novel Approach to Dual-Channel Estimation in Integrated Sensing and Co...](https://arxiv.org/abs/2507.12221) | 融合整合 | MEDIUM |
-| 67 | [SDR-Empowered Environment Sensing Design and Experimental Validation U...](https://arxiv.org/abs/2507.01427) | 全新方法 | MEDIUM |
-| 68 | [Off-grid Variational Bayesian Parameter Estimation for Fractional Dela...](https://arxiv.org/abs/2607.17001) | 理论贡献 | MEDIUM |
-| 69 | [CellSense: A Sub-6 GHz Cellular ISAC System for Clutter-Robust Passive...](https://arxiv.org/abs/2606.07900) | 融合整合 | MEDIUM |
-| 70 | [Enabling Indoor Multi-Person Tracking With 6G mmWave ISAC Systems](https://arxiv.org/abs/2605.03333) | 融合整合 | MEDIUM |
-| 71 | [CisLunarSense: Opportunistic ISAC for Debris Detection at the Lunar Ga...](https://arxiv.org/abs/2604.10807) | 理论贡献 | MEDIUM |
-| 72 | [A Simultaneous Clustering and Tracking Algorithm for Capturing Cluster...](https://arxiv.org/abs/2607.04664) | 融合整合 | MEDIUM |
-| 73 | [Inverse Learning assisted V2I Communication for Intent Based 6G ISAC V...](https://arxiv.org/abs/2606.13091) | 全新方法 | MEDIUM |
-| 74 | [Gaussian Process-Based Extended Object Estimation for 6G ISAC at Milli...](https://arxiv.org/abs/2605.26915) | 融合整合 | MEDIUM |
-| 75 | [Networked Tracking of Multiple Moving Targets in 6G Network](https://arxiv.org/abs/2604.19709) | 全新方法 | MEDIUM |
-| 76 | [SAR/ISAR Imaging in 6G Network](https://arxiv.org/abs/2604.00583) | 全新方法 | HIGH |
-| 77 | [Enabling Large-Scale Channel Sounding for 6G: A Framework for Sparse S...](https://arxiv.org/abs/2602.05405) | 全新方法 | MEDIUM |
-| 78 | [Enabling NLOS Imaging Capabilities at the Initial Access of 6G Base St...](https://arxiv.org/abs/2511.15416) | 理论贡献 | MEDIUM |
-| 79 | [SCOPE: Sidelobe-Controlled Off-grid Profile Estimation for Multiband M...](https://arxiv.org/abs/2607.10549) | 融合整合 | MEDIUM |
-| 80 | [CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Auto...](https://arxiv.org/abs/2607.10394) | 融合整合 | MEDIUM |
-| 81 | [Hybrid TRP-UE Sensing for Enhanced Target Localization](https://arxiv.org/abs/2606.20413) | 融合整合 | MEDIUM |
-| 82 | [SNF-PRP: A Covert Integrating Sensing and Communications Framework](https://arxiv.org/abs/2606.03960) | 融合整合 | MEDIUM |
-| 83 | [DMSNet: Cross-Band Learning for Multi-Target Sensing in Multi-Band ISA...](https://arxiv.org/abs/2607.17655) | 融合整合 | MEDIUM |
-| 84 | [Gamma-Distributed Geometric Constellation for ISAC: Design and Analysi...](https://arxiv.org/abs/2604.22533) | 理论贡献 | MEDIUM |
-| 85 | [Temporal Graph Neural Network for ISAC Target Detection and Tracking](https://arxiv.org/abs/2604.08306) | 融合整合 | MEDIUM |
-| 86 | [Millimeter-Wave Gesture Recognition in ISAC: Does Reducing Sensing Air...](https://arxiv.org/abs/2601.10733) | 融合整合 | MEDIUM |
-| 87 | [Diffusion Model-Enhanced Environment Reconstruction in ISAC](https://arxiv.org/abs/2511.19044) | 融合整合 | HIGH |
-| 88 | [Delay Alignment Modulation for Secure ISAC Systems](https://arxiv.org/abs/2602.21114) | 全新方法 | MEDIUM |
-| 89 | [Cramer--Rao Bounds for Magneto-Inductive Integrated Sensing and Commun...](https://arxiv.org/abs/2602.14453) | 理论贡献 | LOW |
-
-## 类别 10: Standardization_and_Architecture
-
-**论文数量**: 73
-**关键词**: 6g, networks, data, wireless, learning
-
-**子类别分布**:
-- Standardization_and_Architecture: 27 篇
-- Waveform_Design: 8 篇
-- Resource_Allocation: 8 篇
-- Security_and_Privacy: 7 篇
-- Localization_and_Tracking: 7 篇
-- Machine_Learning_for_ISAC: 4 篇
-- RIS_Metasurface_ISAC: 4 篇
-- Channel_Estimation_and_CSI: 3 篇
-- Beamforming_and_Precoding: 3 篇
-- Full_Duplex_and_NOMA_ISAC: 2 篇
-
-| # | 标题 | 创新类型 | 置信度 |
-|---|------|----------|--------|
-| 1 | [A 6G Integrated Sensing and Communication Framework for Railway Intrus...](https://arxiv.org/abs/2608.04710) | 融合整合 | MEDIUM |
-| 2 | [Sovereign Cognitive Digital Twins: Fusing 6G ISAC, AI-RAN, and Zero-Tr...](https://arxiv.org/abs/2607.28756) | 融合整合 | MEDIUM |
-| 3 | [Sensing-Aware Backscatter Communications: A Survey on Envelope Stabili...](https://arxiv.org/abs/2607.24899) | 融合整合 | MEDIUM |
-| 4 | [Out-of-Distribution Detection in Wireless Multimodal Foundation Models...](https://arxiv.org/abs/2607.21455) | 融合整合 | HIGH |
-| 5 | [ISAC-Assisted Channel Knowledge Map Generation for Physical Layer Auth...](https://arxiv.org/abs/2607.20176) | 融合整合 | MEDIUM |
-| 6 | [Electromagnetic Digital Twin-Enabled Closed-Loop Beam Management in IS...](https://arxiv.org/abs/2606.00977) | 融合整合 | MEDIUM |
-| 7 | [Digital Twin-assisted belief-state reinforcement learning for latency-...](https://arxiv.org/abs/2604.25967) | 融合整合 | MEDIUM |
-| 8 | [From Intent to Infrastructure: LLM-Driven Agent Compilers for ISAC Net...](https://arxiv.org/abs/2607.16269) | 理论贡献 | MEDIUM |
-| 9 | [Toward Deeper Environmental Understanding: Event-Level Sensing for Int...](https://arxiv.org/abs/2606.14223) | 全新方法 | MEDIUM |
-| 10 | [Diffusion Fluid Antenna Systems for Resilient ISAC](https://arxiv.org/abs/2605.23649) | 融合整合 | MEDIUM |
-| 11 | [A Multi-Objective Learning Approach for Adaptive Waveform Selection in...](https://arxiv.org/abs/2603.14017) | 融合整合 | HIGH |
-| 12 | [Toward Native ISAC Support in O-RAN Architectures for 6G](https://arxiv.org/abs/2603.03607) | 全新方法 | MEDIUM |
-| 13 | [Near-Field Integrated Sensing, Computing and Semantic Communication in...](https://arxiv.org/abs/2604.05797) | 融合整合 | HIGH |
-| 14 | [ISAC-over-NTN: HAPS-UAV Framework for Post-Disaster Responsive 6G Netw...](https://arxiv.org/abs/2601.15422) | 融合整合 | HIGH |
-| 15 | [Unified Evaluation Methodology for AI-Native Integrated Sensing and Co...](https://arxiv.org/abs/2607.14806) | 理论贡献 | MEDIUM |
-| 16 | [Comprehensive Review of Advances and Challenges in Next Generation Wir...](https://arxiv.org/abs/2605.08951) | 全新方法 | MEDIUM |
-| 17 | [Quantum-Resilient Threat Modelling for Secure RIS-Assisted ISAC in 6G ...](https://arxiv.org/abs/2510.25411) | 融合整合 | MEDIUM |
-| 18 | [UAV-Enabled Wireless Networks for Integrated Sensing and Learning-Orie...](https://arxiv.org/abs/2409.00405) | 融合整合 | MEDIUM |
-| 19 | [Unveiling the Potential of NOMA: A Journey to Next Generation Multiple...](https://arxiv.org/abs/2412.17160) | 融合整合 | MEDIUM |
-| 20 | [ISAC for AI: A Trade-off Framework Across Data Acquisition and Transfe...](https://arxiv.org/abs/2605.11915) | 理论贡献 | MEDIUM |
-| 21 | [Beam Scheduling for Cross-Layer ISAC: A Deep Reinforcement Learning Ap...](https://arxiv.org/abs/2604.24369) | 融合整合 | MEDIUM |
-| 22 | [Active Inference-Enabled Agentic Closed-Loop ISAC with Long-Horizon Pl...](https://arxiv.org/abs/2604.19599) | 融合整合 | MEDIUM |
-| 23 | [Balancing Functionality and GDPR-Driven Privacy in ISAC Trajectory Sha...](https://arxiv.org/abs/2604.08743) | 理论贡献 | MEDIUM |
-| 24 | [Hybrid Resource Allocation Scheme for Bistatic ISAC with Data Channels](https://arxiv.org/abs/2601.11110) | 融合整合 | MEDIUM |
-| 25 | [Digital Twin-Assisted Task Offloading and Resource Allocation in ISAC-...](https://arxiv.org/abs/2511.05789) | 理论贡献 | HIGH |
-| 26 | [Dynamic Beamforming and Power Allocation in ISAC via Deep Reinforcemen...](https://arxiv.org/abs/2510.25496) | 理论贡献 | MEDIUM |
-| 27 | [Precise HDV Positioning through Safety-Aware Integrated Sensing and Co...](https://arxiv.org/abs/2510.02363) | 融合整合 | HIGH |
-| 28 | [Observation Compression in Rate-Limited Closed-Loop Distributed ISAC S...](https://arxiv.org/abs/2505.01780) | 全新方法 | MEDIUM |
-| 29 | [Future Resource Bank for ISAC: Achieving Fast and Stable Win-Win Match...](https://arxiv.org/abs/2502.08118) | 融合整合 | MEDIUM |
-| 30 | [Learning-Driven Channel Representation for Wireless Localization: From...](https://arxiv.org/abs/2607.14938) | 融合整合 | MEDIUM |
-| 31 | [Time-Varying Parametric Channel Estimation With CP Decomposition Tenso...](https://arxiv.org/abs/2605.25593) | 融合整合 | MEDIUM |
-| 32 | [WiFo-MiSAC: A Wireless Foundation Model for Multimodal Sensing and Com...](https://arxiv.org/abs/2604.18255) | 融合整合 | MEDIUM |
-| 33 | [Programmable and GPU-Accelerated Edge Inference for Real-Time ISAC on ...](https://arxiv.org/abs/2512.06493) | 全新方法 | HIGH |
-| 34 | [Reconfigurable Antenna Arrays: Bridging Electromagnetics and Signal Pr...](https://arxiv.org/abs/2510.17113) | 融合整合 | MEDIUM |
-| 35 | [Deep Learning-based Techniques for Integrated Sensing and Communicatio...](https://arxiv.org/abs/2509.06968) | 理论贡献 | MEDIUM |
-| 36 | [Intelligent Metasurface-Enabled Integrated Sensing and Communication: ...](https://arxiv.org/abs/2506.13713) | 融合整合 | MEDIUM |
-| 37 | [Channel Knowledge Maps for 6G Wireless Networks: Construction, Applica...](https://arxiv.org/abs/2505.24151) | 融合整合 | MEDIUM |
-| 38 | [DFT-s-OFDM with Chirping for Integrated Sensing and Communications in ...](https://arxiv.org/abs/2605.17612) | 理论贡献 | MEDIUM |
-| 39 | [Localization in OFDM Passive Distributed Antenna Systems with Pilots a...](https://arxiv.org/abs/2605.12557) | 理论贡献 | MEDIUM |
-| 40 | [AISAC: Closing the Loop Between AI and Integrated Sensing and Communic...](https://arxiv.org/abs/2607.16507) | 融合整合 | MEDIUM |
-| 41 | [ISAC Privacy: Challenges and Solutions for 6G](https://arxiv.org/abs/2605.28325) | 融合整合 | MEDIUM |
-| 42 | [SimART: A Unified and Open Real-world Multimodal Simulation Platform f...](https://arxiv.org/abs/2605.13309) | 融合整合 | MEDIUM |
-| 43 | [ISAC-Enabled Non-Terrestrial Networks for 6G: Design Principles, Stand...](https://arxiv.org/abs/2604.11593) | 融合整合 | MEDIUM |
-| 44 | [System-Level Comparison of Multimodal and In-Band mmWave Sensing for B...](https://arxiv.org/abs/2601.01033) | 统一框架 | MEDIUM |
-| 45 | [Retroreflective Optical ISAC for 6G: Technologies, Applications and Fu...](https://arxiv.org/abs/2512.01275) | 融合整合 | MEDIUM |
-| 46 | [Trustworthy GenAI over 6G: Integrated Applications and Security Framew...](https://arxiv.org/abs/2511.15206) | 融合整合 | MEDIUM |
-| 47 | [Fused Constrained Policy Reuse Optimization for Wireless Resource Allo...](https://arxiv.org/abs/2607.09498) | 理论贡献 | MEDIUM |
-| 48 | [GDPR-Aware Trajectory Sharing for ISAC-Assisted Robot Navigation: A Ca...](https://arxiv.org/abs/2607.03254) | 融合整合 | MEDIUM |
-| 49 | [Deep Reinforcement Learning for Adaptive Power Allocation in ISAC Syst...](https://arxiv.org/abs/2606.12078) | 融合整合 | MEDIUM |
-| 50 | [Phase-Time Array Enabled Multistatic Sensing with Multi-Level Fusion f...](https://arxiv.org/abs/2605.04919) | 理论贡献 | MEDIUM |
-| 51 | [Optimizing Tracking Accuracy in Energy-Constrained Multimodal ISAC via...](https://arxiv.org/abs/2604.26330) | 理论贡献 | MEDIUM |
-| 52 | [Heterogeneous Mixture-of-Experts for Energy-Efficient Multimodal ISAC ...](https://arxiv.org/abs/2604.06697) | 融合整合 | MEDIUM |
-| 53 | [A Survey on AI for 6G: Challenges and Opportunities](https://arxiv.org/abs/2604.02370) | 融合整合 | MEDIUM |
-| 54 | [A Universal Neural Receiver that Learns at the Speed of Wireless](https://arxiv.org/abs/2602.15458) | 融合整合 | MEDIUM |
-| 55 | [Weather Estimation for Integrated Sensing and Communication](https://arxiv.org/abs/2601.15145) | 融合整合 | MEDIUM |
-| 56 | [Path to Diversity: A Primer on ISAC-izing Commodity Wi-Fi for Practica...](https://arxiv.org/abs/2601.12980) | 理论贡献 | MEDIUM |
-| 57 | [Towards a Theoretical Framework for Robust Node Deployment in Cooperat...](https://arxiv.org/abs/2601.01152) | 全新方法 | MEDIUM |
-| 58 | [AI-Native Integrated Sensing and Communications for Self-Organizing Wi...](https://arxiv.org/abs/2601.02398) | 融合整合 | MEDIUM |
-| 59 | [Target Classification for Integrated Sensing and Communication in Indu...](https://arxiv.org/abs/2512.20154) | 融合整合 | MEDIUM |
-| 60 | [Communication Security and Sensing Privacy in FMCW-Based ISAC Through ...](https://arxiv.org/abs/2605.23429) | 全新方法 | MEDIUM |
-| 61 | [Unconsented Sensing: A Sociotechnical Governance Framework for 6G ISAC](https://arxiv.org/abs/2605.07328) | 理论贡献 | MEDIUM |
-| 62 | [Secure Integrated Sensing and Communication: Information Theory Offers...](https://arxiv.org/abs/2605.08106) | 理论贡献 | MEDIUM |
-| 63 | [Foundation Models for Wireless Communications: From PHY Intelligence t...](https://arxiv.org/abs/2606.06239) | 全新方法 | MEDIUM |
-| 64 | [Integrated Sensing and Semantic Communication with Adaptive Source-Cha...](https://arxiv.org/abs/2601.12827) | 融合整合 | HIGH |
-| 65 | [Semantic Communication for Rate-Limited Closed-Loop Distributed Commun...](https://arxiv.org/abs/2512.19177) | 融合整合 | HIGH |
-| 66 | [Pinching Antennas Meet AI in Next-Generation Wireless Networks](https://arxiv.org/abs/2511.07442) | 融合整合 | MEDIUM |
-| 67 | [Toward Efficient and Privacy-Aware eHealth Systems: An Integrated Sens...](https://arxiv.org/abs/2510.11514) | 融合整合 | MEDIUM |
-| 68 | [Diffusion Models for Future Networks and Communications: A Comprehensi...](https://arxiv.org/abs/2508.01586) | 全新方法 | MEDIUM |
-| 69 | [Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Sem...](https://arxiv.org/abs/2507.15800) | 融合整合 | MEDIUM |
-| 70 | [A Unified Cloud-Edge-Terminal Framework for Multimodal Integrated Sens...](https://arxiv.org/abs/2506.22507) | 融合整合 | MEDIUM |
-| 71 | [Cooperative NOMA Meets Emerging Technologies: A Survey for Next-Genera...](https://arxiv.org/abs/2505.16327) | 融合整合 | MEDIUM |
-| 72 | [6G-Enabled Smart Railways](https://arxiv.org/abs/2505.12946) | 融合整合 | MEDIUM |
-| 73 | [Integrated Sensing, Computing, and Semantic Communication with Fluid A...](https://arxiv.org/abs/2504.07656) | 融合整合 | MEDIUM |
 
 ---
 
 ## 统计信息
 
-- 总论文数: 402
+- 总论文数: 393
 - 分类簇数: 10
-- 轮廓系数: 0.0663 (范围[-1,1], 越高越好)
+- 轮廓系数: 0.0573 (范围[-1,1], 越高越好)
 
 
 ## 三、亮点论文
@@ -686,9 +674,9 @@
 ### 值得关注的研究方向
 
 - **近场ISAC**（48篇）: 利用近场球面波前特性增强ISAC性能
-- **语义通信**（19篇）: ISAC与语义通信的融合研究
+- **语义通信**（20篇）: ISAC与语义通信的融合研究
 - **Transformer架构**（6篇）: 将Transformer等新型神经网络架构应用于ISAC
-- **扩散模型**（6篇）: 利用扩散模型进行ISAC信号处理和资源优化
+- **扩散模型**（4篇）: 利用扩散模型进行ISAC信号处理和资源优化
 - **超大规模MIMO**（4篇）: 超大规模天线阵列在ISAC系统中的应用
 - **多功能网络**（2篇）: 将ISAC能力融入多功能网络架构
 
@@ -706,13 +694,13 @@
 
 ## 对比表统计
 
-- 总论文数: 402
+- 总论文数: 393
 
 
 
 ## 六、统计信息
 
-- **论文总数**: 402 篇
+- **论文总数**: 393 篇
 - **时间范围**: 2024-06 to 2026-08
 - **平均完整度**: 100%
 
@@ -720,845 +708,827 @@
 
 | 等级 | 数量 | 占比 |
 |------|------|------|
-| HIGH | 61 | 15% |
-| MEDIUM | 340 | 85% |
+| HIGH | 57 | 15% |
+| MEDIUM | 335 | 85% |
 | LOW | 1 | 0% |
 
 ### 创新类型分布
 
 | 创新类型 | 数量 | 占比 |
 |----------|------|------|
-| integration | 222 | 55% |
-| theoretical_contribution | 121 | 30% |
-| novel_approach | 50 | 12% |
+| integration | 217 | 55% |
+| theoretical_contribution | 122 | 31% |
+| novel_approach | 46 | 12% |
 | unified_framework | 4 | 1% |
 | extension | 3 | 1% |
-| incremental_improvement | 2 | 0% |
+| incremental_improvement | 1 | 0% |
 
 ### ISAC 子类别分布
 
 | 子类别 | 数量 | 占比 |
 |--------|------|------|
-| Waveform_Design | 92 | 23% |
-| RIS_Metasurface_ISAC | 60 | 15% |
-| Localization_and_Tracking | 58 | 14% |
-| Standardization_and_Architecture | 57 | 14% |
-| Beamforming_and_Precoding | 48 | 12% |
-| Security_and_Privacy | 27 | 7% |
+| Waveform_Design | 90 | 23% |
+| RIS_Metasurface_ISAC | 59 | 15% |
+| Standardization_and_Architecture | 58 | 15% |
+| Localization_and_Tracking | 57 | 15% |
+| Beamforming_and_Precoding | 47 | 12% |
+| Security_and_Privacy | 28 | 7% |
 | Resource_Allocation | 21 | 5% |
-| Channel_Estimation_and_CSI | 17 | 4% |
-| Machine_Learning_for_ISAC | 12 | 3% |
-| Full_Duplex_and_NOMA_ISAC | 10 | 2% |
+| Channel_Estimation_and_CSI | 16 | 4% |
+| Machine_Learning_for_ISAC | 9 | 2% |
+| Full_Duplex_and_NOMA_ISAC | 8 | 2% |
 
 
 ## 七、参考文献
 
-[1] L. Yashvanth, Christos Masouros, Suraj Srivastava, Aditya K. Jagannatham, Lajos Hanzo. *Sub-Sampling for Positioning Privacy in ISAC: Deception by Aliasing via Sparse Arrays and Pilots*. arXiv:2608.07206, 2026-08-07.
+[1] Yu Ge, Lukas Rapp, Ken R. Duffy, Muriel Médard. *Sensing-Aided Ordered Reliability Bits Guessing Random Additive Noise Decoding*. arXiv:2608.14479, 2026-08-14.
 
-[2] Chuan Liu, Hongyi Bian, Wei Gao, Qi Zhang, Yu Yao et al.. *DRL-Based Secure Transmission for Rotatable Antenna-Enabled Low-Altitude ISAC Systems*. arXiv:2608.07170, 2026-08-07.
+[2] Jiho Park, Jiechen Chen, Joonhyuk Kang, Osvaldo Simeone. *Standard-Compliant Neuromorphic Integrated Sensing and Communications Aided by an Intelligent Reflecting Surface*. arXiv:2608.13985, 2026-08-14.
 
-[3] Jong-Hyuk Hong, Chaedam Son, Si-Hyeon Lee. *Tracking-Assisted Robust Secure Transmission Against a Mobile Eavesdropper in Cell-Free ISAC Networks*. arXiv:2608.06781, 2026-08-07.
+[3] Musa Furkan Keskin, Kawon Han, Henk Wymeersch, Christos Masouros. *Exploiting Phase Noise for Sensing Privacy in ISAC Systems*. arXiv:2608.13270, 2026-08-13.
 
-[4] Arun K. Gurung, Satha K. Sathananthan, Shiva R. Pokhrel. *5G ISAC-Based UAV Detection and 3-D Tracking Using Uplink Sounding Reference Signals on an End-to-End O-RAN Simulation Testbed*. arXiv:2608.05826, 2026-08-06.
+[4] Zhendong Li, Yujie Zhao, Zhou Su, Xiao Tang, Zhiqing Wei et al.. *Antenna Positioning and Beamforming Optimization in MA Enabled Secure ISAC Systems: A Gradient-Based Meta Learning Approach*. arXiv:2608.12870, 2026-08-13.
 
-[5] Ajeet Kumar Yadav, Sankaran Balasubramaniam, Aritra Chatterjee, Vinod Aduru, Yogesh Simmhan et al.. *A 6G Integrated Sensing and Communication Framework for Railway Intrusion Detection and Collision Prediction*. arXiv:2608.04710, 2026-08-05.
+[5] Mustafa Alhassan, Peng Hu. *Digital Twin Satellite Networks: A Paradigm for Intelligent, Efficient, and Resilient Operations*. arXiv:2608.12865, 2026-08-13.
 
-[6] Shengyu Yang, Yuhan Wang, Shuhao Zeng, Haobo Zhang, Boya Di et al.. *RIS-Enabled Energy-Efficient ISAC for Vehicular Applications*. arXiv:2608.04361, 2026-08-05.
+[6] Shaohua Li, Cunhua Pan, Hong Ren, Ruizhe Wang, Jiangzhou Wang. *AFDM-ISAC With Fractional Delay-Doppler Coupling*. arXiv:2608.11998, 2026-08-12.
 
-[7] Angelos Gkekas, Alexandros I. Papadopoulos, Petros Andreas Pantazopoulos, Antonios Lalas, Konstantinos Votis et al.. *Geometry-Informed Optimization of Binary RIS Configurations for Communication and Sensing*. arXiv:2608.04133, 2026-08-04.
+[7] Xingqin Lin. *Integrated Sensing and Communication in 3GPP: Evolution from 5G-Advanced to 6G*. arXiv:2608.11606, 2026-08-12.
 
-[8] Shiv Shankar, Radha Krishna Ganti, J Klutto Milleth. *Task-Oriented Candidate-Latent Feedback for Coarse-to-Fine Sensing in Distributed OFDM-ISAC Networks*. arXiv:2608.03319, 2026-08-04.
+[8] Haotian Wang, Dan Wang, Xiaodong Xu, Chuan Huang, Hao Chen et al.. *Adaptive Source-Channel Coding for Bi-static Integrated Sensing and Semantic Communications*. arXiv:2608.10898, 2026-08-11.
 
-[9] Smriti Uniyal, Tianyu Fang, Marco Di Renzo, Markku Juntti, Nhan Thanh Nguyen. *Performance Analysis and Joint Beamforming for Hybrid RIS-Aided Massive MIMO ISAC*. arXiv:2608.02169, 2026-08-03.
+[9] Ruhul Amin Khalil. *AI-Assisted ISAC Localization-as-a-Service for 6G UAV-IoT Networks*. arXiv:2608.10571, 2026-08-11.
 
-[10] Ruiqi Liu, Yuanshuo Gang, Honghao Wang, Tianqi Mao. *Movable Subarray-Aided ISAC in Hybrid Near-Far Field Channels*. arXiv:2608.01854, 2026-08-03.
+[10] Chao Wang, Zan Li, Xiangnan Zhou, Haibin Zhang, Hao Xu et al.. *Secure Cooperative THz ISAC via Mamba Empowered Graph Neural Network Precoding*. arXiv:2608.10467, 2026-08-11.
 
-[11] Yirui Luo, Xiaoyan Ma, Yong Liang Guan, Christopher G. Brinton, Chau Yuen. *Multi-Hop RIS ISAC for Target Positioning: A Tensor Decomposition-based Approach*. arXiv:2608.01809, 2026-08-03.
+[11] Jingreng Lei, Yulin Shao. *Sensing-Induced Embodied Communication in the Near Field*. arXiv:2608.08731, 2026-08-09.
 
-[12] Meiding Liu, Yuyuan Fang, Zhengchun Zhou, Qiao Shi, Pingzhi Fan. *Security in Low-Altitude ISAC with Coupled Communication and Sensing Information Leakage*. arXiv:2608.01086, 2026-08-02.
+[12] L. Yashvanth, Christos Masouros, Suraj Srivastava, Aditya K. Jagannatham, Lajos Hanzo. *Sub-Sampling for Positioning Privacy in ISAC: Deception by Aliasing via Sparse Arrays and Pilots*. arXiv:2608.07206, 2026-08-07.
 
-[13] Iván Alexander Morales Sandoval, Thushar Venkataramanaiah, Kuranage Roche Rayan Ranasinghe, Jiancheng An, Hyeon Seok Rou et al.. *Bistatic Integrated Sensing and Communications with Flexible Intelligent Metasurfaces*. arXiv:2607.29137, 2026-07-31.
+[13] Chuan Liu, Hongyi Bian, Wei Gao, Qi Zhang, Yu Yao et al.. *DRL-Based Secure Transmission for Rotatable Antenna-Enabled Low-Altitude ISAC Systems*. arXiv:2608.07170, 2026-08-07.
 
-[14] Xiao-Yang Wang, Luting Kong, Lei Cao, Yang Liu, Jingheng Zheng et al.. *Geometry-Aware Resource Allocation for Network-Level ISAC Systems*. arXiv:2607.29060, 2026-07-31.
+[14] Jong-Hyuk Hong, Chaedam Son, Si-Hyeon Lee. *Tracking-Assisted Robust Secure Transmission Against a Mobile Eavesdropper in Cell-Free ISAC Networks*. arXiv:2608.06781, 2026-08-07.
 
-[15] Zoe Aiyanna M. Cayetano, George M. Gichuru, Taijuo T. Morris. *Sovereign Cognitive Digital Twins: Fusing 6G ISAC, AI-RAN, and Zero-Trust Edge Grids for National Resilience in the Global South*. arXiv:2607.28756, 2026-07-30.
+[15] Arun K. Gurung, Satha K. Sathananthan, Shiva R. Pokhrel. *5G ISAC-Based UAV Detection and 3-D Tracking Using Uplink Sounding Reference Signals on an End-to-End O-RAN Simulation Testbed*. arXiv:2608.05826, 2026-08-06.
 
-[16] Yanpeng Su, Maximilian Lübke, Mengyu Zhang, Norman Franchi. *CRLB-Driven Beamforming and Power Allocation for Multi-BS Cooperative ISAC Networks*. arXiv:2607.28224, 2026-07-30.
+[16] Ajeet Kumar Yadav, Sankaran Balasubramaniam, Aritra Chatterjee, Vinod Aduru, Yogesh Simmhan et al.. *A 6G Integrated Sensing and Communication Framework for Railway Intrusion Detection and Collision Prediction*. arXiv:2608.04710, 2026-08-05.
 
-[17] Haijun Zhang, Shuqing Wu, Xiaoqi Zhang, Zijun Wu, Xu Ma et al.. *Beamforming and Phase Shift Design for STAR-RIS Assisted Secure Sensing and Communication in ISAC Systems*. arXiv:2607.28081, 2026-07-30.
+[17] Shengyu Yang, Yuhan Wang, Shuhao Zeng, Haobo Zhang, Boya Di et al.. *RIS-Enabled Energy-Efficient ISAC for Vehicular Applications*. arXiv:2608.04361, 2026-08-05.
 
-[18] Zinat Behdad, Özlem Tuğfe Demir, Ki Won Sung, Pei Xiao, Cicek Cavdar. *Green Cell-Free Massive MIMO for ISAC: Joint Cloud, Fronthaul and Radio Resource Allocation*. arXiv:2607.27778, 2026-07-30.
+[18] Angelos Gkekas, Alexandros I. Papadopoulos, Petros Andreas Pantazopoulos, Antonios Lalas, Konstantinos Votis et al.. *Geometry-Informed Optimization of Binary RIS Configurations for Communication and Sensing*. arXiv:2608.04133, 2026-08-04.
 
-[19] Linghui Miao, Shijian Gao. *UAV Swarming for Air-Ground ISAC via Cross-Region Cooperation*. arXiv:2607.26679, 2026-07-29.
+[19] Shiv Shankar, Radha Krishna Ganti, J Klutto Milleth. *Task-Oriented Candidate-Latent Feedback for Coarse-to-Fine Sensing in Distributed OFDM-ISAC Networks*. arXiv:2608.03319, 2026-08-04.
 
-[20] Gangyong Zhu, Jia Yan, Shijian Gao. *Stay or Switch: Online Conformal Bayesian Optimization Guided Fluid Antenna Configuration*. arXiv:2607.26547, 2026-07-29.
+[20] Smriti Uniyal, Tianyu Fang, Marco Di Renzo, Markku Juntti, Nhan Thanh Nguyen. *Performance Analysis and Joint Beamforming for Hybrid RIS-Aided Massive MIMO ISAC*. arXiv:2608.02169, 2026-08-03.
 
-[21] Bowei Xing, Yuxiang Zhang, Jianhua Zhang, Yifeng Xiong, Hongbo Xing et al.. *MVLA-GR: A Phase-Free Multipath-Based Geometry Reconstruction Method via Multi-View Likelihood Accumulation for ISAC*. arXiv:2607.26421, 2026-07-29.
+[21] Ruiqi Liu, Yuanshuo Gang, Honghao Wang, Tianqi Mao. *Movable Subarray-Aided ISAC in Hybrid Near-Far Field Channels*. arXiv:2608.01854, 2026-08-03.
 
-[22] Xue Zhang, Bang Huang, Mohamed-Slim Alouini. *Joint Beamforming, Energy Management, and Trajectory Optimization for Figure-Eight Loitering in Solar-Powered HAPS-Enabled ISAC Systems*. arXiv:2607.26325, 2026-07-28.
+[22] Yirui Luo, Xiaoyan Ma, Yong Liang Guan, Christopher G. Brinton, Chau Yuen. *Multi-Hop RIS ISAC for Target Positioning: A Tensor Decomposition-based Approach*. arXiv:2608.01809, 2026-08-03.
 
-[23] Yunfan Bai, Yuwen Qian, Cheng Zeng, Zhen Mei, Zhaohui Yang et al.. *Covert Semantic Transmission in ISAC: Dual-Functional Waveform Design and Rectified Flow-Assisted Recovery*. arXiv:2607.25354, 2026-07-28.
+[23] Meiding Liu, Yuyuan Fang, Zhengchun Zhou, Qiao Shi, Pingzhi Fan. *Security in Low-Altitude ISAC with Coupled Communication and Sensing Information Leakage*. arXiv:2608.01086, 2026-08-02.
 
-[24] Yixuan Huang, Jie Yang, Chao-Kai Wen, Shi Jin. *Wireless Imaging for Low-Altitude Surveillance: A New Paradigm for ISAC Networks*. arXiv:2608.00062, 2026-07-28.
+[24] Iván Alexander Morales Sandoval, Thushar Venkataramanaiah, Kuranage Roche Rayan Ranasinghe, Jiancheng An, Hyeon Seok Rou et al.. *Bistatic Integrated Sensing and Communications with Flexible Intelligent Metasurfaces*. arXiv:2607.29137, 2026-07-31.
 
-[25] Rahul Gulia, Priyanka Mann, Ashish Sheikh, Feyisayo Favour Popoola, Serisha Vadlamudi. *Sensing-Aware Backscatter Communications: A Survey on Envelope Stability, Waveform Design, and Selection Diversity*. arXiv:2607.24899, 2026-07-27.
+[25] Xiao-Yang Wang, Luting Kong, Lei Cao, Yang Liu, Jingheng Zheng et al.. *Geometry-Aware Resource Allocation for Network-Level ISAC Systems*. arXiv:2607.29060, 2026-07-31.
 
-[26] Ruhul Amin Khalil. *Resource-Aware Topology Management for ISAC-Enabled TDOA Localization in IoUT Networks*. arXiv:2607.24028, 2026-07-27.
+[26] Zoe Aiyanna M. Cayetano, George M. Gichuru, Taijuo T. Morris. *Sovereign Cognitive Digital Twins: Fusing 6G ISAC, AI-RAN, and Zero-Trust Edge Grids for National Resilience in the Global South*. arXiv:2607.28756, 2026-07-30.
 
-[27] Jinho Yang, Hyeongtaek Lee, Junil Choi. *Beam Training for RIS-Aided ISAC Systems*. arXiv:2607.24003, 2026-07-27.
+[27] Yanpeng Su, Maximilian Lübke, Mengyu Zhang, Norman Franchi. *CRLB-Driven Beamforming and Power Allocation for Multi-BS Cooperative ISAC Networks*. arXiv:2607.28224, 2026-07-30.
 
-[28] Zhonghua Chu, Hongliang Luo, Boxuan Sun, Shengjie Quan, Chuanbin Zhao et al.. *ISAC and Vision Fusion for Fine-Grained Low-Altitude Target Recognition*. arXiv:2607.23789, 2026-07-26.
+[28] Haijun Zhang, Shuqing Wu, Xiaoqi Zhang, Zijun Wu, Xu Ma et al.. *Beamforming and Phase Shift Design for STAR-RIS Assisted Secure Sensing and Communication in ISAC Systems*. arXiv:2607.28081, 2026-07-30.
 
-[29] Muhammad Umar Farooq Qaisar, Lin Zhang, Paolo Bellavista, Shehzad Ashraf Chaudhry, Shamsher Ullah et al.. *ISAC-Enabled On-Demand UAV Charging for Wireless Rechargeable Sensor Networks*. arXiv:2607.23572, 2026-07-26.
+[29] Zinat Behdad, Özlem Tuğfe Demir, Ki Won Sung, Pei Xiao, Cicek Cavdar. *Green Cell-Free Massive MIMO for ISAC: Joint Cloud, Fronthaul and Radio Resource Allocation*. arXiv:2607.27778, 2026-07-30.
 
-[30] Murat Babek Salman, Özlem Tugfe Demir, Emil Björnson. *Performance Analysis for ISAC Systems with 1-bit DACs*. arXiv:2607.23216, 2026-07-25.
+[30] Linghui Miao, Shijian Gao. *UAV Swarming for Air-Ground ISAC via Cross-Region Cooperation*. arXiv:2607.26679, 2026-07-29.
 
-[31] Ziheng Zhang, Wen Chen, Qingqing Wu, Zhendong Li, Qiong Wu et al.. *Mobile Tracking via Target-Mounted IRS-Assisted ISAC System*. arXiv:2607.23005, 2026-07-25.
+[31] Gangyong Zhu, Jia Yan, Shijian Gao. *Stay or Switch: Online Conformal Bayesian Optimization Guided Fluid Antenna Configuration*. arXiv:2607.26547, 2026-07-29.
 
-[32] Mohammad Farzanullah, Akram Bin Sediq, Ali Afana, Melike Erol-Kantarci. *Out-of-Distribution Detection in Wireless Multimodal Foundation Models for 6G ISAC*. arXiv:2607.21455, 2026-07-23.
+[32] Bowei Xing, Yuxiang Zhang, Jianhua Zhang, Yifeng Xiong, Hongbo Xing et al.. *MVLA-GR: A Phase-Free Multipath-Based Geometry Reconstruction Method via Multi-View Likelihood Accumulation for ISAC*. arXiv:2607.26421, 2026-07-29.
 
-[33] Kaitao Meng, Kawon Han, Christos Masouros, Lajos Hanzo. *Constellation Selection and Power Allocation for Multi-Cell OFDM-ISAC: Managing Inter-Cell Interference and Sensing Sidelobes*. arXiv:2607.21418, 2026-07-23.
+[33] Xue Zhang, Bang Huang, Mohamed-Slim Alouini. *Joint Beamforming, Energy Management, and Trajectory Optimization for Figure-Eight Loitering in Solar-Powered HAPS-Enabled ISAC Systems*. arXiv:2607.26325, 2026-07-28.
 
-[34] Jacopo Pegoraro, Andrea Bedin, Dario Tagliaferri, Joerg Widmer. *Beyond Point Targets: Experimental Analysis of Frequency Anisotropy for Multi-band ISAC in FR3*. arXiv:2607.20994, 2026-07-23.
+[34] Yunfan Bai, Yuwen Qian, Cheng Zeng, Zhen Mei, Zhaohui Yang et al.. *Covert Semantic Transmission in ISAC: Dual-Functional Waveform Design and Rectified Flow-Assisted Recovery*. arXiv:2607.25354, 2026-07-28.
 
-[35] Po-Chih Chen, Ming-Chun Lee, Yu-Chih Huang. *Fundamental Limits of MIMO-OTFS and MIMO-OFDM in High-Dynamics ISAC: An Antenna Array Architecture Perspective*. arXiv:2607.20200, 2026-07-22.
+[35] Yixuan Huang, Jie Yang, Chao-Kai Wen, Shi Jin. *Wireless Imaging for Low-Altitude Surveillance: A New Paradigm for ISAC Networks*. arXiv:2608.00062, 2026-07-28.
 
-[36] Luca Bonaventura, Edoardo Gardin, Alessia Barison, Francesco Ardizzon, Stefano Tomasin. *ISAC-Assisted Channel Knowledge Map Generation for Physical Layer Authentication*. arXiv:2607.20176, 2026-07-22.
+[36] Rahul Gulia, Priyanka Mann, Ashish Sheikh, Feyisayo Favour Popoola, Serisha Vadlamudi. *Sensing-Aware Backscatter Communications: A Survey on Envelope Stability, Waveform Design, and Selection Diversity*. arXiv:2607.24899, 2026-07-27.
 
-[37] Yiyi Xu, Zhongqin Wang, Kai Wu, J. Andrew Zhang. *Ambiguity-Resolved Micro-Doppler Construction for Asynchronous Bistatic Sensing*. arXiv:2607.20108, 2026-07-22.
+[37] Ruhul Amin Khalil. *Resource-Aware Topology Management for ISAC-Enabled TDOA Localization in IoUT Networks*. arXiv:2607.24028, 2026-07-27.
 
-[38] Saira Rafique, Ahmed Naeem, Huseyin Arslan. *Temporal Broadening-Aware Multiplexing for Joint Sensing and Communication in THz Band*. arXiv:2607.20074, 2026-07-22.
+[38] Jinho Yang, Hyeongtaek Lee, Junil Choi. *Beam Training for RIS-Aided ISAC Systems*. arXiv:2607.24003, 2026-07-27.
 
-[39] Ying Zhang, Fan Liu, Yifeng Xiong, Jie Yang, Xinyi Wang et al.. *SNR-Dependent Mismatched Filtering for Bistatic OFDM Ranging*. arXiv:2607.20012, 2026-07-22.
+[39] Zhonghua Chu, Hongliang Luo, Boxuan Sun, Shengjie Quan, Chuanbin Zhao et al.. *ISAC and Vision Fusion for Fine-Grained Low-Altitude Target Recognition*. arXiv:2607.23789, 2026-07-26.
 
-[40] Yi Yang, Qianqian Zhang, Huaxia Wang. *CRB-Driven Beamforming and Trajectory Optimization for UAV-assisted ISAC System*. arXiv:2607.19609, 2026-07-21.
+[40] Ziheng Zhang, Wen Chen, Qingqing Wu, Zhendong Li, Qiong Wu et al.. *Mobile Tracking via Target-Mounted IRS-Assisted ISAC System*. arXiv:2607.23005, 2026-07-25.
 
-[41] Ufuk Altun, Onur Günlü. *Secure OFDM-IM ISAC With Artificial-Noise-Aided Index Deception*. arXiv:2607.19068, 2026-07-21.
+[41] Yi Yang, Qianqian Zhang, Huaxia Wang. *CRB-Driven Beamforming and Trajectory Optimization for UAV-assisted ISAC System*. arXiv:2607.19609, 2026-07-21.
 
 [42] Hailun Huang, Yuwen Cao, Jiguang He, Tomoaki Ohtsuki. *Flexible Intelligent Metasurface-Aided ISAC: User Fairness Optimization and Performance Evaluation*. arXiv:2607.18893, 2026-07-21.
 
-[43] Yirui Luo, Yong Liang Guan, Yao Ge, Yonghong Jiang, Lingsheng Meng et al.. *Data-aided Channel Estimation and Sensing With Sparse Bayesian Learning for AFDM-ISAC System*. arXiv:2607.18881, 2026-07-21.
+[43] Lin Chen, Yifan Liang, Hongbin Li. *Joint Synchronization and Sensing in Networked ISAC via Structured Canonical Polyadic Decomposition*. arXiv:2607.18680, 2026-07-21.
 
-[44] Haoyu Jiang, Hengyou Kong, Xiaoli Xu, Yong Zeng. *Low-Altitude UAV-Assisted Bistatic ISAC: Closed-form 3D CRLB and Coverage Analysis*. arXiv:2607.18766, 2026-07-21.
+[44] Hamid Reza Hashempour, Yanjiao Li, Jie Zhang, Hyundong Shin, Hien Quoc Ngo. *Massive MIMO-OFDM ISAC for Sparse ISAR Imaging: Joint Power and Subcarrier Allocation*. arXiv:2607.17862, 2026-07-20.
 
-[45] Lin Chen, Yifan Liang, Hongbin Li. *Joint Synchronization and Sensing in Networked ISAC via Structured Canonical Polyadic Decomposition*. arXiv:2607.18680, 2026-07-21.
+[45] Yuan Guo, Wen Chen, Yang Liu, Qiong Wu, Weiren Zhu. *Transmit Beamforming Design for Integrated Sensing and Communication Using Transmissive RIS Transceiver*. arXiv:2607.17485, 2026-07-20.
 
-[46] Hamid Reza Hashempour, Yanjiao Li, Jie Zhang, Hyundong Shin, Hien Quoc Ngo. *Massive MIMO-OFDM ISAC for Sparse ISAR Imaging: Joint Power and Subcarrier Allocation*. arXiv:2607.17862, 2026-07-20.
+[46] Yuan Guo, Wen Chen, Yang Liu, Kunlun Wang, Zhendong Li et al.. *Transmissive RIS Transceiver-Empowered ISAC Systems: Energy Efficiency Optimization for Perfect and Imperfect CSI*. arXiv:2607.17475, 2026-07-20.
 
-[47] Yuan Guo, Wen Chen, Yang Liu, Qiong Wu, Weiren Zhu. *Transmit Beamforming Design for Integrated Sensing and Communication Using Transmissive RIS Transceiver*. arXiv:2607.17485, 2026-07-20.
+[47] Nusaibah A. Alshorman, Chong Han, Huseyin Arslan. *Energy-Efficient Target-Aware Hybrid Beamforming for THz Near-Field ISAC with Sparse Connectivity*. arXiv:2607.15716, 2026-07-17.
 
-[48] Yuan Guo, Wen Chen, Yang Liu, Kunlun Wang, Zhendong Li et al.. *Transmissive RIS Transceiver-Empowered ISAC Systems: Energy Efficiency Optimization for Perfect and Imperfect CSI*. arXiv:2607.17475, 2026-07-20.
+[48] Ruotong Zhao, Yijia Zhang, Shaokang Hu, Derrick Wing Kwan Ng. *Pinching Antenna-Assisted ISAC with Waveguide Mode Selection*. arXiv:2607.15547, 2026-07-17.
 
-[49] Nusaibah A. Alshorman, Chong Han, Huseyin Arslan. *Energy-Efficient Target-Aware Hybrid Beamforming for THz Near-Field ISAC with Sparse Connectivity*. arXiv:2607.15716, 2026-07-17.
+[49] Nusaibah A. Alshorman, Huseyin Arslan. *Posterior-Confidence Driven Beamforming for Energy-Efficient Integrated Sensing and Communication*. arXiv:2607.13470, 2026-07-15.
 
-[50] Ruotong Zhao, Yijia Zhang, Shaokang Hu, Derrick Wing Kwan Ng. *Pinching Antenna-Assisted ISAC with Waveguide Mode Selection*. arXiv:2607.15547, 2026-07-17.
+[50] Zhiqiang Xiao, Tao Zhang, Zhenjun Dong, Hao Wu, Xiaoqiang Qiao et al.. *Low-Altitude ISAC With Spherical Directly-Connected Antenna Array: Performance Analysis and Beamforming Optimization*. arXiv:2607.10215, 2026-07-11.
 
-[51] Nusaibah A. Alshorman, Huseyin Arslan. *Posterior-Confidence Driven Beamforming for Energy-Efficient Integrated Sensing and Communication*. arXiv:2607.13470, 2026-07-15.
+[51] Yanpeng Su, Norman Franchi, Maximilian Lübke. *Fundamental Sensing Limits of 6G Cooperative MIMO-ISAC Networks: Joint Position-Velocity CRLB and Decoupling Analysis*. arXiv:2607.08510, 2026-07-09.
 
-[52] Zhiqiang Xiao, Tao Zhang, Zhenjun Dong, Hao Wu, Xiaoqiang Qiao et al.. *Low-Altitude ISAC With Spherical Directly-Connected Antenna Array: Performance Analysis and Beamforming Optimization*. arXiv:2607.10215, 2026-07-11.
+[52] Parmida Geranmayeh, Onur Günlü. *6G Sensing Security: Distributed Game-Theoretic RL for Urban Beamforming and Attacker Detection*. arXiv:2607.06115, 2026-07-07.
 
-[53] Yanpeng Su, Norman Franchi, Maximilian Lübke. *Fundamental Sensing Limits of 6G Cooperative MIMO-ISAC Networks: Joint Position-Velocity CRLB and Decoupling Analysis*. arXiv:2607.08510, 2026-07-09.
+[53] Rang Liu, Ming Li, A. Lee Swindlehurst, Norman Franchi, Robert Schober. *Multiuser MIMO-AFDM Beamforming for ISAC in Doubly Dispersive Channels*. arXiv:2607.05119, 2026-07-06.
 
-[54] Parmida Geranmayeh, Onur Günlü. *6G Sensing Security: Distributed Game-Theoretic RL for Urban Beamforming and Attacker Detection*. arXiv:2607.06115, 2026-07-07.
+[54] Abdolrasoul Sakhaei Gharagezlou, Pouya Mobaraki, Mehdi Monemi, Nhan T. Nguyen, Mehdi Rasti et al.. *Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model*. arXiv:2607.03389, 2026-07-03.
 
-[55] Rang Liu, Ming Li, A. Lee Swindlehurst, Norman Franchi, Robert Schober. *Multiuser MIMO-AFDM Beamforming for ISAC in Doubly Dispersive Channels*. arXiv:2607.05119, 2026-07-06.
+[55] Maoyuan Wang, Qian Zhang, Jiancheng An, Xuejun Cheng, Zheng Dong et al.. *DRL-Based Joint Beamforming and Surface Shape Optimization for Flexible Intelligent Metasurface-Aided ISAC Systems*. arXiv:2607.00951, 2026-07-01.
 
-[56] Abdolrasoul Sakhaei Gharagezlou, Pouya Mobaraki, Mehdi Monemi, Nhan T. Nguyen, Mehdi Rasti et al.. *Deep-Unfolded Wideband ISAC Beamforming for DMA Under Frequency-Selective Lorentzian Model*. arXiv:2607.03389, 2026-07-03.
+[56] Qingjie Wu, Beixiong Zheng, Guangchi Zhang, Robert Schober. *Antenna Orientation Optimization for Rotatable Antenna-Enabled ISAC Systems*. arXiv:2606.31466, 2026-06-30.
 
-[57] Maoyuan Wang, Qian Zhang, Jiancheng An, Xuejun Cheng, Zheng Dong et al.. *DRL-Based Joint Beamforming and Surface Shape Optimization for Flexible Intelligent Metasurface-Aided ISAC Systems*. arXiv:2607.00951, 2026-07-01.
+[57] Haoyu Quan, Junhui Zhao, Dongming Wang. *Adaptive Joint Beamforming and Fluid Antenna System Design for 6G ISAC*. arXiv:2606.22897, 2026-06-22.
 
-[58] Qingjie Wu, Beixiong Zheng, Guangchi Zhang, Robert Schober. *Antenna Orientation Optimization for Rotatable Antenna-Enabled ISAC Systems*. arXiv:2606.31466, 2026-06-30.
+[58] Zhiqiang Xiao, Tao Zhang, Hao Wu, Xiaoqiang Qiao, Jiang Zhang et al.. *Ray Antenna Array Enhanced Low-Altitude ISAC: Performance Analysis and Beamforming Design*. arXiv:2606.19146, 2026-06-17.
 
-[59] Haoyu Quan, Junhui Zhao, Dongming Wang. *Adaptive Joint Beamforming and Fluid Antenna System Design for 6G ISAC*. arXiv:2606.22897, 2026-06-22.
+[59] Alexander Felix, Marcus Henninger, Lucas Giroto, Maximilian Bauhofer, Stephan ten Brink et al.. *BASIIS: Bistatic Angular Sampling and Interpolation for ISAC Setups*. arXiv:2606.17718, 2026-06-16.
 
-[60] Zhiqiang Xiao, Tao Zhang, Hao Wu, Xiaoqiang Qiao, Jiang Zhang et al.. *Ray Antenna Array Enhanced Low-Altitude ISAC: Performance Analysis and Beamforming Design*. arXiv:2606.19146, 2026-06-17.
+[60] Hong-Bae Jeon, Hyung-Joo Moon, Yonghwi Kim. *Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and Communication with Rydberg Atomic Receivers*. arXiv:2606.17641, 2026-06-16.
 
-[61] Alexander Felix, Marcus Henninger, Lucas Giroto, Maximilian Bauhofer, Stephan ten Brink et al.. *BASIIS: Bistatic Angular Sampling and Interpolation for ISAC Setups*. arXiv:2606.17718, 2026-06-16.
+[61] Azadeh Tabeshnezhad, Milad Tatar Mamaghani, A. Lee Swindlehurst, Tommy Svensson, Erik Ström. *Robust Beamforming Design for Secure Uplink NOMA-ISAC*. arXiv:2606.17306, 2026-06-15.
 
-[62] Hong-Bae Jeon, Hyung-Joo Moon, Yonghwi Kim. *Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and Communication with Rydberg Atomic Receivers*. arXiv:2606.17641, 2026-06-16.
+[62] Hao Yang, Kai Wan, Giuseppe Caire. *Noncoherent ISAC over Block-Fading Channels: Asymptotic Performance Analysis*. arXiv:2606.14400, 2026-06-12.
 
-[63] Azadeh Tabeshnezhad, Milad Tatar Mamaghani, A. Lee Swindlehurst, Tommy Svensson, Erik Ström. *Robust Beamforming Design for Secure Uplink NOMA-ISAC*. arXiv:2606.17306, 2026-06-15.
+[63] Yuan Chen, Ning Wei, Ahmad Bazzi, Xiangyu Dong, Ran Yang et al.. *Robust Secure Beamforming for Movable Antenna Enhanced Integrated Sensing and Communications*. arXiv:2606.07104, 2026-06-05.
 
-[64] Hao Yang, Kai Wan, Giuseppe Caire. *Noncoherent ISAC over Block-Fading Channels: Asymptotic Performance Analysis*. arXiv:2606.14400, 2026-06-12.
+[64] Hongjiang Lei, Heng Jin, Ki-Hong Park, Jia Ye, Liang Yang et al.. *On Secure EKF-enhanced UAV-ISAC Systems*. arXiv:2606.03690, 2026-06-02.
 
-[65] Yuan Chen, Ning Wei, Ahmad Bazzi, Xiangyu Dong, Ran Yang et al.. *Robust Secure Beamforming for Movable Antenna Enhanced Integrated Sensing and Communications*. arXiv:2606.07104, 2026-06-05.
+[65] Yubin Luo, Takumi Takahashi, Li Yu, Zhaohui Yang, Jianhua Zhang et al.. *Electromagnetic Digital Twin-Enabled Closed-Loop Beam Management in ISAC Systems*. arXiv:2606.00977, 2026-05-31.
 
-[66] Hongjiang Lei, Heng Jin, Ki-Hong Park, Jia Ye, Liang Yang et al.. *On Secure EKF-enhanced UAV-ISAC Systems*. arXiv:2606.03690, 2026-06-02.
+[66] Zhonghao Liu, Yinchao Yang, Yahao Ding, Yixuan Wang, Mohammad Shikh-Bahaei. *Gesture-Aware Indoor THz ISAC Systems for Adaptive Resource Allocation*. arXiv:2605.29913, 2026-05-28.
 
-[67] Yubin Luo, Takumi Takahashi, Li Yu, Zhaohui Yang, Jianhua Zhang et al.. *Electromagnetic Digital Twin-Enabled Closed-Loop Beam Management in ISAC Systems*. arXiv:2606.00977, 2026-05-31.
+[67] Yifei Wu, Dongfang Xu, Derrick Wing Kwan Ng, Wolfgang Gerstacker, Robert Schober. *Movable-Antenna-Enhanced ISAC: Optimal Antenna Trajectory and Beamforming Design*. arXiv:2605.23427, 2026-05-22.
 
-[68] Zhonghao Liu, Yinchao Yang, Yahao Ding, Yixuan Wang, Mohammad Shikh-Bahaei. *Gesture-Aware Indoor THz ISAC Systems for Adaptive Resource Allocation*. arXiv:2605.29913, 2026-05-28.
+[68] Kang Yan, Luping Xiang, Kang Zheng, Jienan Chen, Jun Liu et al.. *Curriculum-Guided Heterogeneous Multi-Agent Intelligence for Multi-UAV Cooperative ISAC*. arXiv:2605.17905, 2026-05-18.
 
-[69] Yifei Wu, Dongfang Xu, Derrick Wing Kwan Ng, Wolfgang Gerstacker, Robert Schober. *Movable-Antenna-Enhanced ISAC: Optimal Antenna Trajectory and Beamforming Design*. arXiv:2605.23427, 2026-05-22.
+[69] Nemanja Stefan Perović, Keshav Singh, Chih-Peng Li. *DL-Driven Optimization for ISAC System Equipped With Pinching and Movable Antennas*. arXiv:2605.17629, 2026-05-17.
 
-[70] Kang Yan, Luping Xiang, Kang Zheng, Jienan Chen, Jun Liu et al.. *Curriculum-Guided Heterogeneous Multi-Agent Intelligence for Multi-UAV Cooperative ISAC*. arXiv:2605.17905, 2026-05-18.
+[70] Aymen Hamrouni, Sofie Pollin, Hazem Sallouha. *Joint Mobile User Positioning and Passive Target Sensing using Optimized Sequential Beamforming*. arXiv:2605.15808, 2026-05-15.
 
-[71] Nemanja Stefan Perović, Keshav Singh, Chih-Peng Li. *DL-Driven Optimization for ISAC System Equipped With Pinching and Movable Antennas*. arXiv:2605.17629, 2026-05-17.
+[71] Jijin Guo, Lixin Li, Yufeng Zheng, Dongwei Zhao, Wensheng Lin et al.. *Multi-AP Cooperative Beamforming for Cell-Free ISAC Networks: Balancing Communication SINR and Sensing SCNR*. arXiv:2605.04623, 2026-05-06.
 
-[72] Aymen Hamrouni, Sofie Pollin, Hazem Sallouha. *Joint Mobile User Positioning and Passive Target Sensing using Optimized Sequential Beamforming*. arXiv:2605.15808, 2026-05-15.
+[72] Yingchao Jiao, Xuhui Zhang, Chunjie Wang, Shuqiang Wang, Yanyan Shen et al.. *6DMA-Enabled ISAC for Low-Altitude Economy*. arXiv:2605.03088, 2026-05-04.
 
-[73] Jijin Guo, Lixin Li, Yufeng Zheng, Dongwei Zhao, Wensheng Lin et al.. *Multi-AP Cooperative Beamforming for Cell-Free ISAC Networks: Balancing Communication SINR and Sensing SCNR*. arXiv:2605.04623, 2026-05-06.
+[73] Zhe Wang, Mahmoud Zaher, Vitaly Petrov, Emil Björnson. *Harnessing the Freedom of Non-Uniformity in Monostatic ISAC with Antenna Flexibility*. arXiv:2604.27571, 2026-04-30.
 
-[74] Yingchao Jiao, Xuhui Zhang, Chunjie Wang, Shuqiang Wang, Yanyan Shen et al.. *6DMA-Enabled ISAC for Low-Altitude Economy*. arXiv:2605.03088, 2026-05-04.
+[74] Himanshu Tiwari, Binayak Kar, Priyanshu Tiwari. *Digital Twin-assisted belief-state reinforcement learning for latency-robust ISAC in 6G networks*. arXiv:2604.25967, 2026-04-28.
 
-[75] Zhe Wang, Mahmoud Zaher, Vitaly Petrov, Emil Björnson. *Harnessing the Freedom of Non-Uniformity in Monostatic ISAC with Antenna Flexibility*. arXiv:2604.27571, 2026-04-30.
+[75] Murat Babek Salman, Özlem Tugfe Demir, Emil Björnson. *Performance Analysis for ISAC Systems with 1-bit DACs*. arXiv:2607.23216, 2026-07-25.
 
-[76] Himanshu Tiwari, Binayak Kar, Priyanshu Tiwari. *Digital Twin-assisted belief-state reinforcement learning for latency-robust ISAC in 6G networks*. arXiv:2604.25967, 2026-04-28.
+[76] Po-Chih Chen, Ming-Chun Lee, Yu-Chih Huang. *Fundamental Limits of MIMO-OTFS and MIMO-OFDM in High-Dynamics ISAC: An Antenna Array Architecture Perspective*. arXiv:2607.20200, 2026-07-22.
 
-[77] Qinyuan Zheng, Pengcheng Zhu. *Multi-Static ISAC Assisted by Double-Side Fluid Antenna System*. arXiv:2604.25234, 2026-04-28.
+[77] Ufuk Altun, Onur Günlü. *Secure OFDM-IM ISAC With Artificial-Noise-Aided Index Deception*. arXiv:2607.19068, 2026-07-21.
 
-[78] Chen Chaoran, Zhang Yuhao, Pan Zhiwen, Liu Nan. *Joint Hybrid Beamforming and Trajectory Design for Multi-UAV-Enabled Cell-Free Multi-Static ISAC*. arXiv:2604.24600, 2026-04-27.
+[78] Yirui Luo, Yong Liang Guan, Yao Ge, Yonghong Jiang, Lingsheng Meng et al.. *Data-aided Channel Estimation and Sensing With Sparse Bayesian Learning for AFDM-ISAC System*. arXiv:2607.18881, 2026-07-21.
 
-[79] Yaxuan Chen, Guangchi Zhang, Miao Cui, Hao Fu, Qingqing Wu et al.. *Sensing-Assisted Secure Communication in MA-Aided ISAC: CRB Analysis and Robust Design*. arXiv:2604.23663, 2026-04-26.
+[79] Yosefine Triwidyastuti, Tri Nhu Do, Ngo Hoang Tu, Georges Kaddoum. *RIS-Aided ISAC in Cluttered Environments*. arXiv:2607.16611, 2026-07-18.
 
-[80] Yosefine Triwidyastuti, Tri Nhu Do, Ngo Hoang Tu, Georges Kaddoum. *RIS-Aided ISAC in Cluttered Environments*. arXiv:2607.16611, 2026-07-18.
+[80] Fabrizio Carpi, Joonyoung Cho, Kyeong Jin Kim, Charlie Jianzhong Zhang. *DFT-p-FDMA Based Chirp Transmission in CP-OFDM for Unified ISAC Waveform Design*. arXiv:2607.15575, 2026-07-17.
 
-[81] Fabrizio Carpi, Joonyoung Cho, Kyeong Jin Kim, Charlie Jianzhong Zhang. *DFT-p-FDMA Based Chirp Transmission in CP-OFDM for Unified ISAC Waveform Design*. arXiv:2607.15575, 2026-07-17.
+[81] Chengwang Ji, Haiquan Lu, Qiaoyan Peng, Jintao Wang, Feifei Gao et al.. *Mode Switching for RDARS-Aided ISAC Systems: From Optimization to Deep Unfolding*. arXiv:2607.11162, 2026-07-13.
 
-[82] Chengwang Ji, Haiquan Lu, Qiaoyan Peng, Jintao Wang, Feifei Gao et al.. *Mode Switching for RDARS-Aided ISAC Systems: From Optimization to Deep Unfolding*. arXiv:2607.11162, 2026-07-13.
+[82] Na Zhao, Xiao Shen, Chao Ge, Ziping Lu, Yuan Shen. *Data-Aided Target Localization in Multistatic ISAC Systems With Communication Constraints*. arXiv:2607.10115, 2026-07-11.
 
-[83] Na Zhao, Xiao Shen, Chao Ge, Ziping Lu, Yuan Shen. *Data-Aided Target Localization in Multistatic ISAC Systems With Communication Constraints*. arXiv:2607.10115, 2026-07-11.
+[83] Lijie Zheng, Xudong Zhong, Baoquan Ren, Xiangwu Gong, Xinghui Zhu et al.. *From Intent to Infrastructure: LLM-Driven Agent Compilers for ISAC Networks*. arXiv:2607.16269, 2026-07-07.
 
-[84] Lijie Zheng, Xudong Zhong, Baoquan Ren, Xiangwu Gong, Xinghui Zhu et al.. *From Intent to Infrastructure: LLM-Driven Agent Compilers for ISAC Networks*. arXiv:2607.16269, 2026-07-07.
+[84] Eya Gourar, Abdul Karim Gizzini, Yahia Medjahdi, Patrick Sondi, Laurent Clavier. *Low-Complexity Sensing-Aware PAPR Reduction for AFDM-based ISAC Systems*. arXiv:2607.01064, 2026-07-01.
 
-[85] Eya Gourar, Abdul Karim Gizzini, Yahia Medjahdi, Patrick Sondi, Laurent Clavier. *Low-Complexity Sensing-Aware PAPR Reduction for AFDM-based ISAC Systems*. arXiv:2607.01064, 2026-07-01.
+[85] Qu Luo, Zilong Liu, Musavian Leila, Thomos Nikolaos, Qihao Peng et al.. *Frame-Based AFDM-ISAC Waveform Design With Chirp-Enabled Pulse Compression*. arXiv:2607.00632, 2026-07-01.
 
-[86] Qu Luo, Zilong Liu, Musavian Leila, Thomos Nikolaos, Qihao Peng et al.. *Frame-Based AFDM-ISAC Waveform Design With Chirp-Enabled Pulse Compression*. arXiv:2607.00632, 2026-07-01.
+[86] Yosefine Triwidyastuti, Tri Nhu Do. *Communication-Centric RIS-Assisted ISAC: Signal Modeling and BER Analysis*. arXiv:2606.28924, 2026-06-27.
 
-[87] Yosefine Triwidyastuti, Tri Nhu Do. *Communication-Centric RIS-Assisted ISAC: Signal Modeling and BER Analysis*. arXiv:2606.28924, 2026-06-27.
+[87] Tianyao Ma, Aimin Tang, Yin Xu, Qu Luo, Dazhi He et al.. *MCRB and MSE Analysis for Parameter Estimation in AFDM-ISAC Systems*. arXiv:2606.25572, 2026-06-24.
 
-[88] Tianyao Ma, Aimin Tang, Yin Xu, Qu Luo, Dazhi He et al.. *MCRB and MSE Analysis for Parameter Estimation in AFDM-ISAC Systems*. arXiv:2606.25572, 2026-06-24.
+[88] Meng Hua, Chenghong Bian, Deniz Gunduz. *Resolving Multi-Target Association in OFDM-based ISAC via Vision-aided Multi-Modal Learning*. arXiv:2606.22195, 2026-06-20.
 
-[89] Meng Hua, Chenghong Bian, Deniz Gunduz. *Resolving Multi-Target Association in OFDM-based ISAC via Vision-aided Multi-Modal Learning*. arXiv:2606.22195, 2026-06-20.
+[89] Cole Dickerson, Wahab Khawaja, Ismail Guvenc. *Adaptive 5G Resource Allocation for Multistatic ISAC-Based UAV Detection and Tracking*. arXiv:2606.21677, 2026-06-19.
 
-[90] Cole Dickerson, Wahab Khawaja, Ismail Guvenc. *Adaptive 5G Resource Allocation for Multistatic ISAC-Based UAV Detection and Tracking*. arXiv:2606.21677, 2026-06-19.
+[90] Bensheng Yang, Min Fan, Haitao Zhao, Haiming Wang. *Amplitude-Phase-Frequency Block Modulation for OFDM-ISAC with SI-Free PAPR Reduction and Pilotless Sensing*. arXiv:2606.20011, 2026-06-18.
 
-[91] Bensheng Yang, Min Fan, Haitao Zhao, Haiming Wang. *Amplitude-Phase-Frequency Block Modulation for OFDM-ISAC with SI-Free PAPR Reduction and Pilotless Sensing*. arXiv:2606.20011, 2026-06-18.
+[91] Changhao He, Xiaojuan Zhang, Geoffrey Ye Li. *Twin-in-the-Loop Optimization and Fundamental Limits of Position--Velocity Estimation in Cell-Free ISAC Systems*. arXiv:2606.15688, 2026-06-14.
 
-[92] Changhao He, Xiaojuan Zhang, Geoffrey Ye Li. *Twin-in-the-Loop Optimization and Fundamental Limits of Position--Velocity Estimation in Cell-Free ISAC Systems*. arXiv:2606.15688, 2026-06-14.
+[92] Laurenz Taffner, Jonas Bönsch, Norman Franchi, Maximilian Lübke. *On the Feasibility of Passive Bistatic ISAC Based on Unmodified LoRa*. arXiv:2606.14293, 2026-06-12.
 
-[93] Laurenz Taffner, Jonas Bönsch, Norman Franchi, Maximilian Lübke. *On the Feasibility of Passive Bistatic ISAC Based on Unmodified LoRa*. arXiv:2606.14293, 2026-06-12.
+[93] Haotian Liu, Zhiqing Wei, Xingwang Li, Ruizhong Xu, Zhiyong Feng. *Toward Deeper Environmental Understanding: Event-Level Sensing for Intelligent 6G ISAC*. arXiv:2606.14223, 2026-06-12.
 
-[94] Haotian Liu, Zhiqing Wei, Xingwang Li, Ruizhong Xu, Zhiyong Feng. *Toward Deeper Environmental Understanding: Event-Level Sensing for Intelligent 6G ISAC*. arXiv:2606.14223, 2026-06-12.
+[94] Shiqi Cui, Fan Zhang, Yuanshuo Gang, Zeping Sui, Tianqi Mao et al.. *Adaptive $c_2$-Perturbed AFDM Waveform Design for Integrated Sensing and Communication*. arXiv:2606.04698, 2026-06-03.
 
-[95] Shiqi Cui, Fan Zhang, Yuanshuo Gang, Zeping Sui, Tianqi Mao et al.. *Adaptive $c_2$-Perturbed AFDM Waveform Design for Integrated Sensing and Communication*. arXiv:2606.04698, 2026-06-03.
+[95] Ruiqi Kong, He Chen. *ISAC-Enabled Grant-Free Uplink via Artificial-Path Delay Modulation*. arXiv:2605.31366, 2026-05-29.
 
-[96] Ruiqi Kong, He Chen. *ISAC-Enabled Grant-Free Uplink via Artificial-Path Delay Modulation*. arXiv:2605.31366, 2026-05-29.
+[96] Yanpeng Su, Norman Franchi, Maximilian Lübke. *On Unified CRLB Framework from Generic Signals to ISAC Waveforms with Virtual Array Sensing*. arXiv:2605.28547, 2026-05-27.
 
-[97] Yanpeng Su, Norman Franchi, Maximilian Lübke. *On Unified CRLB Framework from Generic Signals to ISAC Waveforms with Virtual Array Sensing*. arXiv:2605.28547, 2026-05-27.
+[97] Noor Waqar, Kai-Kit Wong, Chan-Byoung Chae, Ross Murch. *Diffusion Fluid Antenna Systems for Resilient ISAC*. arXiv:2605.23649, 2026-05-22.
 
-[98] Noor Waqar, Kai-Kit Wong, Chan-Byoung Chae, Ross Murch. *Diffusion Fluid Antenna Systems for Resilient ISAC*. arXiv:2605.23649, 2026-05-22.
+[98] Shiqi Cui, Tianqi Mao, Fan Zhang, Zeping Sui, Christos Masouros et al.. *DAFT-s-AFDM Enabled ISAC Systems: Ambiguity Function Analysis and Waveform Design*. arXiv:2605.19759, 2026-05-19.
 
-[99] Shiqi Cui, Tianqi Mao, Fan Zhang, Zeping Sui, Christos Masouros et al.. *DAFT-s-AFDM Enabled ISAC Systems: Ambiguity Function Analysis and Waveform Design*. arXiv:2605.19759, 2026-05-19.
+[99] Dongil Yang, Kaitao Meng, Christos Masouros, Kawon Han. *Constellation-Independent Range Estimation in Payload-Based OFDM-ISAC*. arXiv:2605.16831, 2026-05-16.
 
-[100] Dongil Yang, Kaitao Meng, Christos Masouros, Kawon Han. *Constellation-Independent Range Estimation in Payload-Based OFDM-ISAC*. arXiv:2605.16831, 2026-05-16.
+[100] Fan Liu, Yifeng Xiong, Ya-Feng Liu, Jie Yang, Christos Masouros et al.. *CP-OFDM Achieves Lower Ranging CRB Than Frequency-Spread Waveforms in the Large-Sample Regime*. arXiv:2605.14451, 2026-05-14.
 
-[101] Fan Liu, Yifeng Xiong, Ya-Feng Liu, Jie Yang, Christos Masouros et al.. *CP-OFDM Achieves Lower Ranging CRB Than Frequency-Spread Waveforms in the Large-Sample Regime*. arXiv:2605.14451, 2026-05-14.
+[101] Maryam Darabi, Sergi Liesegang, Emanuele Grossi, Stefano Buzzi. *A Comparison Between Co-Located and Distributed MIMO Deployments in OFDM-ISAC Networks*. arXiv:2605.05059, 2026-05-06.
 
-[102] Maryam Darabi, Sergi Liesegang, Emanuele Grossi, Stefano Buzzi. *A Comparison Between Co-Located and Distributed MIMO Deployments in OFDM-ISAC Networks*. arXiv:2605.05059, 2026-05-06.
+[102] Ning Wei, Aimin Tang, Yin Xu, Wenze Qu. *Waveform Design for 6G ISAC Systems Under Full-Duplex Residual Self-Interference*. arXiv:2605.02157, 2026-05-04.
 
-[103] Ning Wei, Aimin Tang, Yin Xu, Wenze Qu. *Waveform Design for 6G ISAC Systems Under Full-Duplex Residual Self-Interference*. arXiv:2605.02157, 2026-05-04.
+[103] Yinuo Du, Ziping Lu, Xiao Shen, Hanying Zhao, Yuan Shen. *Sensing-Constrained Diversity-Multiplexing Tradeoff in MIMO ISAC: A Geometric Approach*. arXiv:2605.01889, 2026-05-03.
 
-[104] Yinuo Du, Ziping Lu, Xiao Shen, Hanying Zhao, Yuan Shen. *Sensing-Constrained Diversity-Multiplexing Tradeoff in MIMO ISAC: A Geometric Approach*. arXiv:2605.01889, 2026-05-03.
+[104] Wenjie Zhang, Qianglong Dai, Xiaoli Xu, Ruoguang Li, Yong Zeng. *CRLB and Parameter Estimation for OFDM-ISAC with Non-Uniform Sparse Resource Allocation*. arXiv:2604.26612, 2026-04-29.
 
-[105] Wenjie Zhang, Qianglong Dai, Xiaoli Xu, Ruoguang Li, Yong Zeng. *CRLB and Parameter Estimation for OFDM-ISAC with Non-Uniform Sparse Resource Allocation*. arXiv:2604.26612, 2026-04-29.
+[105] Steven Rivetti, Gabor Fodor, Emil Bjornson, Mikael Skoglund. *Cramer-Rao Bound Analysis of Bistatic ISAC Under Partial Symbol Knowledge and Clutter*. arXiv:2604.11426, 2026-04-13.
 
-[106] Steven Rivetti, Gabor Fodor, Emil Bjornson, Mikael Skoglund. *Cramér-Rao Bound Analysis of Bistatic ISAC Under Partial Symbol Knowledge and Clutter*. arXiv:2604.11426, 2026-04-13.
+[106] Qi Lin, Hong Shen, Wei Xu, Chunming Zhao. *CRB-Based Waveform Optimization for MIMO ISAC Systems With One-Bit ADCs*. arXiv:2604.07150, 2026-04-08.
 
-[107] Qi Lin, Hong Shen, Wei Xu, Chunming Zhao. *CRB-Based Waveform Optimization for MIMO ISAC Systems With One-Bit ADCs*. arXiv:2604.07150, 2026-04-08.
+[107] Shiyu Bai, Sijia Li, Cunyi Yin, Wenqiu Qu, Li-Ta Hsu et al.. *MIMO OFDM-Enabled ISAC for Low-Altitude Non-Cooperative UAV Surveillance: A Survey*. arXiv:2604.02680, 2026-04-03.
 
-[108] Shiyu Bai, Sijia Li, Cunyi Yin, Wenqiu Qu, Li-Ta Hsu et al.. *MIMO OFDM-Enabled ISAC for Low-Altitude Non-Cooperative UAV Surveillance: A Survey*. arXiv:2604.02680, 2026-04-03.
+[108] Jie Wang, Zhen Du, Ying Wang, Weijie Yuan, Fan Liu et al.. *Clutter-Resilient ISAC for Low-Altitude Wireless Networks: A 5G Base Station-Compatible Protocol, Waveform, and Prototype*. arXiv:2603.14351, 2026-03-15.
 
-[109] Jie Wang, Zhen Du, Ying Wang, Weijie Yuan, Fan Liu et al.. *Clutter-Resilient ISAC for Low-Altitude Wireless Networks: A 5G Base Station-Compatible Protocol, Waveform, and Prototype*. arXiv:2603.14351, 2026-03-15.
+[109] Ahmet Yazar, Yusuf Islam Demir, Ahmed Naeem, Seyit Karatepe. *A Multi-Objective Learning Approach for Adaptive Waveform Selection in Integrated Sensing and Communications Systems*. arXiv:2603.14017, 2026-03-14.
 
-[110] Ahmet Yazar, Yusuf Islam Demir, Ahmed Naeem, Seyit Karatepe. *A Multi-Objective Learning Approach for Adaptive Waveform Selection in Integrated Sensing and Communications Systems*. arXiv:2603.14017, 2026-03-14.
+[110] Huacheng Zeng, Kunzhe Song, Geo Jie Zhou, Ruxin Lin. *OFDM Waveform for Monostatic ISAC in 6G: Vision, Approach, and Research Directions*. arXiv:2603.12641, 2026-03-13.
 
-[111] Huacheng Zeng, Kunzhe Song, Geo Jie Zhou, Ruxin Lin. *OFDM Waveform for Monostatic ISAC in 6G: Vision, Approach, and Research Directions*. arXiv:2603.12641, 2026-03-13.
+[111] Ruolin Du, Zhiqiang Wei, Zai Yang, Ya-Feng Liu, Bingpeng Zhou et al.. *OFDM Waveform Optimization for Bistatic Integrated Sensing and Communications*. arXiv:2603.08442, 2026-03-09.
 
-[112] Ruolin Du, Zhiqiang Wei, Zai Yang, Ya-Feng Liu, Bingpeng Zhou et al.. *OFDM Waveform Optimization for Bistatic Integrated Sensing and Communications*. arXiv:2603.08442, 2026-03-09.
+[112] Peihao Dong, Renbin Li, Shen Gao, Shuangshuang Li, Fuhui Zhou et al.. *Sensing-Aided Channel Estimation for Near-Field MIMO ISAC Systems via Cross-Attention Transformer*. arXiv:2607.03224, 2026-07-03.
 
-[113] Kaitao Meng, Kawon Han, Christos Masouros, Fan Liu. *Constellation Selection and Power Control for OFDM-based ISAC: From Theory to Prototype*. arXiv:2603.03895, 2026-03-04.
+[113] Hossein Atrsaei, Mireille Sarkiss, Michèle Wigger. *Fundamental Limits of Quantized MIMO ISAC under Gaussian Signaling*. arXiv:2606.31301, 2026-06-30.
 
-[114] Eduardo Baena, Rajesh Krishnan, Mai Vu, Gil Zussman, Dimitrios Koutsonikolas. *Toward Native ISAC Support in O-RAN Architectures for 6G*. arXiv:2603.03607, 2026-03-04.
+[114] Jun Zhu, Yin Xu, Aimin Tang, Ruomeng Wang, Dazhi He et al.. *Low-Complexity Hybrid Precoding for Cell-Free Massive MU-MIMO ISAC Systems*. arXiv:2606.23709, 2026-06-15.
 
-[115] Umut Utku Erdem, Lucas Giroto, Tobias Chaloun, Tom Schipper, Taewon Jeong et al.. *Secure OFDM Waveform Design for ISAC: Artificial Phase-Doppler Shifts Against Passive Sensing*. arXiv:2602.23861, 2026-02-27.
+[115] Ahmad Bazzi, Florian Gast, Fan Liu, Shi Jin, Gerhard Fettweis et al.. *From Coverage to Sensing: ISAC meets FR3*. arXiv:2605.18120, 2026-05-18.
 
-[116] Peihao Dong, Renbin Li, Shen Gao, Shuangshuang Li, Fuhui Zhou et al.. *Sensing-Aided Channel Estimation for Near-Field MIMO ISAC Systems via Cross-Attention Transformer*. arXiv:2607.03224, 2026-07-03.
+[116] Dongsheng Peng, Chengkai Zhao, Yihong Li, Zhiqing Wei, Jun Chen et al.. *Fundamental Performance Limits of Non-Coherent ISAC: A Data-Aided Sensing Perspective*. arXiv:2605.16196, 2026-05-15.
 
-[117] Hossein Atrsaei, Mireille Sarkiss, Michèle Wigger. *Fundamental Limits of Quantized MIMO ISAC under Gaussian Signaling*. arXiv:2606.31301, 2026-06-30.
+[117] Haobo Zhang, Shuhao Zeng, Xinyuan Hu, Shupei Zhang, Boya Di et al.. *Holographic Surface Enabled Integrated Sensing and Communications*. arXiv:2605.08852, 2026-05-09.
 
-[118] Jun Zhu, Yin Xu, Aimin Tang, Ruomeng Wang, Dazhi He et al.. *Low-Complexity Hybrid Precoding for Cell-Free Massive MU-MIMO ISAC Systems*. arXiv:2606.23709, 2026-06-15.
+[118] Jian Wang, Qiqiang Chen, Zheng Wang, Fan Liu, Yili Xia et al.. *Uplink Signal Detection For Large-Scale MIMO-ISAC Systems*. arXiv:2604.19263, 2026-04-21.
 
-[119] Ahmad Bazzi, Florian Gast, Fan Liu, Shi Jin, Gerhard Fettweis et al.. *From Coverage to Sensing: ISAC meets FR3*. arXiv:2605.18120, 2026-05-18.
+[119] Maryam Darabi, Sergi Liesegang, Emanuele Grossi, Stefano Buzzi. *Joint Detection and Velocity Estimation in OFDM-ISAC Cell-Free Massive MIMO Networks*. arXiv:2604.18056, 2026-04-20.
 
-[120] Dongsheng Peng, Chengkai Zhao, Yihong Li, Zhiqing Wei, Jun Chen et al.. *Fundamental Performance Limits of Non-Coherent ISAC: A Data-Aided Sensing Perspective*. arXiv:2605.16196, 2026-05-15.
+[120] Yinchao Yang, Yahao Ding, Jiaxiang Wang, Zhaohui Yang, Chen Zhu et al.. *Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks*. arXiv:2604.05797, 2026-04-07.
 
-[121] Haobo Zhang, Shuhao Zeng, Xinyuan Hu, Shupei Zhang, Boya Di et al.. *Holographic Surface Enabled Integrated Sensing and Communications*. arXiv:2605.08852, 2026-05-09.
+[121] Seonghoon Yoo, Seulhyun Kwon, Kawon Han, Elaheh Ataeebojd, Mehdi Rasti et al.. *Robust Beamforming Design for Coherent Distributed ISAC with Statistical RCS and Phase Synchronization Uncertainty*. arXiv:2604.02634, 2026-04-03.
 
-[122] Jian Wang, Qiqiang Chen, Zheng Wang, Fan Liu, Yili Xia et al.. *Uplink Signal Detection For Large-Scale MIMO-ISAC Systems*. arXiv:2604.19263, 2026-04-21.
+[122] Hyeonho Noh, Jonggyu Jang. *α-Fair Multistatic ISAC Beamforming for Multi-User MIMO-OFDM Systems via Riemannian Optimization*. arXiv:2603.29717, 2026-03-31.
 
-[123] Maryam Darabi, Sergi Liesegang, Emanuele Grossi, Stefano Buzzi. *Joint Detection and Velocity Estimation in OFDM-ISAC Cell-Free Massive MIMO Networks*. arXiv:2604.18056, 2026-04-20.
+[123] Ruiyun Zhang, Zhaolin Wang, Zhiqing Wei, Yuanwei Liu, Zehui Xiong et al.. *Wideband Near-Field Sensing in ISAC: Unified Algorithm Design and Decoupled Effect Analysis*. arXiv:2603.27726, 2026-03-29.
 
-[124] Yinchao Yang, Yahao Ding, Jiaxiang Wang, Zhaohui Yang, Chen Zhu et al.. *Near-Field Integrated Sensing, Computing and Semantic Communication in Digital Twin-Assisted Vehicular Networks*. arXiv:2604.05797, 2026-04-07.
+[124] Ruiguang Wang, Takumi Takahashi, Hideki Ochiai. *Secure Cell-Free Massive MIMO ISAC Systems: Joint AP Selection and Power Allocation Against Eavesdropping*. arXiv:2603.18635, 2026-03-19.
 
-[125] Seonghoon Yoo, Seulhyun Kwon, Kawon Han, Elaheh Ataeebojd, Mehdi Rasti et al.. *Robust Beamforming Design for Coherent Distributed ISAC with Statistical RCS and Phase Synchronization Uncertainty*. arXiv:2604.02634, 2026-04-03.
+[125] Xin Tong, Lechen Zhang, Yu Ge, Dario Tagliaferri, Henk Wymeersch. *NLOS-Aided Joint OTA Synchronization and Off-Grid Imaging for Distributed MIMO Systems*. arXiv:2603.13981, 2026-03-14.
 
-[126] Hyeonho Noh, Jonggyu Jang. *α-Fair Multistatic ISAC Beamforming for Multi-User MIMO-OFDM Systems via Riemannian Optimization*. arXiv:2603.29717, 2026-03-31.
+[126] Rang Liu, Ming Li, A. Lee Swindlehurst. *Extended Target Sensing in MIMO-OFDM ISAC Systems: Modeling, Optimization and Estimation*. arXiv:2603.13580, 2026-03-13.
 
-[127] Ruiyun Zhang, Zhaolin Wang, Zhiqing Wei, Yuanwei Liu, Zehui Xiong et al.. *Wideband Near-Field Sensing in ISAC: Unified Algorithm Design and Decoupled Effect Analysis*. arXiv:2603.27726, 2026-03-29.
+[127] Alex Obando, Tharindu Udupitiya, Saman Atapattu, Kandeepan Sithamparanathan. *Standard Condition Number-Based Detection for MIMO ISAC Systems under Noise Uncertainty*. arXiv:2603.11516, 2026-03-12.
 
-[128] Ruiguang Wang, Takumi Takahashi, Hideki Ochiai. *Secure Cell-Free Massive MIMO ISAC Systems: Joint AP Selection and Power Allocation Against Eavesdropping*. arXiv:2603.18635, 2026-03-19.
+[128] Rakesh Ranjan, Anshu Mukherjee, Manjesh K. Hanawal, Keshav Singh, Ioannis Krikidis. *Secure and Robust Beamforming Design for STAR-RIS-aided MU-MIMO ISAC Systems*. arXiv:2603.07719, 2026-03-08.
 
-[129] Xin Tong, Lechen Zhang, Yu Ge, Dario Tagliaferri, Henk Wymeersch. *NLOS-Aided Joint OTA Synchronization and Off-Grid Imaging for Distributed MIMO Systems*. arXiv:2603.13981, 2026-03-14.
+[129] Ngo Tran Anh Thu, Pham Dang Anh Duc, Bui Trong Duc, Nguyen Minh Quan, Trinh Van Chien et al.. *Energy Efficiency Maximization for Integrated Sensing and Communications in Satellite-UAV MIMO Systems*. arXiv:2603.01717, 2026-03-02.
 
-[130] Rang Liu, Ming Li, A. Lee Swindlehurst. *Extended Target Sensing in MIMO-OFDM ISAC Systems: Modeling, Optimization and Estimation*. arXiv:2603.13580, 2026-03-13.
+[130] Zihuan Wang, Vincent W. S. Wong, Robert Schober. *Cooperative ISAC for Joint Localization and Velocity Estimation in Cell-Free MIMO Systems*. arXiv:2602.20319, 2026-02-23.
 
-[131] Alex Obando, Tharindu Udupitiya, Saman Atapattu, Kandeepan Sithamparanathan. *Standard Condition Number-Based Detection for MIMO ISAC Systems under Noise Uncertainty*. arXiv:2603.11516, 2026-03-12.
+[131] Yinchao Yang, Prabhat Raj Gautam, Yathreb Bouazizi, Michael Breza, Julie McCann. *Dual Security for MIMO-OFDM ISAC Systems: Artificial Ghosts or Artificial Noise*. arXiv:2602.20045, 2026-02-23.
 
-[132] Rakesh Ranjan, Anshu Mukherjee, Manjesh K. Hanawal, Keshav Singh, Ioannis Krikidis. *Secure and Robust Beamforming Design for STAR-RIS-aided MU-MIMO ISAC Systems*. arXiv:2603.07719, 2026-03-08.
+[132] De-Ming Chian, Chao-Kai Wen, Feng-Ji Chen, Yi-Jie Sun, Fu-Kang Wang. *Active RIS-Assisted MIMO System for Vital Signs Extraction: ISAC Modeling, Deep Learning, and Prototype Measurements*. arXiv:2602.16637, 2026-02-18.
 
-[133] Ngo Tran Anh Thu, Pham Dang Anh Duc, Bui Trong Duc, Nguyen Minh Quan, Trinh Van Chien et al.. *Energy Efficiency Maximization for Integrated Sensing and Communications in Satellite-UAV MIMO Systems*. arXiv:2603.01717, 2026-03-02.
+[133] Rang Liu, Peishi Li, Ming Li, A. Lee Swindlehurst. *Clutter-Aware Integrated Sensing and Communication: Models, Methods, and Future Directions*. arXiv:2602.10537, 2026-02-11.
 
-[134] Zihuan Wang, Vincent W. S. Wong, Robert Schober. *Cooperative ISAC for Joint Localization and Velocity Estimation in Cell-Free MIMO Systems*. arXiv:2602.20319, 2026-02-23.
+[134] Yizhuo Wang, Shuowen Zhang. *Optimal Transmit Beamforming for MIMO ISAC with Unknown Target and User Locations*. arXiv:2602.08255, 2026-02-09.
 
-[135] Yinchao Yang, Prabhat Raj Gautam, Yathreb Bouazizi, Michael Breza, Julie McCann. *Dual Security for MIMO-OFDM ISAC Systems: Artificial Ghosts or Artificial Noise*. arXiv:2602.20045, 2026-02-23.
+[135] Haofan Dong, Ozgur B. Akan. *MI-ISAC: Magneto-Inductive Integrated Sensing and Communication in the Reactive Near-Field for RF-Denied Environments*. arXiv:2602.07714, 2026-02-07.
 
-[136] De-Ming Chian, Chao-Kai Wen, Feng-Ji Chen, Yi-Jie Sun, Fu-Kang Wang. *Active RIS-Assisted MIMO System for Vital Signs Extraction: ISAC Modeling, Deep Learning, and Prototype Measurements*. arXiv:2602.16637, 2026-02-18.
+[136] Xiaotong Zhao, Mian Li, Ya-Feng Liu, Qingjiang Shi, Anthony Man-Cho So. *Optimal Low-Dimensional Structures of ISAC Beamforming: Theory and Efficient Algorithms*. arXiv:2602.07502, 2026-02-07.
 
-[137] Rang Liu, Peishi Li, Ming Li, A. Lee Swindlehurst. *Clutter-Aware Integrated Sensing and Communication: Models, Methods, and Future Directions*. arXiv:2602.10537, 2026-02-11.
+[137] Xiaohan Lv, Rang Liu, Yi Chen, Qian Liu, Ming Li. *Message Passing based Parameter Estimation in Cooperative MIMO-OFDM ISAC Systems*. arXiv:2602.07365, 2026-02-07.
 
-[138] Yizhuo Wang, Shuowen Zhang. *Optimal Transmit Beamforming for MIMO ISAC with Unknown Target and User Locations*. arXiv:2602.08255, 2026-02-09.
+[138] Po-Chun Kang, Ming-Chun Lee, Tzu-Chien Chiu, Ting-Yao Kuo, Ta-Sung Lee. *Digital and Hybrid Precoding and RF Chain Selection Designs for Energy Efficient Multi-User MIMO-OFDM ISAC Systems*. arXiv:2602.01121, 2026-02-01.
 
-[139] Haofan Dong, Ozgur B. Akan. *MI-ISAC: Magneto-Inductive Integrated Sensing and Communication in the Reactive Near-Field for RF-Denied Environments*. arXiv:2602.07714, 2026-02-07.
+[139] Michael Negosanti, Lorenzo Pucci, Andrea Giorgetti. *OFDM-Based ISAC Imaging of Extended Targets via Inverse Virtual Aperture Processing*. arXiv:2601.16664, 2026-01-23.
 
-[140] Xiaotong Zhao, Mian Li, Ya-Feng Liu, Qingjiang Shi, Anthony Man-Cho So. *Optimal Low-Dimensional Structures of ISAC Beamforming: Theory and Efficient Algorithms*. arXiv:2602.07502, 2026-02-07.
+[140] Berk Ciloglu, Ozgun Ersoy, Metin Ozturk, Ali Gorcin. *ISAC-over-NTN: HAPS-UAV Framework for Post-Disaster Responsive 6G Networks*. arXiv:2601.15422, 2026-01-21.
 
-[141] Xiaohan Lv, Rang Liu, Yi Chen, Qian Liu, Ming Li. *Message Passing based Parameter Estimation in Cooperative MIMO-OFDM ISAC Systems*. arXiv:2602.07365, 2026-02-07.
+[141] Chaedam Son, Si-Hyeon Lee. *Robust Beamforming and Time Allocation for Time-Division Cell-Free Near-Field ISAC*. arXiv:2601.12725, 2026-01-19.
 
-[142] Po-Chun Kang, Ming-Chun Lee, Tzu-Chien Chiu, Ting-Yao Kuo, Ta-Sung Lee. *Digital and Hybrid Precoding and RF Chain Selection Designs for Energy Efficient Multi-User MIMO-OFDM ISAC Systems*. arXiv:2602.01121, 2026-02-01.
+[142] Ziwei Wan, Zhen Gao, Fabien Heliot, Qu Luo, Pei Xiao et al.. *Ultra-Massive MIMO with Orthogonal Chirp Division Multiplexing for Near-Field Sensing and Communication Integration*. arXiv:2512.23246, 2025-12-29.
 
-[143] Michael Negosanti, Lorenzo Pucci, Andrea Giorgetti. *OFDM-Based ISAC Imaging of Extended Targets via Inverse Virtual Aperture Processing*. arXiv:2601.16664, 2026-01-23.
+[143] Filip Lemic, Andra Blaga, Francesco Devoti, Guillermo Encinas Lago, Jan Adler et al.. *Unified Evaluation Methodology for AI-Native Integrated Sensing and Communication*. arXiv:2607.14806, 2026-07-16.
 
-[144] Berk Ciloglu, Ozgun Ersoy, Metin Ozturk, Ali Gorcin. *ISAC-over-NTN: HAPS-UAV Framework for Post-Disaster Responsive 6G Networks*. arXiv:2601.15422, 2026-01-21.
+[144] Kevin Weinberger, David Müller, Martin Mönnigmann, Aydin Sezgin. *Design and Deployment Guidelines for UAV-Mounted RIS Under Position Uncertainty*. arXiv:2607.07298, 2026-07-08.
 
-[145] Chaedam Son, Si-Hyeon Lee. *Robust Beamforming and Time Allocation for Time-Division Cell-Free Near-Field ISAC*. arXiv:2601.12725, 2026-01-19.
+[145] Ling He, Vaibhav Kumar, Yingyang Chen, Miaowen Wen, Christina Pöpper et al.. *STAR-RIS-Assisted Integrated Sensing, Secure Communication, and Power Transfer: A Transmit Power Minimization Framework*. arXiv:2607.03637, 2026-07-03.
 
-[146] Ziwei Wan, Zhen Gao, Fabien Heliot, Qu Luo, Pei Xiao et al.. *Ultra-Massive MIMO with Orthogonal Chirp Division Multiplexing for Near-Field Sensing and Communication Integration*. arXiv:2512.23246, 2025-12-29.
+[146] Ruhul Amin Khalil. *AI-Empowered UAV-Assisted Backscatter Localization and ISAC for Zero-Energy IoT: A Comprehensive Survey*. arXiv:2606.23125, 2026-06-22.
 
-[147] Filip Lemic, Andra Blaga, Francesco Devoti, Guillermo Encinas Lago, Jan Adler et al.. *Unified Evaluation Methodology for AI-Native Integrated Sensing and Communication*. arXiv:2607.14806, 2026-07-16.
+[147] Armin Farhadi, Ali Olfat. *Comprehensive Review of Advances and Challenges in Next Generation Wireless Networks: From Novel Hardware Technologies to Learning Based Resource Allocation in 6G*. arXiv:2605.08951, 2026-05-09.
 
-[148] Kevin Weinberger, David Müller, Martin Mönnigmann, Aydin Sezgin. *Design and Deployment Guidelines for UAV-Mounted RIS Under Position Uncertainty*. arXiv:2607.07298, 2026-07-08.
+[148] Wenqing Dai, Jan Herbst, Jan Petershans, Christoph Lipps, Hans D. Schotten. *Multi-Objective RIS Deployment Optimization for Physical Layer Security in ISAC Networks*. arXiv:2604.20537, 2026-04-22.
 
-[149] Ling He, Vaibhav Kumar, Yingyang Chen, Miaowen Wen, Christina Pöpper et al.. *STAR-RIS-Assisted Integrated Sensing, Secure Communication, and Power Transfer: A Transmit Power Minimization Framework*. arXiv:2607.03637, 2026-07-03.
+[149] Radwa Sultan. *Towards SAFE-ISAC: STAR-RIS-Aided Joint Jamming Suppression and Target Concealment*. arXiv:2604.14097, 2026-04-15.
 
-[150] Ruhul Amin Khalil. *AI-Empowered UAV-Assisted Backscatter Localization and ISAC for Zero-Energy IoT: A Comprehensive Survey*. arXiv:2606.23125, 2026-06-22.
+[150] Sergio Micó-Rosa, Alvaro Villaescusa-Tebar, Saúl Fenollosa, Carlos Villena-Jiménez, Monika Drozdowska et al.. *RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band*. arXiv:2604.12466, 2026-04-14.
 
-[151] Armin Farhadi, Ali Olfat. *Comprehensive Review of Advances and Challenges in Next Generation Wireless Networks: From Novel Hardware Technologies to Learning Based Resource Allocation in 6G*. arXiv:2605.08951, 2026-05-09.
+[151] Huan Huang, Hongliang Zhang, Weidong Mei, Minghui Min, Zhu Han. *Bistatic Integrated Sensing and Communication in the Presence of a Disco Reconfigurable Intelligent Surface: Disruption, Enhancement, or Both?*. arXiv:2604.10120, 2026-04-11.
 
-[152] Wenqing Dai, Jan Herbst, Jan Petershans, Christoph Lipps, Hans D. Schotten. *Multi-Objective RIS Deployment Optimization for Physical Layer Security in ISAC Networks*. arXiv:2604.20537, 2026-04-22.
+[152] Elmehdi Illi, Marwa Qaraqe. *Beyond-Diagonal RIS For Enhanced Secrecy and Sensing Gains in Secure ISAC Networks: An Optimization Framework*. arXiv:2604.04480, 2026-04-06.
 
-[153] Radwa Sultan. *Towards SAFE-ISAC: STAR-RIS-Aided Joint Jamming Suppression and Target Concealment*. arXiv:2604.14097, 2026-04-15.
+[153] Xuejun Cheng, Qian Zhang, Yuhui Jiao, Shiyao Guo, Xiaotong Xu et al.. *Joint Precoding and Phase-Shift Optimization for Beyond-Diagonal RIS-Aided ISAC System*. arXiv:2603.09265, 2026-03-10.
 
-[154] Sergio Micó-Rosa, Alvaro Villaescusa-Tebar, Saúl Fenollosa, Carlos Villena-Jiménez, Monika Drozdowska et al.. *RIS-Aided Sensing: Experimental Validation of Radar 3D Imaging in the mmWave Band*. arXiv:2604.12466, 2026-04-14.
+[154] Jiahao Chen, Feng Wang, Guojun Han, Xin Wang, Vincent K. N. Lau. *GNN Based Joint Beamforming Design for Extremely Large-Scale RIS Assisted Near-Field ISAC Systems*. arXiv:2603.01379, 2026-03-02.
 
-[155] Huan Huang, Hongliang Zhang, Weidong Mei, Minghui Min, Zhu Han. *Bistatic Integrated Sensing and Communication in the Presence of a Disco Reconfigurable Intelligent Surface: Disruption, Enhancement, or Both?*. arXiv:2604.10120, 2026-04-11.
+[155] Weifeng Zhu, Junyuan Gao, Shuowen Zhang, Meixia Tao, Liang Liu. *Joint Multi-User Tracking and Signal Detection in Reconfigurable Intelligent Surface-Assisted Cell-Free ISAC Systems*. arXiv:2602.18018, 2026-02-20.
 
-[156] Elmehdi Illi, Marwa Qaraqe. *Beyond-Diagonal RIS For Enhanced Secrecy and Sensing Gains in Secure ISAC Networks: An Optimization Framework*. arXiv:2604.04480, 2026-04-06.
+[156] Ziming Liu, Tao Chen, Giacinto Gelli, Vincenzo Galdi, Francesco Verde. *A Robust Two-Stage Protocol for STAR-RIS-Aided ISAC Networks: Joint Beamforming and Mode Optimization*. arXiv:2602.16383, 2026-02-18.
 
-[157] Xuejun Cheng, Qian Zhang, Yuhui Jiao, Shiyao Guo, Xiaotong Xu et al.. *Joint Precoding and Phase-Shift Optimization for Beyond-Diagonal RIS-Aided ISAC System*. arXiv:2603.09265, 2026-03-10.
+[157] Huyen-Trang Ta, Ngoc-Son Duong, Trung-Hieu Nguyen, Van-Linh Nguyen, Thai-Mai Dinh. *Reconfigurable Intelligent Surfaces-assisted Positioning in Integrated Sensing and Communication Systems*. arXiv:2602.14415, 2026-02-16.
 
-[158] Jiahao Chen, Feng Wang, Guojun Han, Xin Wang, Vincent K. N. Lau. *GNN Based Joint Beamforming Design for Extremely Large-Scale RIS Assisted Near-Field ISAC Systems*. arXiv:2603.01379, 2026-03-02.
+[158] Aamer Mohamed Huroon, Li-Chun Wang. *UAV-Assisted 6G Communication Networks for Railways: Technologies, Applications, and Challenges*. arXiv:2602.09536, 2026-02-10.
 
-[159] Weifeng Zhu, Junyuan Gao, Shuowen Zhang, Meixia Tao, Liang Liu. *Joint Multi-User Tracking and Signal Detection in Reconfigurable Intelligent Surface-Assisted Cell-Free ISAC Systems*. arXiv:2602.18018, 2026-02-20.
+[159] Siwen Li, Jiacheng Chen, Yunting Xu, Shaofeng Li, Le Yao et al.. *Riemannian Manifold Optimization for Advanced Wireless Communications: Fundamentals and Applications*. arXiv:2602.08225, 2026-02-09.
 
-[160] Ziming Liu, Tao Chen, Giacinto Gelli, Vincenzo Galdi, Francesco Verde. *A Robust Two-Stage Protocol for STAR-RIS-Aided ISAC Networks: Joint Beamforming and Mode Optimization*. arXiv:2602.16383, 2026-02-18.
+[160] Xin Jin, Tiejun Lv, Yashuai Cao, Jie Zeng, Mugen Peng. *ARIS-RSMA Enhanced ISAC System: Joint Rate Splitting and Beamforming Design*. arXiv:2602.06399, 2026-02-06.
 
-[161] Huyen-Trang Ta, Ngoc-Son Duong, Trung-Hieu Nguyen, Van-Linh Nguyen, Thai-Mai Dinh. *Reconfigurable Intelligent Surfaces-assisted Positioning in Integrated Sensing and Communication Systems*. arXiv:2602.14415, 2026-02-16.
+[161] Yueyi Dong, Tian Zhang. *Secure Beamforming and Reflection Design for RIS-ISAC Systems Under Collusion of Passive and Active Eavesdroppers*. arXiv:2601.18063, 2026-01-26.
 
-[162] Aamer Mohamed Huroon, Li-Chun Wang. *UAV-Assisted 6G Communication Networks for Railways: Technologies, Applications, and Challenges*. arXiv:2602.09536, 2026-02-10.
+[162] Zhixin Chen, Yixuan Huang, Zhengze Ji, Jie Yang, Shi Jin. *RIS-Aided Cooperative ISAC Network for Imaging-Based Low-Altitude Surveillance*. arXiv:2601.16033, 2026-01-22.
 
-[163] Siwen Li, Jiacheng Chen, Yunting Xu, Shaofeng Li, Le Yao et al.. *Riemannian Manifold Optimization for Advanced Wireless Communications: Fundamentals and Applications*. arXiv:2602.08225, 2026-02-09.
+[163] Yixuan Huang, Jie Yang, Chao-Kai Wen, Shi Jin. *Physics-Informed Implicit Neural Representation for Wireless Imaging in RIS-Aided ISAC System*. arXiv:2601.15113, 2026-01-21.
 
-[164] Xin Jin, Tiejun Lv, Yashuai Cao, Jie Zeng, Mugen Peng. *ARIS-RSMA Enhanced ISAC System: Joint Rate Splitting and Beamforming Design*. arXiv:2602.06399, 2026-02-06.
+[164] Marouan Mizmizi, Stefano Tebaldini, Umberto Spagnolini. *Echo-Side Integrated Sensing and Communication via Space-Time Reconfigurable Intelligent Surfaces*. arXiv:2601.09484, 2026-01-14.
 
-[165] Yueyi Dong, Tian Zhang. *Secure Beamforming and Reflection Design for RIS-ISAC Systems Under Collusion of Passive and Active Eavesdroppers*. arXiv:2601.18063, 2026-01-26.
+[165] Hong-Bae Jeon, Chan-Byoung Chae. *RIS-aided ISAC with $K$-Rydberg Atomic Receivers*. arXiv:2601.06809, 2026-01-11.
 
-[166] Zhixin Chen, Yixuan Huang, Zhengze Ji, Jie Yang, Shi Jin. *RIS-Aided Cooperative ISAC Network for Imaging-Based Low-Altitude Surveillance*. arXiv:2601.16033, 2026-01-22.
+[166] Yinghui He, Long Fan, Lei Xie, Jun Luo. *Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable Intelligent Surfaces*. arXiv:2601.04488, 2026-01-08.
 
-[167] Yixuan Huang, Jie Yang, Chao-Kai Wen, Shi Jin. *Physics-Informed Implicit Neural Representation for Wireless Imaging in RIS-Aided ISAC System*. arXiv:2601.15113, 2026-01-21.
+[167] Ziyuan Zheng, Qingqing Wu, Yanze Zhu, Honghao Wang, Ying Gao et al.. *Low-Altitude ISAC with Rotatable Active and Passive Arrays*. arXiv:2512.20987, 2025-12-24.
 
-[168] Marouan Mizmizi, Stefano Tebaldini, Umberto Spagnolini. *Echo-Side Integrated Sensing and Communication via Space-Time Reconfigurable Intelligent Surfaces*. arXiv:2601.09484, 2026-01-14.
+[168] Ling Zhuang, Ximing Xie, Fang Fang, Ali Attaran, Zhizhong Zhang. *Robust and Secure Transmission for Movable-RIS Assisted ISAC with Imperfect Sense Estimation*. arXiv:2512.20071, 2025-12-23.
 
-[169] Hong-Bae Jeon, Chan-Byoung Chae. *RIS-aided ISAC with $K$-Rydberg Atomic Receivers*. arXiv:2601.06809, 2026-01-11.
+[169] Tuo Wu, Kai-Kit Wong, Jie Tang, Junteng Yao, Baiyang Liu et al.. *Reimagining Wireless Connectivity: The FAS-RIS Synergy for 6G Smart Cities*. arXiv:2512.18982, 2025-12-22.
 
-[170] Yinghui He, Long Fan, Lei Xie, Jun Luo. *Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable Intelligent Surfaces*. arXiv:2601.04488, 2026-01-08.
+[170] Emir Aslandogan, Haci Ilhan, Burak Ahmet Ozden, Erdogan Aydin, Ertugrul Basar et al.. *A Comprehensive Survey of Channel Estimation Techniques for OTFS in 6G and Beyond Wireless Networks*. arXiv:2512.13032, 2025-12-15.
 
-[171] Ziyuan Zheng, Qingqing Wu, Yanze Zhu, Honghao Wang, Ying Gao et al.. *Low-Altitude ISAC with Rotatable Active and Passive Arrays*. arXiv:2512.20987, 2025-12-24.
+[171] Ying Zhang, Zeqi Hao, Tingting Zhang. *RIS-Assisted Coordinated Multi-Point ISAC for Low-Altitude Sensing Coverage*. arXiv:2512.09625, 2025-12-10.
 
-[172] Ling Zhuang, Ximing Xie, Fang Fang, Ali Attaran, Zhizhong Zhang. *Robust and Secure Transmission for Movable-RIS Assisted ISAC with Imperfect Sense Estimation*. arXiv:2512.20071, 2025-12-23.
+[172] Alireza Fadakar, Andreas F. Molisch. *Stacked Intelligent Metasurfaces for Multicarrier Cognitive Radio ISAC*. arXiv:2511.13933, 2025-11-17.
 
-[173] Tuo Wu, Kai-Kit Wong, Jie Tang, Junteng Yao, Baiyang Liu et al.. *Reimagining Wireless Connectivity: The FAS-RIS Synergy for 6G Smart Cities*. arXiv:2512.18982, 2025-12-22.
+[173] Chu Li, Kevin Weinberger, Aydin Sezgin. *A Lightweight Framework for Integrated Sensing and Communications with RIS*. arXiv:2511.04448, 2025-11-06.
 
-[174] Emir Aslandogan, Haci Ilhan, Burak Ahmet Ozden, Erdogan Aydin, Ertugrul Basar et al.. *A Comprehensive Survey of Channel Estimation Techniques for OTFS in 6G and Beyond Wireless Networks*. arXiv:2512.13032, 2025-12-15.
+[174] Adam Umra, Kevin Weinberger, Aymen Khaleel, Gerald Enzner, Aydin Sezgin. *Short Blocks, Fast Sensing: Finite Blocklength Tradeoffs in RIS-Assisted ISAC*. arXiv:2511.02673, 2025-11-04.
 
-[175] Ying Zhang, Zeqi Hao, Tingting Zhang. *RIS-Assisted Coordinated Multi-Point ISAC for Low-Altitude Sensing Coverage*. arXiv:2512.09625, 2025-12-10.
+[175] Thanh Nha To, Hoang Lai Pham, Quynh Nguyen Thi, Tuan Anh Pham, Le Thanh Bang. *Fairness-Aware Secure Communication in ISAC Systems with STAR-RIS and RSMA*. arXiv:2511.00721, 2025-11-01.
 
-[176] Alireza Fadakar, Andreas F. Molisch. *Stacked Intelligent Metasurfaces for Multicarrier Cognitive Radio ISAC*. arXiv:2511.13933, 2025-11-17.
+[176] Sana Hafeez, Ghulam E Mustafa Abro, Hifza Mustafa. *Quantum-Resilient Threat Modelling for Secure RIS-Assisted ISAC in 6G UAV Corridors*. arXiv:2510.25411, 2025-10-29.
 
-[177] Chu Li, Kevin Weinberger, Aydin Sezgin. *A Lightweight Framework for Integrated Sensing and Communications with RIS*. arXiv:2511.04448, 2025-11-06.
+[177] Qing Xue, Yun Lan, Jiajia Guo, Qianbin Chen, Shaodan Ma. *Joint Active and Passive Beamforming with Sensing-Assisted Discrete Phase Shifts for Dual-RIS ISAC Systems*. arXiv:2510.24480, 2025-10-28.
 
-[178] Adam Umra, Kevin Weinberger, Aymen Khaleel, Gerald Enzner, Aydin Sezgin. *Short Blocks, Fast Sensing: Finite Blocklength Tradeoffs in RIS-Assisted ISAC*. arXiv:2511.02673, 2025-11-04.
+[178] Eduardo Baena, Rajesh Krishnan, Mai Vu, Gil Zussman, Dimitrios Koutsonikolas. *Toward Native ISAC Support in O-RAN Architectures for 6G*. arXiv:2603.03607, 2026-03-04.
 
-[179] Thanh Nha To, Hoang Lai Pham, Quynh Nguyen Thi, Tuan Anh Pham, Le Thanh Bang. *Fairness-Aware Secure Communication in ISAC Systems with STAR-RIS and RSMA*. arXiv:2511.00721, 2025-11-01.
+[179] Bixing Yan, Kwadwo Mensah Obeng Afrane, Achiel Colpaert, Andre Kokkeler, Sofie Pollin et al.. *Experimental Validation of SBFD ISAC in an FR3 Distributed SIMO Testbed*. arXiv:2602.00054, 2026-01-19.
 
-[180] Sana Hafeez, Ghulam E Mustafa Abro, Hifza Mustafa. *Quantum-Resilient Threat Modelling for Secure RIS-Assisted ISAC in 6G UAV Corridors*. arXiv:2510.25411, 2025-10-29.
+[180] Kawon Han, Christos Masouros, Taneli Riihonen, Moeness G. Amin. *Next-Generation MIMO Transceivers for Integrated Sensing and Communications: Unique Security Vulnerabilities and Solutions*. arXiv:2511.20309, 2025-11-25.
 
-[181] Qing Xue, Yun Lan, Jiajia Guo, Qianbin Chen, Shaodan Ma. *Joint Active and Passive Beamforming with Sensing-Assisted Discrete Phase Shifts for Dual-RIS ISAC Systems*. arXiv:2510.24480, 2025-10-28.
+[181] Duc Nguyen Dao, Haibin Zhang, Andre B. J. Kokkeler, Yang Miao. *Joint Beamforming for Multi-user Multi-target FD ISAC System: A Hybrid GRQ-GA Approach*. arXiv:2510.24243, 2025-10-28.
 
-[182] Kexin Chen, Yijie Mao, Wonjae Shin. *Transmitter-Side Beyond-Diagonal RIS-Enabled Integrated Sensing and Communications*. arXiv:2509.26333, 2025-09-30.
+[182] Luis F. Abanto-Leon, Setareh Maghsudi. *Resilient Full-Duplex ISAC in the Face of Imperfect SI Cancellation: Globally Optimal Timeslot Allocation and Beam Selection*. arXiv:2510.15810, 2025-10-17.
 
-[183] Bixing Yan, Kwadwo Mensah Obeng Afrane, Achiel Colpaert, Andre Kokkeler, Sofie Pollin et al.. *Experimental Validation of SBFD ISAC in an FR3 Distributed SIMO Testbed*. arXiv:2602.00054, 2026-01-19.
+[183] Abdelali Arous, Hamza Haif, Huseyin Arslan. *Enabling Full Duplex ISAC Leveraging Waveform Domain Separability*. arXiv:2510.12912, 2025-10-14.
 
-[184] Kawon Han, Christos Masouros, Taneli Riihonen, Moeness G. Amin. *Next-Generation MIMO Transceivers for Integrated Sensing and Communications: Unique Security Vulnerabilities and Solutions*. arXiv:2511.20309, 2025-11-25.
+[184] Muhammad Talha, Besma Smida, David González G. *Full Duplex ISAC with Cluster Ray Targets: Parameter Estimation and Beamforming*. arXiv:2510.12711, 2025-10-14.
 
-[185] Duc Nguyen Dao, Haibin Zhang, Andre B. J. Kokkeler, Yang Miao. *Joint Beamforming for Multi-user Multi-target FD ISAC System: A Hybrid GRQ-GA Approach*. arXiv:2510.24243, 2025-10-28.
+[185] Ali Amhaz, Shreya Khisa, Mohamed Elhattab, Chadi Assi, Sanaa Sharafeddine. *Meta-Learning-Driven Resource Optimization in Full-Duplex ISAC with Movable Antennas*. arXiv:2510.01437, 2025-10-01.
 
-[186] Luis F. Abanto-Leon, Setareh Maghsudi. *Resilient Full-Duplex ISAC in the Face of Imperfect SI Cancellation: Globally Optimal Timeslot Allocation and Beam Selection*. arXiv:2510.15810, 2025-10-17.
+[186] Abdulmohsen Alsaui, Octavia A. Dobre, Neel Kanth Kundu, Abdulkarim Hariri, Hyundong Shin. *Quantum Radar for ISAC: Sum-Rate Optimization*. arXiv:2509.06070, 2025-09-07.
 
-[187] Abdelali Arous, Hamza Haif, Huseyin Arslan. *Enabling Full Duplex ISAC Leveraging Waveform Domain Separability*. arXiv:2510.12912, 2025-10-14.
+[187] Haochen Li, Ruikang Zhong, Jiayi Lei, Yuanwei Liu. *Pinching Antenna Systems for Integrated Sensing and Communications*. arXiv:2508.19540, 2025-08-27.
 
-[188] Muhammad Talha, Besma Smida, David González G. *Full Duplex ISAC with Cluster Ray Targets: Parameter Estimation and Beamforming*. arXiv:2510.12711, 2025-10-14.
+[188] Ahsan Nazar, Zhambyl Shaikhanov, Sennur Ulukus. *Full-Duplex Beamforming Optimization for Near-Field ISAC*. arXiv:2508.14753, 2025-08-20.
 
-[189] Ali Amhaz, Shreya Khisa, Mohamed Elhattab, Chadi Assi, Sanaa Sharafeddine. *Meta-Learning-Driven Resource Optimization in Full-Duplex ISAC with Movable Antennas*. arXiv:2510.01437, 2025-10-01.
+[189] Seonghoon Yoo, Jaemin Jung, Seongah Jeong, Jinkyu Kang, Markku Juntti et al.. *Exploring the Near and Far-Field Coexistence for RIS-Assisted ISAC Systems: An Adaptive Bandwidth Splitting Approach*. arXiv:2507.07643, 2025-07-10.
 
-[190] Abdulmohsen Alsaui, Octavia A. Dobre, Neel Kanth Kundu, Abdulkarim Hariri, Hyundong Shin. *Quantum Radar for ISAC: Sum-Rate Optimization*. arXiv:2509.06070, 2025-09-07.
+[190] Size Peng, Yin Xu, Guanli Yi, Cixiao Zhang, Dazhi He et al.. *Movable Antenna Aided Full-Duplex ISAC System with Self-Interference Mitigation*. arXiv:2505.14830, 2025-05-20.
 
-[191] Haochen Li, Ruikang Zhong, Jiayi Lei, Yuanwei Liu. *Pinching Antenna Systems for Integrated Sensing and Communications*. arXiv:2508.19540, 2025-08-27.
+[191] Rajeev Gangula, Sakthivel Velumani, Tommaso Melodia. *Bistatic Sensing in 5G NR*. arXiv:2505.12555, 2025-05-18.
 
-[192] Ahsan Nazar, Zhambyl Shaikhanov, Sennur Ulukus. *Full-Duplex Beamforming Optimization for Near-Field ISAC*. arXiv:2508.14753, 2025-08-20.
+[192] Henk Wymeersch, Nuutti Tervo, Stefan Wänstedt, Sharief Saleh, Joerg Ahlendorf et al.. *Cross-layer Integrated Sensing and Communication: A Joint Industrial and Academic Perspective*. arXiv:2505.10933, 2025-05-16.
 
-[193] Seonghoon Yoo, Jaemin Jung, Seongah Jeong, Jinkyu Kang, Markku Juntti et al.. *Exploring the Near and Far-Field Coexistence for RIS-Assisted ISAC Systems: An Adaptive Bandwidth Splitting Approach*. arXiv:2507.07643, 2025-07-10.
+[193] Elmehdi Illi, Ahmad Bazzi, Marwa Qaraqe, Ali Ghrayeb. *On the Secrecy-Sensing Optimization of RIS-assisted Full-Duplex Integrated Sensing and Communication Network*. arXiv:2504.20912, 2025-04-29.
 
-[194] Size Peng, Yin Xu, Guanli Yi, Cixiao Zhang, Dazhi He et al.. *Movable Antenna Aided Full-Duplex ISAC System with Self-Interference Mitigation*. arXiv:2505.14830, 2025-05-20.
+[194] Lucas Giroto de Oliveira, Xueyun Long, Christian Karle, Umut Utku Erdem, Taewon Jeong et al.. *System Concept and Demonstration of Bistatic MIMO-OFDM-based ISAC*. arXiv:2504.07600, 2025-04-10.
 
-[195] Rajeev Gangula, Sakthivel Velumani, Tommaso Melodia. *Bistatic Sensing in 5G NR*. arXiv:2505.12555, 2025-05-18.
+[195] Tianhao Mao, Jie Yang, Le Liang, Shi Jin. *Hybrid Beamforming Design for Bistatic Integrated Sensing and Communication Systems*. arXiv:2502.11446, 2025-02-17.
 
-[196] Henk Wymeersch, Nuutti Tervo, Stefan Wänstedt, Sharief Saleh, Joerg Ahlendorf et al.. *Cross-layer Integrated Sensing and Communication: A Joint Industrial and Academic Perspective*. arXiv:2505.10933, 2025-05-16.
+[196] George C. Alexandropoulos, Ioannis Gavras. *Extremely Large Full Duplex MIMO for Simultaneous Downlink Communications and Monostatic Sensing at Sub-THz Frequencies*. arXiv:2502.10693, 2025-02-15.
 
-[197] Elmehdi Illi, Ahmad Bazzi, Marwa Qaraqe, Ali Ghrayeb. *On the Secrecy-Sensing Optimization of RIS-assisted Full-Duplex Integrated Sensing and Communication Network*. arXiv:2504.20912, 2025-04-29.
+[197] Milad Tatar Mamaghani, Xiangyun Zhou, Nan Yang, A. Lee Swindlehurst. *Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning*. arXiv:2501.02271, 2025-01-04.
 
-[198] Lucas Giroto de Oliveira, Xueyun Long, Christian Karle, Umut Utku Erdem, Taewon Jeong et al.. *System Concept and Demonstration of Bistatic MIMO-OFDM-based ISAC*. arXiv:2504.07600, 2025-04-10.
+[198] Jingze Ding, Zijian Zhou, Xiaodan Shao, Bingli Jiao, Rui Zhang. *Movable Antenna-Aided Near-Field Integrated Sensing and Communication*. arXiv:2412.19470, 2024-12-27.
 
-[199] Tianhao Mao, Jie Yang, Le Liang, Shi Jin. *Hybrid Beamforming Design for Bistatic Integrated Sensing and Communication Systems*. arXiv:2502.11446, 2025-02-17.
+[199] Zhendong Li, Jianle Ba, Zhou Su, Haixia Peng, Yuntao Wang et al.. *Joint Discrete Antenna Positioning and Beamforming Optimization in Movable Antenna Enabled Full-Duplex ISAC Networks*. arXiv:2411.04419, 2024-11-07.
 
-[200] George C. Alexandropoulos, Ioannis Gavras. *Extremely Large Full Duplex MIMO for Simultaneous Downlink Communications and Monostatic Sensing at Sub-THz Frequencies*. arXiv:2502.10693, 2025-02-15.
+[200] Yu Liu, Gaojie Chen, Yun Wen, Qu Luo, Chiya Zhang et al.. *STAR-RIS-Enabled Full-Duplex Integrated Sensing and Communication System*. arXiv:2410.18767, 2024-10-24.
 
-[201] Milad Tatar Mamaghani, Xiangyun Zhou, Nan Yang, A. Lee Swindlehurst. *Securing Integrated Sensing and Communication Against a Mobile Adversary: A Stackelberg Game with Deep Reinforcement Learning*. arXiv:2501.02271, 2025-01-04.
+[201] Aleksandar Boljević, Ahmad Bazzi, Marwa Chafii. *Sum Secrecy Rate Maximization for Full Duplex ISAC Systems*. arXiv:2410.13102, 2024-10-17.
 
-[202] Jingze Ding, Zijian Zhou, Xiaodan Shao, Bingli Jiao, Rui Zhang. *Movable Antenna-Aided Near-Field Integrated Sensing and Communication*. arXiv:2412.19470, 2024-12-27.
+[202] Besma Smida, George C. Alexandropoulos, Taneli Riihonen, Md Atiqul Islam. *In-Band Full-Duplex MIMO Systems for Simultaneous Communications and Sensing: Challenges, Methods, and Future Perspectives*. arXiv:2410.06512, 2024-10-09.
 
-[203] Zhendong Li, Jianle Ba, Zhou Su, Haixia Peng, Yuntao Wang et al.. *Joint Discrete Antenna Positioning and Beamforming Optimization in Movable Antenna Enabled Full-Duplex ISAC Networks*. arXiv:2411.04419, 2024-11-07.
+[203] Shu Cai, Zihao Chen, Ya-Feng Liu, Jun Zhang. *Symbol-Level Precoding-Based Self-Interference Cancellation for ISAC Systems*. arXiv:2409.08608, 2024-09-13.
 
-[204] Yu Liu, Gaojie Chen, Yun Wen, Qu Luo, Chiya Zhang et al.. *STAR-RIS-Enabled Full-Duplex Integrated Sensing and Communication System*. arXiv:2410.18767, 2024-10-24.
+[204] Wenhao Zhuang, Xinyu He, Yuyi Mao, Juan Liu. *UAV-Enabled Wireless Networks for Integrated Sensing and Learning-Oriented Communication*. arXiv:2409.00405, 2024-08-31.
 
-[205] Aleksandar Boljević, Ahmad Bazzi, Marwa Chafii. *Sum Secrecy Rate Maximization for Full Duplex ISAC Systems*. arXiv:2410.13102, 2024-10-17.
+[205] Yaxuan Luo. *Proportional-Fair Joint User Grouping and Power Allocation for Uplink NOMA-ISAC*. arXiv:2606.29269, 2026-06-28.
 
-[206] Besma Smida, George C. Alexandropoulos, Taneli Riihonen, Md Atiqul Islam. *In-Band Full-Duplex MIMO Systems for Simultaneous Communications and Sensing: Challenges, Methods, and Future Perspectives*. arXiv:2410.06512, 2024-10-09.
+[206] Anup Mishra, Israel Leyva-Mayorga, Petar Popovski. *Rate-Splitting--Inspired Uplink Near-Field ISAC*. arXiv:2606.07091, 2026-06-05.
 
-[207] Shu Cai, Zihao Chen, Ya-Feng Liu, Jun Zhang. *Symbol-Level Precoding-Based Self-Interference Cancellation for ISAC Systems*. arXiv:2409.08608, 2024-09-13.
+[207] Ahmet Sacid Sümer, Ebubekir Memişoğlu, Hüseyin Arslan. *Phase-Shifted Pilot Design for NOMA-Empowered Uplink ISAC Systems*. arXiv:2604.01721, 2026-04-02.
 
-[208] Wenhao Zhuang, Xinyu He, Yuyi Mao, Juan Liu. *UAV-Enabled Wireless Networks for Integrated Sensing and Learning-Oriented Communication*. arXiv:2409.00405, 2024-08-31.
+[208] Sumita Majhi. *Holographic MIMO Empowered NOMA-ISAC for 6G: Rate-Splitting Enhanced Near-Field Modeling, Multi-Objective Optimization, and Statistical Performance Validation*. arXiv:2512.19699, 2025-11-29.
 
-[209] Tao Jiang, Ming Jin, Qinghua Guo, Yinhong Liu, Yaming Li. *Full-Duplex ISAC-Enabled D2D Underlaid Cellular Networks: Joint Transceiver Beamforming and Power Allocation*. arXiv:2408.11329, 2024-08-21.
+[209] Jialiang Zhu, Hamza Haif, Abdelali Arous, Huseyin Arslan, Arman Farhang. *Waveform-domain NOMA: An Enabler for ISAC in Uplink Transmission*. arXiv:2511.08474, 2025-11-11.
 
-[210] Yaxuan Luo. *Proportional-Fair Joint User Grouping and Power Allocation for Uplink NOMA-ISAC*. arXiv:2606.29269, 2026-06-28.
+[210] Abdulahi Abiodun Badrudeen, Nakyung Lee, Adam Dubs, Sunwoo Kim. *Blocker-Aware Beamforming and Dynamic Power Allocation for Multicarrier ISAC-NOMA Systems*. arXiv:2511.06270, 2025-11-09.
 
-[211] Anup Mishra, Israel Leyva-Mayorga, Petar Popovski. *Rate-Splitting--Inspired Uplink Near-Field ISAC*. arXiv:2606.07091, 2026-06-05.
+[211] Nam N. Luong, Chuyen T. Nguyen, Thanh V. Pham. *Performance Analysis of NOMA-Assisted Optical OFDM ISAC Systems with Clipping Distortion*. arXiv:2511.02282, 2025-11-04.
 
-[212] Ahmet Sacid Sümer, Ebubekir Memişoğlu, Hüseyin Arslan. *Phase-Shifted Pilot Design for NOMA-Empowered Uplink ISAC Systems*. arXiv:2604.01721, 2026-04-02.
+[212] Jian Xiao, Ji Wang, Qimei Cui, Lihua Li, Xingwang Li et al.. *Two-Timescale Learning for Pilot-Free ISAC Systems*. arXiv:2508.17749, 2025-08-25.
 
-[213] Sumita Majhi. *Holographic MIMO Empowered NOMA-ISAC for 6G: Rate-Splitting Enhanced Near-Field Modeling, Multi-Objective Optimization, and Statistical Performance Validation*. arXiv:2512.19699, 2025-11-29.
+[213] Chunjie Wang, Xuhui Zhang, Jinke Ren, Wenchao Liu, Shuqiang Wang et al.. *Joint Beamforming Design for RIS-Empowered NOMA-ISAC Systems*. arXiv:2508.13842, 2025-08-19.
 
-[214] Jialiang Zhu, Hamza Haif, Abdelali Arous, Huseyin Arslan, Arman Farhang. *Waveform-domain NOMA: An Enabler for ISAC in Uplink Transmission*. arXiv:2511.08474, 2025-11-11.
+[214] Wanyuan Cai, Xiaoping Jin, Youming Li, Menglei Sheng, Mingjun Huang et al.. *Double Low-Rank 4D Tensor Decomposition for Circular RIS-Aided mmWave MIMO-NOMA System Channel Estimation in Mobility Scenarios*. arXiv:2506.07909, 2025-06-09.
 
-[215] Abdulahi Abiodun Badrudeen, Nakyung Lee, Adam Dubs, Sunwoo Kim. *Blocker-Aware Beamforming and Dynamic Power Allocation for Multicarrier ISAC-NOMA Systems*. arXiv:2511.06270, 2025-11-09.
+[215] Adeel Ahmed, Wang Xingfu, Ammar Hawbani, Weijie Yuan, Hina Tabassum et al.. *Unveiling the Potential of NOMA: A Journey to Next Generation Multiple Access*. arXiv:2412.17160, 2024-12-22.
 
-[216] Nam N. Luong, Chuyen T. Nguyen, Thanh V. Pham. *Performance Analysis of NOMA-Assisted Optical OFDM ISAC Systems with Clipping Distortion*. arXiv:2511.02282, 2025-11-04.
+[216] Haofeng Liu, Emad Alsusa, Arafat Al-Dweik. *Performance Analysis of Pair-wise Symbol Detection in Uplink NOMA-ISaC Systems*. arXiv:2408.17449, 2024-08-30.
 
-[217] Jian Xiao, Ji Wang, Qimei Cui, Lihua Li, Xingwang Li et al.. *Two-Timescale Learning for Pilot-Free ISAC Systems*. arXiv:2508.17749, 2025-08-25.
+[217] Haotian Liu, Zhiqing Wei, Xingwang Li, Yunxin Geng, Qixun Zhang et al.. *Beyond Single-Band: Analysis and Resource Allocation for Multi-band ISAC Systems*. arXiv:2607.08068, 2026-07-09.
 
-[218] Chunjie Wang, Xuhui Zhang, Jinke Ren, Wenchao Liu, Shuqiang Wang et al.. *Joint Beamforming Design for RIS-Empowered NOMA-ISAC Systems*. arXiv:2508.13842, 2025-08-19.
+[218] Bodhibrata Mukhopadhyay, Sajid Ahmed, Mohamed-Slim Alouini. *MJSAC: McCormick Relaxation-based Waveform Design for Joint Sensing and Communication*. arXiv:2606.11351, 2026-06-09.
 
-[219] Wanyuan Cai, Xiaoping Jin, Youming Li, Menglei Sheng, Mingjun Huang et al.. *Double Low-Rank 4D Tensor Decomposition for Circular RIS-Aided mmWave MIMO-NOMA System Channel Estimation in Mobility Scenarios*. arXiv:2506.07909, 2025-06-09.
+[219] Lai Jiang, Kaitao Meng, Murat Temiz, Christos Masouros. *ISAC for AI: A Trade-off Framework Across Data Acquisition and Transfer in Federated Learning*. arXiv:2605.11915, 2026-05-12.
 
-[220] Adeel Ahmed, Wang Xingfu, Ammar Hawbani, Weijie Yuan, Hina Tabassum et al.. *Unveiling the Potential of NOMA: A Journey to Next Generation Multiple Access*. arXiv:2412.17160, 2024-12-22.
+[220] Shoushuo Zhang, Rang Liu, Qian Liu, Ming Li. *Cooperative OFDM-ISAC Networks: Performance Analysis and Resource Allocation*. arXiv:2604.26552, 2026-04-29.
 
-[221] Haofeng Liu, Emad Alsusa, Arafat Al-Dweik. *Performance Analysis of Pair-wise Symbol Detection in Uplink NOMA-ISaC Systems*. arXiv:2408.17449, 2024-08-30.
+[221] Xiyu Wang, Gilberto Berardinelli, Hei Victor Cheng, Petar Popovski, Ramoni Adeogun. *Beam Scheduling for Cross-Layer ISAC: A Deep Reinforcement Learning Approach*. arXiv:2604.24369, 2026-04-27.
 
-[222] Haotian Liu, Zhiqing Wei, Xingwang Li, Yunxin Geng, Qixun Zhang et al.. *Beyond Single-Band: Analysis and Resource Allocation for Multi-band ISAC Systems*. arXiv:2607.08068, 2026-07-09.
+[222] Guangjin Pan, Zhuojun Tian, Mehdi Bennis, Henk Wymeersch. *Active Inference-Enabled Agentic Closed-Loop ISAC with Long-Horizon Planning*. arXiv:2604.19599, 2026-04-21.
 
-[223] Bodhibrata Mukhopadhyay, Sajid Ahmed, Mohamed-Slim Alouini. *MJSAC: McCormick Relaxation-based Waveform Design for Joint Sensing and Communication*. arXiv:2606.11351, 2026-06-09.
+[223] Zexin Fang, Bin Han, Zhuojun Tian, Hans D. Schotten. *Balancing Functionality and GDPR-Driven Privacy in ISAC Trajectory Sharing*. arXiv:2604.08743, 2026-04-09.
 
-[224] Lai Jiang, Kaitao Meng, Murat Temiz, Christos Masouros. *ISAC for AI: A Trade-off Framework Across Data Acquisition and Transfer in Federated Learning*. arXiv:2605.11915, 2026-05-12.
+[224] Jingying Bao, J. Andrew Zhang, Kai Wu, Christos Masouros, Y. Jay Guo. *Uplink Networked Sensing via Multiuser Correlation Exploitation*. arXiv:2603.16442, 2026-03-17.
 
-[225] Shoushuo Zhang, Rang Liu, Qian Liu, Ming Li. *Cooperative OFDM-ISAC Networks: Performance Analysis and Resource Allocation*. arXiv:2604.26552, 2026-04-29.
+[225] Rui Wang, Kaitao Meng, Deshi Li, Liang Xu. *ISAC-Enabled Multi-UAV Collaborative Target Sensing for Low-Altitude Economy*. arXiv:2603.11502, 2026-03-12.
 
-[226] Xiyu Wang, Gilberto Berardinelli, Hei Victor Cheng, Petar Popovski, Ramoni Adeogun. *Beam Scheduling for Cross-Layer ISAC: A Deep Reinforcement Learning Approach*. arXiv:2604.24369, 2026-04-27.
+[226] Amirhossein Taherpour, Abbas Taherpour, Tamer Khattab. *Secure High-Resolution ISAC via Multi-Layer Intelligent Metasurfaces: A Layered Optimization Framework*. arXiv:2602.15209, 2026-02-16.
 
-[227] Guangjin Pan, Zhuojun Tian, Mehdi Bennis, Henk Wymeersch. *Active Inference-Enabled Agentic Closed-Loop ISAC with Long-Horizon Planning*. arXiv:2604.19599, 2026-04-21.
+[227] Mehzabien Iqbal, Ahmad Y Javaid. *A Dual Belief-Driven Bayesian-Stackelberg Framework for Low-Complexity and Secure Near-Field ISAC Systems*. arXiv:2602.09754, 2026-02-10.
 
-[228] Zexin Fang, Bin Han, Zhuojun Tian, Hans D. Schotten. *Balancing Functionality and GDPR-Driven Privacy in ISAC Trajectory Sharing*. arXiv:2604.08743, 2026-04-09.
+[228] Libiao Lou, Yuan Liu, Fotis Foukalas, Hongjiang Lei, Gaofeng Pan et al.. *Maneuverable-Jamming-Aided Secure Communication and Sensing in A2G-ISAC Systems*. arXiv:2602.04209, 2026-02-04.
 
-[229] Jingying Bao, J. Andrew Zhang, Kai Wu, Christos Masouros, Y. Jay Guo. *Uplink Networked Sensing via Multiuser Correlation Exploitation*. arXiv:2603.16442, 2026-03-17.
+[229] Marcus Henninger, Lucas Giroto, Ahmed Elkelesh, Silvio Mandelli. *Hybrid Resource Allocation Scheme for Bistatic ISAC with Data Channels*. arXiv:2601.11110, 2026-01-16.
 
-[230] Rui Wang, Kaitao Meng, Deshi Li, Liang Xu. *ISAC-Enabled Multi-UAV Collaborative Target Sensing for Low-Altitude Economy*. arXiv:2603.11502, 2026-03-12.
+[230] Wei Men, Longfei Zhao, Yong Liang Guan, Xiangwang Hou, Yong Ren et al.. *Efficient Resource Allocation for Multi-User and Multi-Target MIMO-OFDM Underwater ISAC*. arXiv:2512.12611, 2025-12-14.
 
-[231] Amirhossein Taherpour, Abbas Taherpour, Tamer Khattab. *Secure High-Resolution ISAC via Multi-Layer Intelligent Metasurfaces: A Layered Optimization Framework*. arXiv:2602.15209, 2026-02-16.
+[231] Israel Leyva-Mayorga, Shashi Raj Pandey, Petar Popovski, Fabio Saggese, Beatriz Soret et al.. *ISAC-Powered Distributed Matching and Resource Allocation in Multi-band NTN*. arXiv:2512.02843, 2025-12-02.
 
-[232] Mehzabien Iqbal, Ahmad Y Javaid. *A Dual Belief-Driven Bayesian-Stackelberg Framework for Low-Complexity and Secure Near-Field ISAC Systems*. arXiv:2602.09754, 2026-02-10.
+[232] Fangzhi Li, Zhichu Ren, Cunhua Pan, Hong Ren, Jing Jin et al.. *Cooperative ISAC for LAE: Joint Trajectory Planning, Power allocation, and Dynamic Time Division*. arXiv:2511.13006, 2025-11-17.
 
-[233] Libiao Lou, Yuan Liu, Fotis Foukalas, Hongjiang Lei, Gaofeng Pan et al.. *Maneuverable-Jamming-Aided Secure Communication and Sensing in A2G-ISAC Systems*. arXiv:2602.04209, 2026-02-04.
+[233] Shanhao Zhan, Zhang Liu, Lianfen Huang, Shaowei Shen, Ziyang Bai et al.. *Digital Twin-Assisted Task Offloading and Resource Allocation in ISAC-Enabled Internet of Vehicles*. arXiv:2511.05789, 2025-11-08.
 
-[234] Marcus Henninger, Lucas Giroto, Ahmed Elkelesh, Silvio Mandelli. *Hybrid Resource Allocation Scheme for Bistatic ISAC with Data Channels*. arXiv:2601.11110, 2026-01-16.
+[234] Duc Nguyen Dao, André B. J. Kokkeler, Haibin Zhang, Yang Miao. *Dynamic Beamforming and Power Allocation in ISAC via Deep Reinforcement Learning*. arXiv:2510.25496, 2025-10-29.
 
-[235] Wei Men, Longfei Zhao, Yong Liang Guan, Xiangwang Hou, Yong Ren et al.. *Efficient Resource Allocation for Multi-User and Multi-Target MIMO-OFDM Underwater ISAC*. arXiv:2512.12611, 2025-12-14.
+[235] Mohammad Reza Abedi, Zahra Rashidi, Nader Mokari, Hamid Saeedi, Nizar Zorba. *Precise HDV Positioning through Safety-Aware Integrated Sensing and Communication in a Value-of-Information-Driven 6G V2X System*. arXiv:2510.02363, 2025-09-28.
 
-[236] Israel Leyva-Mayorga, Shashi Raj Pandey, Petar Popovski, Fabio Saggese, Beatriz Soret et al.. *ISAC-Powered Distributed Matching and Resource Allocation in Multi-band NTN*. arXiv:2512.02843, 2025-12-02.
+[236] Jiajia Liao, Luping Xiang, Shida Zhong, Lixia Xiao, Haochen Liu et al.. *Cooperative Base Station Assignment and Resource Allocation for 6G ISAC Network*. arXiv:2509.10240, 2025-09-12.
 
-[237] Fangzhi Li, Zhichu Ren, Cunhua Pan, Hong Ren, Jing Jin et al.. *Cooperative ISAC for LAE: Joint Trajectory Planning, Power allocation, and Dynamic Time Division*. arXiv:2511.13006, 2025-11-17.
+[237] Parisa Kanani, Mohammad Javad Omidi, Mahmoud Modarres-Hashemi, Halim Yanikomeroglu. *Max-Min Fairness-Oriented Beamforming Design in HAPS-Enabled ISAC for 6G Networks*. arXiv:2507.18764, 2025-07-24.
 
-[238] Shanhao Zhan, Zhang Liu, Lianfen Huang, Shaowei Shen, Ziyang Bai et al.. *Digital Twin-Assisted Task Offloading and Resource Allocation in ISAC-Enabled Internet of Vehicles*. arXiv:2511.05789, 2025-11-08.
+[238] Fan Zhang, Tianqi Mao, Mingkun Li, Meng Hua, Jinshu Chen et al.. *Near-Field ISAC for THz Wireless Systems*. arXiv:2507.04292, 2025-07-06.
 
-[239] Duc Nguyen Dao, André B. J. Kokkeler, Haibin Zhang, Yang Miao. *Dynamic Beamforming and Power Allocation in ISAC via Deep Reinforcement Learning*. arXiv:2510.25496, 2025-10-29.
+[239] Haotian Liu, Zhiqing Wei, Luyang Sun, Ruizhong Xu, Yixin Zhang et al.. *Cooperative Sensing in Cell-free Massive MIMO ISAC Systems: Performance Optimization and Signal Processing*. arXiv:2506.23473, 2025-06-30.
 
-[240] Mohammad Reza Abedi, Zahra Rashidi, Nader Mokari, Hamid Saeedi, Nizar Zorba. *Precise HDV Positioning through Safety-Aware Integrated Sensing and Communication in a Value-of-Information-Driven 6G V2X System*. arXiv:2510.02363, 2025-09-28.
+[240] Mohammad Kazemi, Tolga M. Duman, Deniz Gündüz. *Communication via Sensing*. arXiv:2506.23000, 2025-06-28.
 
-[241] Jiajia Liao, Luping Xiang, Shida Zhong, Lixia Xiao, Haochen Liu et al.. *Cooperative Base Station Assignment and Resource Allocation for 6G ISAC Network*. arXiv:2509.10240, 2025-09-12.
+[241] Guangjin Pan, Zhixing Li, Ayça Özçelikkale, Christian Häger, Musa Furkan Keskin et al.. *Observation Compression in Rate-Limited Closed-Loop Distributed ISAC Systems: From Signal Reconstruction to Control*. arXiv:2505.01780, 2025-05-03.
 
-[242] Parisa Kanani, Mohammad Javad Omidi, Mahmoud Modarres-Hashemi, Halim Yanikomeroglu. *Max-Min Fairness-Oriented Beamforming Design in HAPS-Enabled ISAC for 6G Networks*. arXiv:2507.18764, 2025-07-24.
+[242] Peishi Li, Ming Li, Rang Liu, Qian Liu, A. Lee Swindlehurst. *Sensing-Oriented Adaptive Resource Allocation Designs for OFDM-ISAC Systems*. arXiv:2504.06605, 2025-04-09.
 
-[243] Fan Zhang, Tianqi Mao, Mingkun Li, Meng Hua, Jinshu Chen et al.. *Near-Field ISAC for THz Wireless Systems*. arXiv:2507.04292, 2025-07-06.
+[243] Ata Khalili, Robert Schober. *Movable Antenna Enabled ISAC: Tackling Slow Antenna Movement, Dynamic RCS, and Imperfect CSI via Two-timescale Optimizati*. arXiv:2503.18547, 2025-03-24.
 
-[244] Haotian Liu, Zhiqing Wei, Luyang Sun, Ruizhong Xu, Yixin Zhang et al.. *Cooperative Sensing in Cell-free Massive MIMO ISAC Systems: Performance Optimization and Signal Processing*. arXiv:2506.23473, 2025-06-30.
+[244] Ayoub Ammar Boudjelal, Rania Yasmine Bir, Huseyin Arslan. *Redefining Orthogonal Co-Existence: A Mother Waveform Framework for DFT-Based Waveforms*. arXiv:2503.12676, 2025-03-16.
 
-[245] Mohammad Kazemi, Tolga M. Duman, Deniz Gündüz. *Communication via Sensing*. arXiv:2506.23000, 2025-06-28.
+[245] Ali Al Khansa, Giyyarpuram Madhusudan, Guillaume Larue, Louis-Adrien Dufrene. *Dynamic Power Allocation in OFDM ISAC for Time of Arrival Estimation*. arXiv:2502.08431, 2025-02-12.
 
-[246] Guangjin Pan, Zhixing Li, Ayça Özçelikkale, Christian Häger, Musa Furkan Keskin et al.. *Observation Compression in Rate-Limited Closed-Loop Distributed ISAC Systems: From Signal Reconstruction to Control*. arXiv:2505.01780, 2025-05-03.
+[246] Houyi Qi, Minghui Liwang, Seyyedali Hosseinalipour, Liqun Fu, Sai Zou et al.. *Future Resource Bank for ISAC: Achieving Fast and Stable Win-Win Matching for Both Individuals and Coalitions*. arXiv:2502.08118, 2025-02-12.
 
-[247] Peishi Li, Ming Li, Rang Liu, Qian Liu, A. Lee Swindlehurst. *Sensing-Oriented Adaptive Resource Allocation Designs for OFDM-ISAC Systems*. arXiv:2504.06605, 2025-04-09.
+[247] Xinyue Li, Zinat Behdad, Ozan Alp Topal, Ozlem Tugfe Demir, Cicek Cavdar. *Detecting Unauthorized Drones with Cell-Free Integrated Sensing and Communication*. arXiv:2501.15227, 2025-01-25.
 
-[248] Ata Khalili, Robert Schober. *Movable Antenna Enabled ISAC: Tackling Slow Antenna Movement, Dynamic RCS, and Imperfect CSI via Two-timescale Optimizati*. arXiv:2503.18547, 2025-03-24.
+[248] Luis F. Abanto-Leon, Setareh Maghsudi. *Optimal User and Target Scheduling, User-Target Pairing, and Low-Resolution Phase-Only Beamforming for ISAC Systems*. arXiv:2501.11593, 2025-01-20.
 
-[249] Ayoub Ammar Boudjelal, Rania Yasmine Bir, Huseyin Arslan. *Redefining Orthogonal Co-Existence: A Mother Waveform Framework for DFT-Based Waveforms*. arXiv:2503.12676, 2025-03-16.
+[249] Luca Bonaventura, Edoardo Gardin, Alessia Barison, Francesco Ardizzon, Stefano Tomasin. *ISAC-Assisted Channel Knowledge Map Generation for Physical Layer Authentication*. arXiv:2607.20176, 2026-07-22.
 
-[250] Ali Al Khansa, Giyyarpuram Madhusudan, Guillaume Larue, Louis-Adrien Dufrene. *Dynamic Power Allocation in OFDM ISAC for Time of Arrival Estimation*. arXiv:2502.08431, 2025-02-12.
+[250] Hongyu Xie, Chenglong Li, Xinming Huang, Emmeric Tanghe, Wout Joseph et al.. *Learning-Driven Channel Representation for Wireless Localization: From Channel Observations to Location Inference*. arXiv:2607.14938, 2026-07-16.
 
-[251] Houyi Qi, Minghui Liwang, Seyyedali Hosseinalipour, Liqun Fu, Sai Zou et al.. *Future Resource Bank for ISAC: Achieving Fast and Stable Win-Win Matching for Both Individuals and Coalitions*. arXiv:2502.08118, 2025-02-12.
+[251] Wenyu Huang, Nuria González-Prelcic, Vishnu Ratnam, Murat Bayraktar, Charlie Jianzhong Zhang. *Fuse-then-Detect for Passive UAV Localization Using Multi-UE 5G Uplink Signals*. arXiv:2607.11955, 2026-07-12.
 
-[252] Xinyue Li, Zinat Behdad, Ozan Alp Topal, Ozlem Tugfe Demir, Cicek Cavdar. *Detecting Unauthorized Drones with Cell-Free Integrated Sensing and Communication*. arXiv:2501.15227, 2025-01-25.
+[252] Enrique T. R. Pinto, André L. F. de Almeida, Markku Juntti. *Time-Varying Parametric Channel Estimation With CP Decomposition Tensor Processing*. arXiv:2605.25593, 2026-05-25.
 
-[253] Luis F. Abanto-Leon, Setareh Maghsudi. *Optimal User and Target Scheduling, User-Target Pairing, and Low-Resolution Phase-Only Beamforming for ISAC Systems*. arXiv:2501.11593, 2025-01-20.
+[253] Yuan Liu, Xuesong Cai, Dipankar Saha, M. R. Bhavani Shankar, Björn Ottersten. *Propagation Mechanism-Aware Near-Field Spatially Non-Stationary Channel Estimation and Environment Mapping*. arXiv:2605.01162, 2026-05-01.
 
-[254] Manzoor Ahmed, Ali Arshad Nasir, Mudassir Masood, Kamran Ali Memon, Khurram Karim Qureshi et al.. *Advancements in UAV-based Integrated Sensing and Communication: A Comprehensive Survey*. arXiv:2501.06526, 2025-01-11.
+[254] Eren Berk Kama, Murat Babek Salman, Isaac Skog, Emil Björnson. *Pilot-Free Predictive Multi-User Beamforming via Sensing Management in Cell-Free Networks*. arXiv:2604.19660, 2026-04-21.
 
-[255] Hongyu Xie, Chenglong Li, Xinming Huang, Emmeric Tanghe, Wout Joseph et al.. *Learning-Driven Channel Representation for Wireless Localization: From Channel Observations to Location Inference*. arXiv:2607.14938, 2026-07-16.
+[255] Xuanyu Liu, Shijian Gao, Boxun Liu, Xiang Cheng, Liuqing Yang. *WiFo-MiSAC: A Wireless Foundation Model for Multimodal Sensing and Communication Integration via Synesthesia of Machines (SoM)*. arXiv:2604.18255, 2026-04-20.
 
-[256] Wenyu Huang, Nuria González-Prelcic, Vishnu Ratnam, Murat Bayraktar, Charlie Jianzhong Zhang. *Fuse-then-Detect for Passive UAV Localization Using Multi-UE 5G Uplink Signals*. arXiv:2607.11955, 2026-07-12.
+[256] Vaibhav Kumar, Ahmad Bazzi, Christina Pöpper, Marwa Chafii. *A Novel Framework for Transmitter Privacy in Integrated Sensing and Communication*. arXiv:2604.16068, 2026-04-17.
 
-[257] Enrique T. R. Pinto, André L. F. de Almeida, Markku Juntti. *Time-Varying Parametric Channel Estimation With CP Decomposition Tensor Processing*. arXiv:2605.25593, 2026-05-25.
+[257] Sajad Daei, Gabor Fodor, Mikael Skoglund. *Living Off the Grid: Continuous Range-Angle Super-Resolution for Near-Field XL-MIMO*. arXiv:2604.10234, 2026-04-11.
 
-[258] Yuan Liu, Xuesong Cai, Dipankar Saha, M. R. Bhavani Shankar, Björn Ottersten. *Propagation Mechanism-Aware Near-Field Spatially Non-Stationary Channel Estimation and Environment Mapping*. arXiv:2605.01162, 2026-05-01.
+[258] Yuan Guo, Yilong Chen, Zixiang Ren, Jie Xu. *Environment-Aware Near-Field Channel Estimation Leveraging CKM and ISAC*. arXiv:2604.04031, 2026-04-05.
 
-[259] Eren Berk Kama, Murat Babek Salman, Isaac Skog, Emil Björnson. *Pilot-Free Predictive Multi-User Beamforming via Sensing Management in Cell-Free Networks*. arXiv:2604.19660, 2026-04-21.
+[259] Xi Nan, Rugui Yao, Ye Fan, Ruikang Zhong, Xiaoya Zuo et al.. *Waveform Design for Partial-Time Superimposed ISAC Systems*. arXiv:2602.20353, 2026-02-23.
 
-[260] Xuanyu Liu, Shijian Gao, Boxun Liu, Xiang Cheng, Liuqing Yang. *WiFo-MiSAC: A Wireless Foundation Model for Multimodal Sensing and Communication Integration via Synesthesia of Machines (SoM)*. arXiv:2604.18255, 2026-04-20.
+[260] Lei Xie, Hengtao He, Jun Tong, Fan Liu, Shenghui Song. *Sensing Mutual Information for Communication Signal with Deterministic Pilots and Random Data Payloads*. arXiv:2601.11149, 2026-01-16.
 
-[261] Vaibhav Kumar, Ahmad Bazzi, Christina Pöpper, Marwa Chafii. *A Novel Framework for Transmitter Privacy in Integrated Sensing and Communication*. arXiv:2604.16068, 2026-04-17.
+[261] Chongjia Sun, Ziwei Wan, Lipeng Zhu, Zhenyu Xiao, Zhen Gao et al.. *Movable Antenna for Integrating Near-field Channel Estimation and Localization*. arXiv:2601.08357, 2026-01-13.
 
-[262] Sajad Daei, Gabor Fodor, Mikael Skoglund. *Living Off the Grid: Continuous Range-Angle Super-Resolution for Near-Field XL-MIMO*. arXiv:2604.10234, 2026-04-11.
+[262] Zhentian Zhang, Christos Masouros, Kai-Kit Wong, Jian Dang, Zaichen Zhang et al.. *Fundamental Tradeoffs for ISAC Multiple Access in Finite-Blocklength Regime*. arXiv:2601.05165, 2026-01-08.
 
-[263] Yuan Guo, Yilong Chen, Zixiang Ren, Jie Xu. *Environment-Aware Near-Field Channel Estimation Leveraging CKM and ISAC*. arXiv:2604.04031, 2026-04-05.
+[263] Steven Rivetti, Gabor Fodor, Emil Björnson, Mikael Skoglund. *On the Impact of Channel Aging and Doppler-Affected Clutter on OFDM ISAC Systems*. arXiv:2601.05032, 2026-01-08.
 
-[264] Xi Nan, Rugui Yao, Ye Fan, Ruikang Zhong, Xiaoya Zuo et al.. *Waveform Design for Partial-Time Superimposed ISAC Systems*. arXiv:2602.20353, 2026-02-23.
+[264] Kecheng Zhang, Weijie Yuan, Maria Sabrina Greco. *Zak-OTFS ISAC with Bistatic Sensing via Semi-Blind Atomic Norm Denoising Scheme*. arXiv:2601.03639, 2026-01-07.
 
-[265] Lei Xie, Hengtao He, Jun Tong, Fan Liu, Shenghui Song. *Sensing Mutual Information for Communication Signal with Deterministic Pilots and Random Data Payloads*. arXiv:2601.11149, 2026-01-16.
+[265] Davide Villa, Mauro Belgiovine, Nicholas Hedberg, Michele Polese, Chris Dick et al.. *Programmable and GPU-Accelerated Edge Inference for Real-Time ISAC on NVIDIA Aerial Testbed*. arXiv:2512.06493, 2025-12-06.
 
-[266] Chongjia Sun, Ziwei Wan, Lipeng Zhu, Zhenyu Xiao, Zhen Gao et al.. *Movable Antenna for Integrating Near-field Channel Estimation and Localization*. arXiv:2601.08357, 2026-01-13.
+[266] Xuyao Yu, Zijun Gong, Zhilu Lai. *Characterizing ISCI in Multi-carrier ISAC Systems over Doubly Dispersive Channel: Joint Sensing and Communication Performance Analysis*. arXiv:2511.09163, 2025-11-12.
 
-[267] Zhentian Zhang, Christos Masouros, Kai-Kit Wong, Jian Dang, Zaichen Zhang et al.. *Fundamental Tradeoffs for ISAC Multiple Access in Finite-Blocklength Regime*. arXiv:2601.05165, 2026-01-08.
+[267] Mengzhen Liu, Ming Li, Rang Liu, Qian Liu, A. Lee Swindlehurst. *Reconfigurable Antenna Arrays: Bridging Electromagnetics and Signal Processing*. arXiv:2510.17113, 2025-10-20.
 
-[268] Steven Rivetti, Gabor Fodor, Emil Björnson, Mikael Skoglund. *On the Impact of Channel Aging and Doppler-Affected Clutter on OFDM ISAC Systems*. arXiv:2601.05032, 2026-01-08.
+[268] Junyuan Gao, Weifeng Zhu, Shuowen Zhang, Yongpeng Wu, Jiannong Cao et al.. *Integrated Massive Communication and Target Localization in 6G Cell-Free Networks*. arXiv:2510.14281, 2025-10-16.
 
-[269] Kecheng Zhang, Weijie Yuan, Maria Sabrina Greco. *Zak-OTFS ISAC with Bistatic Sensing via Semi-Blind Atomic Norm Denoising Scheme*. arXiv:2601.03639, 2026-01-07.
+[269] Mohammadreza Bakhshizadeh Mohajer, Alex Dytso, Daniela Tuninetti, Luca Barletta. *A Rate-Distortion Bound for ISAC*. arXiv:2510.08487, 2025-10-09.
 
-[270] Davide Villa, Mauro Belgiovine, Nicholas Hedberg, Michele Polese, Chris Dick et al.. *Programmable and GPU-Accelerated Edge Inference for Real-Time ISAC on NVIDIA Aerial Testbed*. arXiv:2512.06493, 2025-12-06.
+[270] Eren Berk Kama, Murat Babek Salman, Isaac Skog, Emil Björnson. *Sensing Management for Pilot-Free Predictive Beamforming in Cell-Free Massive MIMO Systems*. arXiv:2510.06936, 2025-10-08.
 
-[271] Xuyao Yu, Zijun Gong, Zhilu Lai. *Characterizing ISCI in Multi-carrier ISAC Systems over Doubly Dispersive Channel: Joint Sensing and Communication Performance Analysis*. arXiv:2511.09163, 2025-11-12.
+[271] Dazhuo Wang, Yonghong Zeng, Yuhong Wang, Francois Chin, Yugang Ma et al.. *Pilot design, channel estimation, and target detection for integrated sensing and communication with OTFS*. arXiv:2509.25846, 2025-09-30.
 
-[272] Mengzhen Liu, Ming Li, Rang Liu, Qian Liu, A. Lee Swindlehurst. *Reconfigurable Antenna Arrays: Bridging Electromagnetics and Signal Processing*. arXiv:2510.17113, 2025-10-20.
+[272] Yuhong Wang, Yonghong Zeng, Sumei Sun, Xiaojuan Zhang. *Coordinated FMCW and OFDM for Integrated Sensing and Communication*. arXiv:2509.25750, 2025-09-30.
 
-[273] Junyuan Gao, Weifeng Zhu, Shuowen Zhang, Yongpeng Wu, Jiannong Cao et al.. *Integrated Massive Communication and Target Localization in 6G Cell-Free Networks*. arXiv:2510.14281, 2025-10-16.
+[273] Xudong Zhang, Jingbo Tan, Zhizhen Ren, Jintao Wang, Yihua Ma et al.. *CSIYOLO: An Intelligent CSI-based Scatter Sensing Framework for Integrated Sensing and Communication Systems*. arXiv:2509.19335, 2025-09-15.
 
-[274] Mohammadreza Bakhshizadeh Mohajer, Alex Dytso, Daniela Tuninetti, Luca Barletta. *A Rate-Distortion Bound for ISAC*. arXiv:2510.08487, 2025-10-09.
+[274] Murat Temiz, Yongwei Zhang, Yanwei Fu, Chi Zhang, Chenfeng Meng et al.. *Deep Learning-based Techniques for Integrated Sensing and Communication Systems: State-of-the-Art, Challenges, and Opportunities*. arXiv:2509.06968, 2025-08-23.
 
-[275] Eren Berk Kama, Murat Babek Salman, Isaac Skog, Emil Björnson. *Sensing Management for Pilot-Free Predictive Beamforming in Cell-Free Massive MIMO Systems*. arXiv:2510.06936, 2025-10-08.
+[275] Ahmet Sacid Sümer, Ebubekir Memişoğlu, Hüseyin Arslan. *Adaptive Phase-Shifted Pilot Design for Uplink Multiple Access in ISAC Systems*. arXiv:2508.02334, 2025-08-04.
 
-[276] Dazhuo Wang, Yonghong Zeng, Yuhong Wang, Francois Chin, Yugang Ma et al.. *Pilot design, channel estimation, and target detection for integrated sensing and communication with OTFS*. arXiv:2509.25846, 2025-09-30.
+[276] George C. Alexandropoulos, Nir Shlezinger, Ioannis Gavras, Haiyang Zhang. *Hybrid RISs for Simultaneous Tunable Reflections and Sensing*. arXiv:2507.16550, 2025-07-22.
 
-[277] Yuhong Wang, Yonghong Zeng, Sumei Sun, Xiaojuan Zhang. *Coordinated FMCW and OFDM for Integrated Sensing and Communication*. arXiv:2509.25750, 2025-09-30.
+[277] Cheng Jiang, Yihe Yan, Yanxiang Wang, Jiawei Hu, Chun Tung Chou et al.. *CARTS: Cooperative and Adaptive Resource Triggering and Stitching for 5G ISAC*. arXiv:2507.13676, 2025-07-18.
 
-[278] Xudong Zhang, Jingbo Tan, Zhizhen Ren, Jintao Wang, Yihua Ma et al.. *CSIYOLO: An Intelligent CSI-based Scatter Sensing Framework for Integrated Sensing and Communication Systems*. arXiv:2509.19335, 2025-09-15.
+[278] Alejandro Castilla, Saúl Fenollosa, Monika Drozdowska, Alejandro Lopez-Escudero, Sergio Micò-Rosa et al.. *Novel Approach to Dual-Channel Estimation in Integrated Sensing and Communications for 6G*. arXiv:2507.12221, 2025-07-16.
 
-[279] Murat Temiz, Yongwei Zhang, Yanwei Fu, Chi Zhang, Chenfeng Meng et al.. *Deep Learning-based Techniques for Integrated Sensing and Communication Systems: State-of-the-Art, Challenges, and Opportunities*. arXiv:2509.06968, 2025-08-23.
+[279] Jun Wu, Yuye Shi, Weijie Yuan, Qingqing Cheng, Buyi Li et al.. *SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals*. arXiv:2507.01427, 2025-07-02.
 
-[280] Ahmet Sacid Sümer, Ebubekir Memişoğlu, Hüseyin Arslan. *Adaptive Phase-Shifted Pilot Design for Uplink Multiple Access in ISAC Systems*. arXiv:2508.02334, 2025-08-04.
+[280] Shunyu Li, Tianqi Mao, Guangyao Liu, Fan Zhang, Ruiqi Liu et al.. *Intelligent Metasurface-Enabled Integrated Sensing and Communication: Unified Framework and Key Technologies*. arXiv:2506.13713, 2025-06-16.
 
-[281] George C. Alexandropoulos, Nir Shlezinger, Ioannis Gavras, Haiyang Zhang. *Hybrid RISs for Simultaneous Tunable Reflections and Sensing*. arXiv:2507.16550, 2025-07-22.
+[281] Mohammad Farzanullah, Han Zhang, Akram Bin Sediq, Ali Afana, Melike Erol-Kantarci. *Conditional Denoising Diffusion for ISAC Enhanced Channel Estimation in Cell-Free 6G*. arXiv:2506.06942, 2025-06-07.
 
-[282] Cheng Jiang, Yihe Yan, Yanxiang Wang, Jiawei Hu, Chun Tung Chou et al.. *CARTS: Cooperative and Adaptive Resource Triggering and Stitching for 5G ISAC*. arXiv:2507.13676, 2025-07-18.
+[282] Kaitao Meng, Kawon Han, Christos Masouros, Lajos Hanzo. *Constellation Selection and Power Allocation for Multi-Cell OFDM-ISAC: Managing Inter-Cell Interference and Sensing Sidelobes*. arXiv:2607.21418, 2026-07-23.
 
-[283] Alejandro Castilla, Saúl Fenollosa, Monika Drozdowska, Alejandro Lopez-Escudero, Sergio Micò-Rosa et al.. *Novel Approach to Dual-Channel Estimation in Integrated Sensing and Communications for 6G*. arXiv:2507.12221, 2025-07-16.
+[283] Ying Zhang, Fan Liu, Yifeng Xiong, Jie Yang, Xinyi Wang et al.. *SNR-Dependent Mismatched Filtering for Bistatic OFDM Ranging*. arXiv:2607.20012, 2026-07-22.
 
-[284] Jun Wu, Yuye Shi, Weijie Yuan, Qingqing Cheng, Buyi Li et al.. *SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals*. arXiv:2507.01427, 2025-07-02.
+[284] Haoyu Jiang, Hengyou Kong, Xiaoli Xu, Yong Zeng. *Low-Altitude UAV-Assisted Bistatic ISAC: Closed-form 3D CRLB and Coverage Analysis*. arXiv:2607.18766, 2026-07-21.
 
-[285] Shunyu Li, Tianqi Mao, Guangyao Liu, Fan Zhang, Ruiqi Liu et al.. *Intelligent Metasurface-Enabled Integrated Sensing and Communication: Unified Framework and Key Technologies*. arXiv:2506.13713, 2025-06-16.
+[285] Jialin Wu, Fan Liu, Ying Zhang, Yifeng Xiong, Jie Yang et al.. *Ambiguity Function Analysis of Pilot-Embedded Random OFDM Signals*. arXiv:2607.17663, 2026-07-20.
 
-[286] Mohammad Farzanullah, Han Zhang, Akram Bin Sediq, Ali Afana, Melike Erol-Kantarci. *Conditional Denoising Diffusion for ISAC Enhanced Channel Estimation in Cell-Free 6G*. arXiv:2506.06942, 2025-06-07.
+[286] Van-Chung Luu, Duy H. N. Nguyen. *Off-grid Variational Bayesian Parameter Estimation for Fractional Delay-Doppler OTFS-ISAC*. arXiv:2607.17001, 2026-07-18.
 
-[287] Xingchen Liu, Shu Sun, Meixia Tao, Aryan Kaushik, Hangsong Yan. *Channel Knowledge Maps for 6G Wireless Networks: Construction, Applications, and Future Challenges*. arXiv:2505.24151, 2025-05-30.
+[287] Yinchao Yang, Yathreb Bouazizi, Prabhat Raj Gautam, Michael Breza, Julie A. McCann. *Dual-Security for Indoor OFDM-ISAC Systems via Temporal Artificial Noise*. arXiv:2607.15710, 2026-07-17.
 
-[288] Jialin Wu, Fan Liu, Ying Zhang, Yifeng Xiong, Jie Yang et al.. *Ambiguity Function Analysis of Pilot-Embedded Random OFDM Signals*. arXiv:2607.17663, 2026-07-20.
+[288] Thrassos K. Oikonomou, Dimitrios Bozanis, Sotiris A. Tegos, Panagiotis D. Diamantoulakis, George K. Karagiannidis. *Elliptic Range-Doppler Mapping for OFDM-ISAC under IQ Imbalance*. arXiv:2607.14775, 2026-07-16.
 
-[289] Van-Chung Luu, Duy H. N. Nguyen. *Off-grid Variational Bayesian Parameter Estimation for Fractional Delay-Doppler OTFS-ISAC*. arXiv:2607.17001, 2026-07-18.
+[289] Huan Huang, Zhiyang Xue, Ziang Chen, Zhongxing Tian, Dongdong Zou et al.. *Cyclic-Prefix OFDM Probing for Spatial-ISI-Free Distributed Acoustic Sensing via Frequency-Domain Channel Reconstruction*. arXiv:2606.19724, 2026-06-18.
 
-[290] Yinchao Yang, Yathreb Bouazizi, Prabhat Raj Gautam, Michael Breza, Julie A. McCann. *Dual-Security for Indoor OFDM-ISAC Systems via Temporal Artificial Noise*. arXiv:2607.15710, 2026-07-17.
+[290] Lorenzo Pucci, Leonardo Pucci, Andrea Giorgetti. *Coherent Multiband OFDM Sensing via Low-Complexity Gap Reconstruction*. arXiv:2606.11449, 2026-06-09.
 
-[291] Thrassos K. Oikonomou, Dimitrios Bozanis, Sotiris A. Tegos, Panagiotis D. Diamantoulakis, George K. Karagiannidis. *Elliptic Range-Doppler Mapping for OFDM-ISAC under IQ Imbalance*. arXiv:2607.14775, 2026-07-16.
+[291] Bibhor Kumar, Ish Kumar Jain, Vijay K Shah. *CellSense: A Sub-6 GHz Cellular ISAC System for Clutter-Robust Passive Sensing*. arXiv:2606.07900, 2026-06-05.
 
-[292] Huan Huang, Zhiyang Xue, Ziang Chen, Zhongxing Tian, Dongdong Zou et al.. *Cyclic-Prefix OFDM Probing for Spatial-ISI-Free Distributed Acoustic Sensing via Frequency-Domain Channel Reconstruction*. arXiv:2606.19724, 2026-06-18.
+[292] Stephan Saur, Mark Doll, Artjom Grudnitsky, Silvio Mandelli, Lucas Giroto et al.. *Reliable UAV Detection with ISAC*. arXiv:2605.23561, 2026-05-22.
 
-[293] Lorenzo Pucci, Leonardo Pucci, Andrea Giorgetti. *Coherent Multiband OFDM Sensing via Low-Complexity Gap Reconstruction*. arXiv:2606.11449, 2026-06-09.
+[293] Hyeon Seok Rou, Giuseppe Thadeu Freitas de Abreu. *AFDM as a Software Upgrade of OFDM: One Firmware Patch, a New Frontier*. arXiv:2605.23062, 2026-05-21.
 
-[294] Bibhor Kumar, Ish Kumar Jain, Vijay K Shah. *CellSense: A Sub-6 GHz Cellular ISAC System for Clutter-Robust Passive Sensing*. arXiv:2606.07900, 2026-06-05.
+[294] Yujie Liu, Yong Liang Guan, David González G., Halim Yanikomeroglu. *DFT-s-OFDM with Chirping for Integrated Sensing and Communications in 6G and Beyond*. arXiv:2605.17612, 2026-05-12.
 
-[295] Stephan Saur, Mark Doll, Artjom Grudnitsky, Silvio Mandelli, Lucas Giroto et al.. *Reliable UAV Detection with ISAC*. arXiv:2605.23561, 2026-05-22.
+[295] Mathieu Reniers, Martin Willame, Jérôme Louveaux, Luc Vandendorpe. *Localization in OFDM Passive Distributed Antenna Systems with Pilots and Unknown Data Payloads: A Marginal Maximum Likelihood Approach*. arXiv:2605.12557, 2026-05-11.
 
-[296] Hyeon Seok Rou, Giuseppe Thadeu Freitas de Abreu. *AFDM as a Software Upgrade of OFDM: One Firmware Patch, a New Frontier*. arXiv:2605.23062, 2026-05-21.
+[296] Chongrui Wang, Aimin Tang, Fei Gao, Chaojun Xu. *Enabling Indoor Multi-Person Tracking With 6G mmWave ISAC Systems*. arXiv:2605.03333, 2026-05-05.
 
-[297] Yujie Liu, Yong Liang Guan, David González G., Halim Yanikomeroglu. *DFT-s-OFDM with Chirping for Integrated Sensing and Communications in 6G and Beyond*. arXiv:2605.17612, 2026-05-12.
+[297] Hyeon Seok Rou, Giuseppe Thadeu Freitas de Abreu, Emil Björnson, Sunwoo Kim, Marios Kountouris. *The Resurrection of Spectrum Spreading for 6G and Beyond: From Sinusoids to Chirps*. arXiv:2605.00249, 2026-04-30.
 
-[298] Mathieu Reniers, Martin Willame, Jérôme Louveaux, Luc Vandendorpe. *Localization in OFDM Passive Distributed Antenna Systems with Pilots and Unknown Data Payloads: A Marginal Maximum Likelihood Approach*. arXiv:2605.12557, 2026-05-11.
+[298] Henglin Pu, Ahmad Musallam, Husheng Li, Lajos Hanzo. *Blind OFDM-ISAC Relying on Asymmetric Modem Constellations*. arXiv:2604.26200, 2026-04-29.
 
-[299] Chongrui Wang, Aimin Tang, Fei Gao, Chaojun Xu. *Enabling Indoor Multi-Person Tracking With 6G mmWave ISAC Systems*. arXiv:2605.03333, 2026-05-05.
+[299] Haofan Dong, Ozgur B. Akan. *CisLunarSense: Opportunistic ISAC for Debris Detection at the Lunar Gateway*. arXiv:2604.10807, 2026-04-12.
 
-[300] Hyeon Seok Rou, Giuseppe Thadeu Freitas de Abreu, Emil Björnson, Sunwoo Kim, Marios Kountouris. *The Resurrection of Spectrum Spreading for 6G and Beyond: From Sinusoids to Chirps*. arXiv:2605.00249, 2026-04-30.
+[300] Zongyao Zhao, Zhaolin Wang, Lincong Han, Jing Jin, Yuanwei Liu et al.. *Extended-Target Classification and Localization for Near-Field ISAC*. arXiv:2603.23093, 2026-03-24.
 
-[301] Henglin Pu, Ahmad Musallam, Husheng Li, Lajos Hanzo. *Blind OFDM-ISAC Relying on Asymmetric Modem Constellations*. arXiv:2604.26200, 2026-04-29.
+[301] Mehdi Karbalayghareh, Abhishek Rajasekaran, Xiaoyan Ma, David J. Love, Christopher G. Brinton. *AISAC: Closing the Loop Between AI and Integrated Sensing and Communication for 6G*. arXiv:2607.16507, 2026-07-17.
 
-[302] Haofan Dong, Ozgur B. Akan. *CisLunarSense: Opportunistic ISAC for Debris Detection at the Lunar Gateway*. arXiv:2604.10807, 2026-04-12.
+[302] Jiaxin Lin, Pan Tang, Jianhua Zhang, Zhaowei Chang, Peijie Liu et al.. *A Simultaneous Clustering and Tracking Algorithm for Capturing Cluster-Level Spatial Consistency in 6G Wireless Channels*. arXiv:2607.04664, 2026-07-06.
 
-[303] Zongyao Zhao, Zhaolin Wang, Lincong Han, Jing Jin, Yuanwei Liu et al.. *Extended-Target Classification and Localization for Near-Field ISAC*. arXiv:2603.23093, 2026-03-24.
+[303] Anoop C, Anup Aprem. *Inverse Learning assisted V2I Communication for Intent Based 6G ISAC Vehicular Networks*. arXiv:2606.13091, 2026-06-11.
 
-[304] Mehdi Karbalayghareh, Abhishek Rajasekaran, Xiaoyan Ma, David J. Love, Christopher G. Brinton. *AISAC: Closing the Loop Between AI and Integrated Sensing and Communication for 6G*. arXiv:2607.16507, 2026-07-17.
+[304] Onur Günlü, Stefano Tomasin, João P. Vilela, Francesco Chiti, Prajnamaya Dass et al.. *ISAC Privacy: Challenges and Solutions for 6G*. arXiv:2605.28325, 2026-05-27.
 
-[305] Jiaxin Lin, Pan Tang, Jianhua Zhang, Zhaowei Chang, Peijie Liu et al.. *A Simultaneous Clustering and Tracking Algorithm for Capturing Cluster-Level Spatial Consistency in 6G Wireless Channels*. arXiv:2607.04664, 2026-07-06.
+[305] M. Ertug Pihtili, Ossi Kaltiokallio, Julia Equi, Jukka Talvitie, Elena Simona Lohan et al.. *Gaussian Process-Based Extended Object Estimation for 6G ISAC at Millimeter-Wave Frequencies*. arXiv:2605.26915, 2026-05-26.
 
-[306] Anoop C, Anup Aprem. *Inverse Learning assisted V2I Communication for Intent Based 6G ISAC Vehicular Networks*. arXiv:2606.13091, 2026-06-11.
+[306] Yajun Zhao. *Stacked Intelligent Metasurfaces for Resolution-Constrained Near-Field Range Extension in 6G Systems*. arXiv:2605.20298, 2026-05-19.
 
-[307] Onur Günlü, Stefano Tomasin, João P. Vilela, Francesco Chiti, Prajnamaya Dass et al.. *ISAC Privacy: Challenges and Solutions for 6G*. arXiv:2605.28325, 2026-05-27.
+[307] Kang Yan, Yuqi Cao, Jiaqi Li, Luping Xiang, Kun Yang. *SimART: A Unified and Open Real-world Multimodal Simulation Platform for 6G Integrated Sensing and Communication*. arXiv:2605.13309, 2026-05-13.
 
-[308] M. Ertug Pihtili, Ossi Kaltiokallio, Julia Equi, Jukka Talvitie, Elena Simona Lohan et al.. *Gaussian Process-Based Extended Object Estimation for 6G ISAC at Millimeter-Wave Frequencies*. arXiv:2605.26915, 2026-05-26.
+[308] Yanmo Hu, Weifeng Zhu, Chenshu Wu, Shuowen Zhang, J. Andrew Zhang et al.. *Networked Tracking of Multiple Moving Targets in 6G Network*. arXiv:2604.19709, 2026-04-21.
 
-[309] Yajun Zhao. *Stacked Intelligent Metasurfaces for Resolution-Constrained Near-Field Range Extension in 6G Systems*. arXiv:2605.20298, 2026-05-19.
+[309] Muhammad Ali Jamshed, Rohit Singh, Malik Muhammad Saad, Aryan Kaushik, Wonjae Shin et al.. *ISAC-Enabled Non-Terrestrial Networks for 6G: Design Principles, Standardization, Performance Tradeoffs, and Use Cases*. arXiv:2604.11593, 2026-04-13.
 
-[310] Kang Yan, Yuqi Cao, Jiaqi Li, Luping Xiang, Kun Yang. *SimART: A Unified and Open Real-world Multimodal Simulation Platform for 6G Integrated Sensing and Communication*. arXiv:2605.13309, 2026-05-13.
+[310] Yanmo Hu, Shuowen Zhang, Ross Murch, Liang Liu. *SAR/ISAR Imaging in 6G Network*. arXiv:2604.00583, 2026-04-01.
 
-[311] Yanmo Hu, Weifeng Zhu, Chenshu Wu, Shuowen Zhang, J. Andrew Zhang et al.. *Networked Tracking of Multiple Moving Targets in 6G Network*. arXiv:2604.19709, 2026-04-21.
+[311] Hyeon Seok Rou, Vincent Savaux, Zeping Sui, Giuseppe Thadeu Freitas de Abreu, Zilong Liu. *AFDM: Evolving OFDM Towards 6G+*. arXiv:2602.08163, 2026-02-08.
 
-[312] Muhammad Ali Jamshed, Rohit Singh, Malik Muhammad Saad, Aryan Kaushik, Wonjae Shin et al.. *ISAC-Enabled Non-Terrestrial Networks for 6G: Design Principles, Standardization, Performance Tradeoffs, and Use Cases*. arXiv:2604.11593, 2026-04-13.
+[312] Yi Chen, Ming Li, Chong Han. *Enabling Large-Scale Channel Sounding for 6G: A Framework for Sparse Sampling and Multipath Component Extraction*. arXiv:2602.05405, 2026-02-05.
 
-[313] Yanmo Hu, Shuowen Zhang, Ross Murch, Liang Liu. *SAR/ISAR Imaging in 6G Network*. arXiv:2604.00583, 2026-04-01.
+[313] Abidemi Orimogunje, Hyunwoo Park, Igbafe Orikumhi, Sunwoo Kim, Dejan Vukobratovic. *System-Level Comparison of Multimodal and In-Band mmWave Sensing for Beam Prediction in 6G ISAC*. arXiv:2601.01033, 2026-01-03.
 
-[314] Hyeon Seok Rou, Vincent Savaux, Zeping Sui, Giuseppe Thadeu Freitas de Abreu, Zilong Liu. *AFDM: Evolving OFDM Towards 6G+*. arXiv:2602.08163, 2026-02-08.
+[314] Tiantian Chu, Chen Chen, Jia Ye, Xin Xiong, Sihua Shao et al.. *Retroreflective Optical ISAC for 6G: Technologies, Applications and Future Directions*. arXiv:2512.01275, 2025-12-01.
 
-[315] Yi Chen, Ming Li, Chong Han. *Enabling Large-Scale Channel Sounding for 6G: A Framework for Sparse Sampling and Multipath Component Extraction*. arXiv:2602.05405, 2026-02-05.
+[315] Linchu Chen, Zhendong Li, Lin Chen, Zhou Su, Wenjie Wang et al.. *Constrained Tensor Decomposition-Based Target Sensing for Sparse Non-Uniform Array-Enabled AFDM ISAC Systems*. arXiv:2607.17589, 2026-07-20.
 
-[316] Abidemi Orimogunje, Hyunwoo Park, Igbafe Orikumhi, Sunwoo Kim, Dejan Vukobratovic. *System-Level Comparison of Multimodal and In-Band mmWave Sensing for Beam Prediction in 6G ISAC*. arXiv:2601.01033, 2026-01-03.
+[316] Wenyu Huang, Nuria González-Prelcic. *SCOPE: Sidelobe-Controlled Off-grid Profile Estimation for Multiband Multistatic Target Localization in Upper Mid-Band ISAC Systems*. arXiv:2607.10549, 2026-07-12.
 
-[317] Tiantian Chu, Chen Chen, Jia Ye, Xin Xiong, Sihua Shao et al.. *Retroreflective Optical ISAC for 6G: Technologies, Applications and Future Directions*. arXiv:2512.01275, 2025-12-01.
+[317] Boris Radovanovic, Sasa Talosi, Srdjan Sobot, Dejan Vukobratovic. *CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles*. arXiv:2607.10394, 2026-07-11.
 
-[318] Davide Tornielli Bellini, Dario Tagliaferri, Pietro Grassi, Davide Scazzoli, Stefano Tebaldini et al.. *Enabling NLOS Imaging Capabilities at the Initial Access of 6G Base Stations*. arXiv:2511.15416, 2025-11-19.
+[318] An Liu, Zheyuan Zhou, Kexuan Wang. *Fused Constrained Policy Reuse Optimization for Wireless Resource Allocation*. arXiv:2607.09498, 2026-07-10.
 
-[319] Bui Duc Son, Trinh Van Chien, Dong In Kim. *Trustworthy GenAI over 6G: Integrated Applications and Security Frameworks*. arXiv:2511.15206, 2025-11-19.
+[319] Lin Zhou, Peichuan Rao, Chenshuo Zhang, Jianhua Mo, Shu Sun et al.. *LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Communication*. arXiv:2607.03826, 2026-07-04.
 
-[320] Linchu Chen, Zhendong Li, Lin Chen, Zhou Su, Wenjie Wang et al.. *Constrained Tensor Decomposition-Based Target Sensing for Sparse Non-Uniform Array-Enabled AFDM ISAC Systems*. arXiv:2607.17589, 2026-07-20.
+[320] Zexin Fang, Bin Han, Donglin Wang, Fengchen Pei, Hans D. Schotten. *GDPR-Aware Trajectory Sharing for ISAC-Assisted Robot Navigation: A Case Study on FID-Constrained Collision Prediction*. arXiv:2607.03254, 2026-07-03.
 
-[321] Wenyu Huang, Nuria González-Prelcic. *SCOPE: Sidelobe-Controlled Off-grid Profile Estimation for Multiband Multistatic Target Localization in Upper Mid-Band ISAC Systems*. arXiv:2607.10549, 2026-07-12.
+[321] Marziyeh Soltani, Mahtab Mirmohseni, Rahim Tafazolli, Mark F. Flanagan. *Fundamental Limits of Random Downlink Integrated Sensing and Communication over Rician Channels*. arXiv:2607.00912, 2026-07-01.
 
-[322] Boris Radovanovic, Sasa Talosi, Srdjan Sobot, Dejan Vukobratovic. *CSI-Assisted Edge SLAM Testbed Platform for 5G Connected Unmanned Autonomous Vehicles*. arXiv:2607.10394, 2026-07-11.
+[322] Bohan Li, Min Ye, Haochen Liu, Yongkang Gong, Ning Gao et al.. *Queue-Aware Graph Reinforcement Learning for UAV-ISAC-Assisted Maritime Data Collection*. arXiv:2607.00324, 2026-07-01.
 
-[323] An Liu, Zheyuan Zhou, Kexuan Wang. *Fused Constrained Policy Reuse Optimization for Wireless Resource Allocation*. arXiv:2607.09498, 2026-07-10.
+[323] Farshad Rostami Ghadi, Kai-Kit Wong, Jose D. Vega-Sanchez, Kin-Fai Tong, Hyundong Shin. *Enormous Fluid Antenna Systems (E-FAS) for Wireless Sensing: Channel Modeling and Conditional Estimation Limits*. arXiv:2606.23119, 2026-06-22.
 
-[324] Lin Zhou, Peichuan Rao, Chenshuo Zhang, Jianhua Mo, Shu Sun et al.. *LAMBDA: A Low-Altitude Multimodal Base Dataset for UAV Sensing and Communication*. arXiv:2607.03826, 2026-07-04.
+[324] Necati Kagan Erkek, Marco Di Renzo, Arman Shojaeifard, Yasser Mestrah, Remun Koirala et al.. *Hybrid TRP-UE Sensing for Enhanced Target Localization*. arXiv:2606.20413, 2026-06-18.
 
-[325] Zexin Fang, Bin Han, Donglin Wang, Fengchen Pei, Hans D. Schotten. *GDPR-Aware Trajectory Sharing for ISAC-Assisted Robot Navigation: A Case Study on FID-Constrained Collision Prediction*. arXiv:2607.03254, 2026-07-03.
+[325] Thanh-Nha To, Trung Quang Pham, Dang Y Hoang, Hoang-Lai Pham, Tuan Anh Pham. *Max-Min Secrecy Rate Optimization for Secure ISAC Networks: Global Optimization and Low-Complexity Algorithm*. arXiv:2606.13582, 2026-06-11.
 
-[326] Marziyeh Soltani, Mahtab Mirmohseni, Rahim Tafazolli, Mark F. Flanagan. *Fundamental Limits of Random Downlink Integrated Sensing and Communication over Rician Channels*. arXiv:2607.00912, 2026-07-01.
+[326] Dhrumil Bhatt, Vidushi Kumar. *SNF-PRP: A Covert Integrating Sensing and Communications Framework*. arXiv:2606.03960, 2026-06-02.
 
-[327] Bohan Li, Min Ye, Haochen Liu, Yongkang Gong, Ning Gao et al.. *Queue-Aware Graph Reinforcement Learning for UAV-ISAC-Assisted Maritime Data Collection*. arXiv:2607.00324, 2026-07-01.
+[327] Haotian Liu, Zhiqing Wei, Quanjiang Zhao, Lin Wang, Yunxin Geng et al.. *DMSNet: Cross-Band Learning for Multi-Target Sensing in Multi-Band ISAC*. arXiv:2607.17655, 2026-07-20.
 
-[328] Farshad Rostami Ghadi, Kai-Kit Wong, Jose D. Vega-Sanchez, Kin-Fai Tong, Hyundong Shin. *Enormous Fluid Antenna Systems (E-FAS) for Wireless Sensing: Channel Modeling and Conditional Estimation Limits*. arXiv:2606.23119, 2026-06-22.
+[328] Zhilin Fu, Sangmin Kim, Sangwon Hwang, Jihwan Moon, Jeongwon Kim et al.. *Deep Reinforcement Learning for Adaptive Power Allocation in ISAC Systems with Mobile Target*. arXiv:2606.12078, 2026-06-10.
 
-[329] Necati Kagan Erkek, Marco Di Renzo, Arman Shojaeifard, Yasser Mestrah, Remun Koirala et al.. *Hybrid TRP-UE Sensing for Enhanced Target Localization*. arXiv:2606.20413, 2026-06-18.
+[329] Jianyu Wei, Haichao Wang, Laixian Peng, Jiangchun Gu, Ziqi Liu et al.. *Integrated Sensing and Covert Communication In Low-Altitude Networks: A Smart Radio Environment Perspective*. arXiv:2606.02077, 2026-06-01.
 
-[330] Thanh-Nha To, Trung Quang Pham, Dang Y Hoang, Hoang-Lai Pham, Tuan Anh Pham. *Max-Min Secrecy Rate Optimization for Secure ISAC Networks: Global Optimization and Low-Complexity Algorithm*. arXiv:2606.13582, 2026-06-11.
+[330] Yibin Xie, Jin Zhao, Indrakshi Dey, Nicola Marchetti. *UAV-based Energy-Efficient Data Collection in Smart Grids with ISAC QoS Guarantees*. arXiv:2605.22490, 2026-05-21.
 
-[331] Dhrumil Bhatt, Vidushi Kumar. *SNF-PRP: A Covert Integrating Sensing and Communications Framework*. arXiv:2606.03960, 2026-06-02.
+[331] Ming Gao, Jianhua Mo, Meixia Tao. *Phase-Time Array Enabled Multistatic Sensing with Multi-Level Fusion for UAV Localization*. arXiv:2605.04919, 2026-05-06.
 
-[332] Haotian Liu, Zhiqing Wei, Quanjiang Zhao, Lin Wang, Yunxin Geng et al.. *DMSNet: Cross-Band Learning for Multi-Target Sensing in Multi-Band ISAC*. arXiv:2607.17655, 2026-07-20.
+[332] Wenqi Fan, Ning Wei, Ahmad Bazzi, Rongyan Xi, Zhixian Song et al.. *Optimizing Tracking Accuracy in Energy-Constrained Multimodal ISAC via Lyapunov-Driven Heterogeneous Mixture-of-Experts*. arXiv:2604.26330, 2026-04-29.
 
-[333] Zhilin Fu, Sangmin Kim, Sangwon Hwang, Jihwan Moon, Jeongwon Kim et al.. *Deep Reinforcement Learning for Adaptive Power Allocation in ISAC Systems with Mobile Target*. arXiv:2606.12078, 2026-06-10.
+[333] Amirhossein Keshavarzchafjiri, Janith K. Dassanayake, Gayan A. Aruma Baduge, Mojtaba Vaezi. *Gamma-Distributed Geometric Constellation for ISAC: Design and Analysis*. arXiv:2604.22533, 2026-04-24.
 
-[334] Jianyu Wei, Haichao Wang, Laixian Peng, Jiangchun Gu, Ziqi Liu et al.. *Integrated Sensing and Covert Communication In Low-Altitude Networks: A Smart Radio Environment Perspective*. arXiv:2606.02077, 2026-06-01.
+[334] Guangchen Wang, Zhifeng Tang, Nan Yang, Xin Hao, Zhu Han. *Distributed Optimization-Learning with Graph Transformers for Terahertz Cell-Free Integrated Sensing and Communication Systems*. arXiv:2604.09981, 2026-04-11.
 
-[335] Yibin Xie, Jin Zhao, Indrakshi Dey, Nicola Marchetti. *UAV-based Energy-Efficient Data Collection in Smart Grids with ISAC QoS Guarantees*. arXiv:2605.22490, 2026-05-21.
+[335] Saiedeh Maboud Sanaie, Marcus Grossmann, Markus Landmann, Thomas Dallmann. *Temporal Graph Neural Network for ISAC Target Detection and Tracking*. arXiv:2604.08306, 2026-04-09.
 
-[336] Ming Gao, Jianhua Mo, Meixia Tao. *Phase-Time Array Enabled Multistatic Sensing with Multi-Level Fusion for UAV Localization*. arXiv:2605.04919, 2026-05-06.
+[336] Wenqi Fan, Ning Wei, Rongyan Xi, Ahmad Bazzi, Yue Xiu et al.. *Heterogeneous Mixture-of-Experts for Energy-Efficient Multimodal ISAC in Highly Mobile Networks*. arXiv:2604.06697, 2026-04-08.
 
-[337] Wenqi Fan, Ning Wei, Ahmad Bazzi, Rongyan Xi, Zhixian Song et al.. *Optimizing Tracking Accuracy in Energy-Constrained Multimodal ISAC via Lyapunov-Driven Heterogeneous Mixture-of-Experts*. arXiv:2604.26330, 2026-04-29.
+[337] Constantina Chatzieleftheriou, Eirini Liotou. *A Survey on AI for 6G: Challenges and Opportunities*. arXiv:2604.02370, 2026-03-30.
 
-[338] Amirhossein Keshavarzchafjiri, Janith K. Dassanayake, Gayan A. Aruma Baduge, Mojtaba Vaezi. *Gamma-Distributed Geometric Constellation for ISAC: Design and Analysis*. arXiv:2604.22533, 2026-04-24.
+[338] Ranga Kulathunga, Diluka Galappaththige, Gayan Aruma Baduge, Chintha Tellambura. *Set Transformer-Based Beamforming Design for Cell-Free Integrated Sensing and Communication*. arXiv:2603.23618, 2026-03-24.
 
-[339] Guangchen Wang, Zhifeng Tang, Nan Yang, Xin Hao, Zhu Han. *Distributed Optimization-Learning with Graph Transformers for Terahertz Cell-Free Integrated Sensing and Communication Systems*. arXiv:2604.09981, 2026-04-11.
+[339] Hongliang Luo, Zhonghua Chu, Tengyu Zhang, Chuanbin Zhao, Bo Lin et al.. *AirGuard: UAV and Bird Recognition Scheme for Integrated Sensing and Communications System*. arXiv:2603.13112, 2026-03-13.
 
-[340] Saiedeh Maboud Sanaie, Marcus Grossmann, Markus Landmann, Thomas Dallmann. *Temporal Graph Neural Network for ISAC Target Detection and Tracking*. arXiv:2604.08306, 2026-04-09.
+[340] Lingjia Liu, Lizhong Zheng, Yang Yi, Robert Calderbank. *A Universal Neural Receiver that Learns at the Speed of Wireless*. arXiv:2602.15458, 2026-02-17.
 
-[341] Wenqi Fan, Ning Wei, Rongyan Xi, Ahmad Bazzi, Yue Xiu et al.. *Heterogeneous Mixture-of-Experts for Energy-Efficient Multimodal ISAC in Highly Mobile Networks*. arXiv:2604.06697, 2026-04-08.
+[341] Qian Gao, Ruikang Zhong, Hyundong Shin, Yuanwei Liu. *Integrated Sensing and Communication for Segmented Waveguide-Enabled Pinching Antenna Systems*. arXiv:2601.20658, 2026-01-28.
 
-[342] Constantina Chatzieleftheriou, Eirini Liotou. *A Survey on AI for 6G: Challenges and Opportunities*. arXiv:2604.02370, 2026-03-30.
+[342] Qian Gao, Ruikang Zhong, Yue Liu, Hyundong Shin, Yuanwei Liu. *RL based Beamforming Optimization for 3D Pinching Antenna assisted ISAC Systems*. arXiv:2601.20654, 2026-01-28.
 
-[343] Ranga Kulathunga, Diluka Galappaththige, Gayan Aruma Baduge, Chintha Tellambura. *Set Transformer-Based Beamforming Design for Cell-Free Integrated Sensing and Communication*. arXiv:2603.23618, 2026-03-24.
+[343] Victoria Palhares, Artjom Grudnitsky, Silvio Mandelli. *Weather Estimation for Integrated Sensing and Communication*. arXiv:2601.15145, 2026-01-21.
 
-[344] Hongliang Luo, Zhonghua Chu, Tengyu Zhang, Chuanbin Zhao, Bo Lin et al.. *AirGuard: UAV and Bird Recognition Scheme for Integrated Sensing and Communications System*. arXiv:2603.13112, 2026-03-13.
+[344] Hongbo Wang, Xin Li, Yinghui He, Jingzhi Hu, Mingming Xu et al.. *Path to Diversity: A Primer on ISAC-izing Commodity Wi-Fi for Practical Deployments*. arXiv:2601.12980, 2026-01-19.
 
-[345] Lingjia Liu, Lizhong Zheng, Yang Yi, Robert Calderbank. *A Universal Neural Receiver that Learns at the Speed of Wireless*. arXiv:2602.15458, 2026-02-17.
+[345] Jakob Struye, Nabeel Nisar Bhat, Siddhartha Kumar, Mohammad Hossein Moghaddam, Jeroen Famaey. *Millimeter-Wave Gesture Recognition in ISAC: Does Reducing Sensing Airtime Hamper Accuracy?*. arXiv:2601.10733, 2026-01-06.
 
-[346] Qian Gao, Ruikang Zhong, Hyundong Shin, Yuanwei Liu. *Integrated Sensing and Communication for Segmented Waveguide-Enabled Pinching Antenna Systems*. arXiv:2601.20658, 2026-01-28.
+[346] Haojin Li, Kaiqian Qu, Chen Sun, Anbang Zhang, Xiaoxue Wang et al.. *Towards a Theoretical Framework for Robust Node Deployment in Cooperative ISAC Networks*. arXiv:2601.01152, 2026-01-03.
 
-[347] Qian Gao, Ruikang Zhong, Yue Liu, Hyundong Shin, Yuanwei Liu. *RL based Beamforming Optimization for 3D Pinching Antenna assisted ISAC Systems*. arXiv:2601.20654, 2026-01-28.
+[347] S. Zhang, M. Feizarefi, A. F. Mirzaei. *AI-Native Integrated Sensing and Communications for Self-Organizing Wireless Networks: Architectures, Learning Paradigms, and System-Level Design*. arXiv:2601.02398, 2025-12-29.
 
-[348] Victoria Palhares, Artjom Grudnitsky, Silvio Mandelli. *Weather Estimation for Integrated Sensing and Communication*. arXiv:2601.15145, 2026-01-21.
+[348] Jie Chen, Xianbin Wang. *Learning-Enabled Elastic Network Topology for Distributed ISAC Service Provisioning*. arXiv:2512.20722, 2025-12-23.
 
-[349] Hongbo Wang, Xin Li, Yinghui He, Jingzhi Hu, Mingming Xu et al.. *Path to Diversity: A Primer on ISAC-izing Commodity Wi-Fi for Practical Deployments*. arXiv:2601.12980, 2026-01-19.
+[349] Luca Barbieri, Marcus Henninger, Paolo Tosi, Artjom Grudnitsky, Mattia Brambilla et al.. *Target Classification for Integrated Sensing and Communication in Industrial Deployments*. arXiv:2512.20154, 2025-12-23.
 
-[350] Jakob Struye, Nabeel Nisar Bhat, Siddhartha Kumar, Mohammad Hossein Moghaddam, Jeroen Famaey. *Millimeter-Wave Gesture Recognition in ISAC: Does Reducing Sensing Airtime Hamper Accuracy?*. arXiv:2601.10733, 2026-01-06.
+[350] Diluka Galappaththige, Chintha Tellambura. *Cell-Free Integrated Sensing and Communication*. arXiv:2606.18488, 2026-06-16.
 
-[351] Haojin Li, Kaiqian Qu, Chen Sun, Anbang Zhang, Xiaoxue Wang et al.. *Towards a Theoretical Framework for Robust Node Deployment in Cooperative ISAC Networks*. arXiv:2601.01152, 2026-01-03.
+[351] Chao Ge, Na Zhao, Yuan Shen. *Instantaneous Risk Minimization for Secure Integrated Sensing and Communication*. arXiv:2606.03372, 2026-06-02.
 
-[352] S. Zhang, M. Feizarefi, A. F. Mirzaei. *AI-Native Integrated Sensing and Communications for Self-Organizing Wireless Networks: Architectures, Learning Paradigms, and System-Level Design*. arXiv:2601.02398, 2025-12-29.
+[352] Murat Temiz, Christos Masouros. *Communication Security and Sensing Privacy in FMCW-Based ISAC Through Signal Modulation*. arXiv:2605.23429, 2026-05-22.
 
-[353] Jie Chen, Xianbin Wang. *Learning-Enabled Elastic Network Topology for Distributed ISAC Service Provisioning*. arXiv:2512.20722, 2025-12-23.
+[353] Hengxuan Liu, Vincent Savaux, Arman Farhang. *Making AFDM Secure Against Eavesdroppers: A Phase Function Design Approach*. arXiv:2605.14837, 2026-05-14.
 
-[354] Luca Barbieri, Marcus Henninger, Paolo Tosi, Artjom Grudnitsky, Mattia Brambilla et al.. *Target Classification for Integrated Sensing and Communication in Industrial Deployments*. arXiv:2512.20154, 2025-12-23.
+[354] Anass Sedrati. *Unconsented Sensing: A Sociotechnical Governance Framework for 6G ISAC*. arXiv:2605.07328, 2026-05-08.
 
-[355] Jia Guo, Yuanwei Liu, Arumugam Nallanathan. *Learning Beamforming for Pinching Antenna System-Enabled ISAC in Low-Altitude Wireless Networks*. arXiv:2512.04293, 2025-12-03.
+[355] Truman Welling, Onur Günlü, Aylin Yener. *Secure Integrated Sensing and Communication: Information Theory Offers Insights*. arXiv:2605.08106, 2026-04-27.
 
-[356] Ali Al Khansa. *Learning to Count Targets from Dual-Window: A CNN Approach for OFDM ISAC*. arXiv:2511.22473, 2025-11-27.
+[356] Yaxuan Chen, Guangchi Zhang, Miao Cui, Hao Fu, Qingqing Wu et al.. *Sensing-Assisted Secure Communication in MA-Aided ISAC: CRB Analysis and Robust Design*. arXiv:2604.23663, 2026-04-26.
 
-[357] Nguyen Duc Minh Quang, Chang Liu, Shuangyang Li, Hoai-Nam Vu, Derrick Wing Kwan Ng et al.. *Diffusion Model-Enhanced Environment Reconstruction in ISAC*. arXiv:2511.19044, 2025-11-24.
+[357] Hancheng Zhu, Zongze Li, Yik-Chung Wu. *Unified framework for outage-constrained rate maximization in secure ISAC under various sensing metrics*. arXiv:2603.12798, 2026-03-13.
 
-[358] Diluka Galappaththige, Chintha Tellambura. *Cell-Free Integrated Sensing and Communication*. arXiv:2606.18488, 2026-06-16.
+[358] Tianqi Mao, Jiayue Liu, Zeping Sui, Leyu Cao, Xiao Liang et al.. *Low-Altitude Agentic Networks for Optical Wireless Communication and Sensing: An Oceanic Scenario*. arXiv:2603.04042, 2026-03-04.
 
-[359] Chao Ge, Na Zhao, Yuan Shen. *Instantaneous Risk Minimization for Secure Integrated Sensing and Communication*. arXiv:2606.03372, 2026-06-02.
+[359] Yunxiao Li, Qian Zhang, Xuejun Cheng, Zhiguo Wang, Xiaoyan Wang et al.. *Secure Transmission for Fluid Antenna-Aided ISAC Systems*. arXiv:2602.23241, 2026-02-26.
 
-[360] Murat Temiz, Christos Masouros. *Communication Security and Sensing Privacy in FMCW-Based ISAC Through Signal Modulation*. arXiv:2605.23429, 2026-05-22.
+[360] Le Liang, Jiajia Guo, Jun Zhang, Chan-Byoung Chae, Lu Lu et al.. *Foundation Models for Wireless Communications: From PHY Intelligence to Network Autonomy*. arXiv:2606.06239, 2026-06-04.
 
-[361] Hengxuan Liu, Vincent Savaux, Arman Farhang. *Making AFDM Secure Against Eavesdroppers: A Phase Function Design Approach*. arXiv:2605.14837, 2026-05-14.
+[361] Haotian Wang, Dan Wang, Xiaodong Xu, Chuan Huang, Hao Chen et al.. *Integrated Sensing and Semantic Communication with Adaptive Source-Channel Coding*. arXiv:2601.12827, 2026-01-19.
 
-[362] Anass Sedrati. *Unconsented Sensing: A Sociotechnical Governance Framework for 6G ISAC*. arXiv:2605.07328, 2026-05-08.
+[362] Guangjin Pan, Ayça Özçelikkale, Christian Häger, Musa Furkan Keskin, Henk Wymeersch. *Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems*. arXiv:2512.19177, 2025-12-22.
 
-[363] Truman Welling, Onur Günlü, Aylin Yener. *Secure Integrated Sensing and Communication: Information Theory Offers Insights*. arXiv:2605.08106, 2026-04-27.
+[363] Fang Fang, Zhiguo Ding, Victor C. M. Leung, Lajos Hanzo. *Pinching Antennas Meet AI in Next-Generation Wireless Networks*. arXiv:2511.07442, 2025-11-03.
 
-[364] Hancheng Zhu, Zongze Li, Yik-Chung Wu. *Unified framework for outage-constrained rate maximization in secure ISAC under various sensing metrics*. arXiv:2603.12798, 2026-03-13.
+[364] Yinchao Yang, Yahao Ding, Zhaohui Yang, Chongwen Huang, Zhaoyang Zhang et al.. *Toward Efficient and Privacy-Aware eHealth Systems: An Integrated Sensing, Computing, and Semantic Communication Approach*. arXiv:2510.11514, 2025-10-13.
 
-[365] Tianqi Mao, Jiayue Liu, Zeping Sui, Leyu Cao, Xiao Liang et al.. *Low-Altitude Agentic Networks for Optical Wireless Communication and Sensing: An Oceanic Scenario*. arXiv:2603.04042, 2026-03-04.
+[365] Nguyen Cong Luong, Nguyen Duc Hai, Duc Van Le, Huy T. Nguyen, Thai-Hoc Vu et al.. *Diffusion Models for Future Networks and Communications: A Comprehensive Survey*. arXiv:2508.01586, 2025-08-03.
 
-[366] Yunxiao Li, Qian Zhang, Xuejun Cheng, Zhiguo Wang, Xiaoyan Wang et al.. *Secure Transmission for Fluid Antenna-Aided ISAC Systems*. arXiv:2602.23241, 2026-02-26.
+[366] Yinchao Yang, Jingxuan Zhou, Zhaohui Yang, Mohammad Shikh-Bahaei. *Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Semantic Communication for Emerging Applications*. arXiv:2507.15800, 2025-07-21.
 
-[367] Tianyu Lu, Jiajun He, Mohammadali Mohammadi, Michail Matthaiou. *Delay Alignment Modulation for Secure ISAC Systems*. arXiv:2602.21114, 2026-02-24.
+[367] Yubo Peng, Luping Xiang, Kun Yang, Feibo Jiang, Kezhi Wang et al.. *A Unified Cloud-Edge-Terminal Framework for Multimodal Integrated Sensing and Communication*. arXiv:2506.22507, 2025-06-26.
 
-[368] Le Liang, Jiajia Guo, Jun Zhang, Chan-Byoung Chae, Lu Lu et al.. *Foundation Models for Wireless Communications: From PHY Intelligence to Network Autonomy*. arXiv:2606.06239, 2026-06-04.
+[368] Weijie Yuan, Yuanhao Cui, Jiacheng Wang, Fan Liu, Lin Zhou et al.. *From Ground to Sky: Architectures, Applications, and Challenges Shaping Low-Altitude Wireless Networks*. arXiv:2506.12308, 2025-06-14.
 
-[369] Haotian Wang, Dan Wang, Xiaodong Xu, Chuan Huang, Hao Chen et al.. *Integrated Sensing and Semantic Communication with Adaptive Source-Channel Coding*. arXiv:2601.12827, 2026-01-19.
+[369] Mahmoud M. Salim, Suhail I. Al-Dharrab, Daniel Benevides Da Costa, Ali H. Muqaibel. *Cooperative NOMA Meets Emerging Technologies: A Survey for Next-Generation Wireless Networks*. arXiv:2505.16327, 2025-05-22.
 
-[370] Guangjin Pan, Ayça Özçelikkale, Christian Häger, Musa Furkan Keskin, Henk Wymeersch. *Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems*. arXiv:2512.19177, 2025-12-22.
+[370] Bo Ai, Yunlong Lu, Yuguang Fang, Dusit Niyato, Ruisi He et al.. *6G-Enabled Smart Railways*. arXiv:2505.12946, 2025-05-19.
 
-[371] Fang Fang, Zhiguo Ding, Victor C. M. Leung, Lajos Hanzo. *Pinching Antennas Meet AI in Next-Generation Wireless Networks*. arXiv:2511.07442, 2025-11-03.
+[371] Yinchao Yang, Jingxuan Zhou, Zhaohui Yang. *Integrated Sensing, Computing, and Semantic Communication with Fluid Antenna for Metaverse*. arXiv:2504.07656, 2025-04-10.
 
-[372] Yinchao Yang, Yahao Ding, Zhaohui Yang, Chongwen Huang, Zhaoyang Zhang et al.. *Toward Efficient and Privacy-Aware eHealth Systems: An Integrated Sensing, Computing, and Semantic Communication Approach*. arXiv:2510.11514, 2025-10-13.
+[372] Ziji Guo, Haonan Tong, Zhilong Zhang, Danpu Liu. *Perception-Enhanced Multitask Multimodal Semantic Communication for UAV-Assisted Integrated Sensing and Communication System*. arXiv:2503.19594, 2025-03-25.
 
-[373] Nguyen Cong Luong, Nguyen Duc Hai, Duc Van Le, Huy T. Nguyen, Thai-Hoc Vu et al.. *Diffusion Models for Future Networks and Communications: A Comprehensive Survey*. arXiv:2508.01586, 2025-08-03.
+[373] Zequan Wang, Liang Yin, Yitong Liu, Hongwen Yang. *Rotatable Antenna-Enabled Near-Field Integrated Sensing and Communication*. arXiv:2606.12870, 2026-06-11.
 
-[374] Yinchao Yang, Jingxuan Zhou, Zhaohui Yang, Mohammad Shikh-Bahaei. *Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Semantic Communication for Emerging Applications*. arXiv:2507.15800, 2025-07-21.
+[374] Zongyao Zhao, Zhaolin Wang, Lincong Han, Liang Xu, Jing Jin et al.. *Cramér-Rao Bound Optimization for Near-Field ISAC with Extended Targets*. arXiv:2604.18166, 2026-04-20.
 
-[375] Yubo Peng, Luping Xiang, Kun Yang, Feibo Jiang, Kezhi Wang et al.. *A Unified Cloud-Edge-Terminal Framework for Multimodal Integrated Sensing and Communication*. arXiv:2506.22507, 2025-06-26.
+[375] Ainur Ziganshin, Enrico M. Vitucci, Wim Kotterman, Reiner Thomae, Christian Schneider et al.. *Ray-Based Simulation of Scattering from Discretized Curved Bodies for Vehicular and ISAC Applications*. arXiv:2604.05991, 2026-04-07.
 
-[376] Weijie Yuan, Yuanhao Cui, Jiacheng Wang, Fan Liu, Lin Zhou et al.. *From Ground to Sky: Architectures, Applications, and Challenges Shaping Low-Altitude Wireless Networks*. arXiv:2506.12308, 2025-06-14.
+[376] Zongyao Zhao, Zhaolin Wang, Lincong Han, Jing Jin, Kaibin Huang. *A Spatio-Temporal-Frequency Transformer Framework for Near-Field Target Recognition*. arXiv:2603.14829, 2026-03-16.
 
-[377] Mahmoud M. Salim, Suhail I. Al-Dharrab, Daniel Benevides Da Costa, Ali H. Muqaibel. *Cooperative NOMA Meets Emerging Technologies: A Survey for Next-Generation Wireless Networks*. arXiv:2505.16327, 2025-05-22.
+[377] Chandan Kumar Sheemar, Wali Ullah Khan, Sourabh Solanki, George C. Alexandropoulos, Symeon Chatzinotas. *A Survey on Stacked Intelligent Metasurfaces: Fundamentals, Recent Advances, and Challenges*. arXiv:2603.05633, 2026-03-05.
 
-[378] Bo Ai, Yunlong Lu, Yuguang Fang, Dusit Niyato, Ruisi He et al.. *6G-Enabled Smart Railways*. arXiv:2505.12946, 2025-05-19.
+[378] Tommaso Bacchielli, Lorenzo Pucci, Andrea Giorgetti. *Extremely Large Antenna Spacing Method for Enhanced Wideband Near-Field Sensing*. arXiv:2602.18076, 2026-02-20.
 
-[379] Yinchao Yang, Jingxuan Zhou, Zhaohui Yang. *Integrated Sensing, Computing, and Semantic Communication with Fluid Antenna for Metaverse*. arXiv:2504.07656, 2025-04-10.
+[379] Haofan Dong, Ozgur B. Akan. *Cramer--Rao Bounds for Magneto-Inductive Integrated Sensing and Communications*. arXiv:2602.14453, 2026-02-16.
 
-[380] Ziji Guo, Haonan Tong, Zhilong Zhang, Danpu Liu. *Perception-Enhanced Multitask Multimodal Semantic Communication for UAV-Assisted Integrated Sensing and Communication System*. arXiv:2503.19594, 2025-03-25.
+[380] Sajad Daei, Gábor Fodor, Mikael Skoglund. *Convexity Meets Curvature: Lifted Near-Field Super-Resolution*. arXiv:2602.14063, 2026-02-15.
 
-[381] Zequan Wang, Liang Yin, Yitong Liu, Hongwen Yang. *Rotatable Antenna-Enabled Near-Field Integrated Sensing and Communication*. arXiv:2606.12870, 2026-06-11.
+[381] Pin-Han Ho, Haoran Mei, Limei Peng, Yiming Miao, Xu Fan et al.. *FaA-CAF: Modular Single-RF-Chain Near-Field mmWave Sensing via Clip-On Antenna Fabric*. arXiv:2602.06767, 2026-02-06.
 
-[382] Zongyao Zhao, Zhaolin Wang, Lincong Han, Liang Xu, Jing Jin et al.. *Cramér-Rao Bound Optimization for Near-Field ISAC with Extended Targets*. arXiv:2604.18166, 2026-04-20.
+[382] Xiaomin Cao, Mohammadali Mohammadi, Hien Quoc Ngo, Michail Matthaiou. *Power consumption Reduction in ELAA-Assisted ISAC Systems*. arXiv:2601.21010, 2026-01-28.
 
-[383] Ainur Ziganshin, Enrico M. Vitucci, Wim Kotterman, Reiner Thomae, Christian Schneider et al.. *Ray-Based Simulation of Scattering from Discretized Curved Bodies for Vehicular and ISAC Applications*. arXiv:2604.05991, 2026-04-07.
+[383] Nemanja Stefan Perović, Keshav Singh, Chih-Peng Li, Octavia A. Dobre, Mark F. Flanagan. *Optimal Beamforming Design for Multi-user MIMO Near-Field ISAC Systems with Movable Antennas*. arXiv:2512.22620, 2025-12-27.
 
-[384] Zongyao Zhao, Zhaolin Wang, Lincong Han, Jing Jin, Kaibin Huang. *A Spatio-Temporal-Frequency Transformer Framework for Near-Field Target Recognition*. arXiv:2603.14829, 2026-03-16.
+[384] Jiasi Zhou, Chintha Tellambura, Geoffrey Ye Li. *Rate-Splitting Multiple Access for Secure Near-Field Integrated Sensing and Communication*. arXiv:2512.00770, 2025-11-30.
 
-[385] Chandan Kumar Sheemar, Wali Ullah Khan, Sourabh Solanki, George C. Alexandropoulos, Symeon Chatzinotas. *A Survey on Stacked Intelligent Metasurfaces: Fundamentals, Recent Advances, and Challenges*. arXiv:2603.05633, 2026-03-05.
+[385] Davide Tornielli Bellini, Dario Tagliaferri, Pietro Grassi, Davide Scazzoli, Stefano Tebaldini et al.. *Enabling NLOS Imaging Capabilities at the Initial Access of 6G Base Stations*. arXiv:2511.15416, 2025-11-19.
 
-[386] Tommaso Bacchielli, Lorenzo Pucci, Andrea Giorgetti. *Extremely Large Antenna Spacing Method for Enhanced Wideband Near-Field Sensing*. arXiv:2602.18076, 2026-02-20.
+[386] Jiangong Chen, Xia Lei, Kaitao Meng, Kawon Han, Yuchen Zhang et al.. *Sensing Security in Near-Field ISAC: Exploiting Scatterers for Eavesdropper Deception*. arXiv:2510.20140, 2025-10-23.
 
-[387] Haofan Dong, Ozgur B. Akan. *Cramer--Rao Bounds for Magneto-Inductive Integrated Sensing and Communications*. arXiv:2602.14453, 2026-02-16.
+[387] Nemanja Stefan Perović, Keshav Singh, Chih-Peng Li, Mark F. Flanagan. *Weighted Sum Rate Optimization for Movable Antenna Enabled Near-Field ISAC*. arXiv:2510.19759, 2025-10-22.
 
-[388] Sajad Daei, Gábor Fodor, Mikael Skoglund. *Convexity Meets Curvature: Lifted Near-Field Super-Resolution*. arXiv:2602.14063, 2026-02-15.
+[388] Jiachen Tian, Yu Han, Zhengtao Jin, Xi Yang, Jie Yang et al.. *Pioneering Scalable Prototyping for Mid-Band XL-MIMO Systems: Design and Implementation*. arXiv:2510.02793, 2025-10-03.
 
-[389] Pin-Han Ho, Haoran Mei, Limei Peng, Yiming Miao, Xu Fan et al.. *FaA-CAF: Modular Single-RF-Chain Near-Field mmWave Sensing via Clip-On Antenna Fabric*. arXiv:2602.06767, 2026-02-06.
+[389] Hang Ruan, Homa Nikbakht, Ruizhi Zhang, Honglei Chen, Yonina C. Eldar. *RIS-Assisted Near-Field ISAC for Multi-Target Indication in NLoS Scenarios*. arXiv:2509.08642, 2025-09-10.
 
-[390] Xiaomin Cao, Mohammadali Mohammadi, Hien Quoc Ngo, Michail Matthaiou. *Power consumption Reduction in ELAA-Assisted ISAC Systems*. arXiv:2601.21010, 2026-01-28.
+[390] Yonghwi Kim, Sang-Hyun Park, Siyun Yang, Kai-Kit Wong, Linglong Dai et al.. *Near-Field Challenges in Ultra-Wideband ISAC: Beamforming Strategies and System Insights*. arXiv:2508.18810, 2025-08-26.
 
-[391] Nemanja Stefan Perović, Keshav Singh, Chih-Peng Li, Octavia A. Dobre, Mark F. Flanagan. *Optimal Beamforming Design for Multi-user MIMO Near-Field ISAC Systems with Movable Antennas*. arXiv:2512.22620, 2025-12-27.
+[391] Wenhao Hu, Zhenyao He, Wei Xu, Yongming Huang, Derrick Wing Kwan Ng et al.. *Energy-Efficient Hybrid Beamfocusing for Near-Field Integrated Sensing and Communication*. arXiv:2508.04627, 2025-08-06.
 
-[392] Jiasi Zhou, Chintha Tellambura, Geoffrey Ye Li. *Rate-Splitting Multiple Access for Secure Near-Field Integrated Sensing and Communication*. arXiv:2512.00770, 2025-11-30.
+[392] Ziqiang CHen, Feng Wang, Guojun Han, Xin Wang, Vincent K. N. Lau. *Robust Beamforming Design for Secure Near-Field ISAC Systems*. arXiv:2507.12881, 2025-07-17.
 
-[393] Jiangong Chen, Xia Lei, Kaitao Meng, Kawon Han, Yuchen Zhang et al.. *Sensing Security in Near-Field ISAC: Exploiting Scatterers for Eavesdropper Deception*. arXiv:2510.20140, 2025-10-23.
-
-[394] Nemanja Stefan Perović, Keshav Singh, Chih-Peng Li, Mark F. Flanagan. *Weighted Sum Rate Optimization for Movable Antenna Enabled Near-Field ISAC*. arXiv:2510.19759, 2025-10-22.
-
-[395] Jiachen Tian, Yu Han, Zhengtao Jin, Xi Yang, Jie Yang et al.. *Pioneering Scalable Prototyping for Mid-Band XL-MIMO Systems: Design and Implementation*. arXiv:2510.02793, 2025-10-03.
-
-[396] Hang Ruan, Homa Nikbakht, Ruizhi Zhang, Honglei Chen, Yonina C. Eldar. *RIS-Assisted Near-Field ISAC for Multi-Target Indication in NLoS Scenarios*. arXiv:2509.08642, 2025-09-10.
-
-[397] Yonghwi Kim, Sang-Hyun Park, Siyun Yang, Kai-Kit Wong, Linglong Dai et al.. *Near-Field Challenges in Ultra-Wideband ISAC: Beamforming Strategies and System Insights*. arXiv:2508.18810, 2025-08-26.
-
-[398] Wenhao Hu, Zhenyao He, Wei Xu, Yongming Huang, Derrick Wing Kwan Ng et al.. *Energy-Efficient Hybrid Beamfocusing for Near-Field Integrated Sensing and Communication*. arXiv:2508.04627, 2025-08-06.
-
-[399] Ziqiang CHen, Feng Wang, Guojun Han, Xin Wang, Vincent K. N. Lau. *Robust Beamforming Design for Secure Near-Field ISAC Systems*. arXiv:2507.12881, 2025-07-17.
-
-[400] Gayan Aruma Baduge, Mojtaba Vaezi, Janith K. Dassanayake, Muhammad Z. Hameed, Esa Ollila et al.. *Frequency Range 3 for ISAC in 6G: Potentials and Challenges*. arXiv:2506.18243, 2025-06-23.
-
-[401] Hang Ruan, Homa Nikbakht, Ruizhi Zhang, Honglei Chen, Yonina C. Eldar. *Near-Field Integrated Sensing and Communication for Multi-Target Indication*. arXiv:2506.07052, 2025-06-08.
-
-[402] Na Xue, Xidong Mu, Yue Chen, Yuanwei Liu. *The Impact of Uniform Circular Array on Near-field ISAC*. arXiv:2506.00211, 2025-05-30.
+[393] Gayan Aruma Baduge, Mojtaba Vaezi, Janith K. Dassanayake, Muhammad Z. Hameed, Esa Ollila et al.. *Frequency Range 3 for ISAC in 6G: Potentials and Challenges*. arXiv:2506.18243, 2025-06-23.
 
 
 ---
 *本综述由 ISAC 文献自动化分析系统生成 (v1.0)。*
 *数据来源：arXiv.org。内容仅供参考，引用请以原文为准。*
-*生成时间：2026-08-10 09:06:00 UTC*
+*生成时间：2026-08-17 08:30:07 UTC*
